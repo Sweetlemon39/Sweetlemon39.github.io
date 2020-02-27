@@ -1,4 +1,3 @@
-sudo: false
 language: node_js
 node_js:
   - 10 # use nodejs v10 LTS
@@ -6,6 +5,8 @@ cache: npm
 branches:
   only:
     - dev # build development branch only
+before_script:
+  - node decrypt.js $DECRYPT_TOKEN # decrypt the encrypted files
 script:
   - hexo generate # generate static files
 deploy:
@@ -13,7 +14,9 @@ deploy:
   skip-cleanup: true
   github-token: $GH_TOKEN
   keep-history: true
-  target-branch: master #部署到master分支
+  target-branch: master # deploy to branch 'master'
   on:
     branch: dev
   local-dir: public
+after_script:
+  - node cleanup.js # clean up the decrypted files
