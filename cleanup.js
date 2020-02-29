@@ -19,11 +19,19 @@ for (let i = 0; i < lst_decrypt_dirs.length; i++) {
     var dirfiles=fs.readdirSync(decrypt_pos);
     for (let j = 0; j < dirfiles.length; j++) {
         const filename=dirfiles[j];
+        if (filename.endsWith("crf"))
+            continue;
         const tpos=path.join(target_pos,filename);
         //console.log(tpos);
-        fs.unlinkSync(tpos);
+        try {
+            fs.unlinkSync(tpos);
+        }
+        catch(err) {
+            if (!(err.code=="ENOENT"))
+                throw err;
+        }
         file_count++;
     }
 }
 
-console.log(`Clean up done. ${file_count} file(s) processed.`);
+console.log(`Cleaning up. ${file_count} file(s) will be processed.`);
