@@ -1,0 +1,26 @@
+<%
+if (page.cover == undefined && theme.cover) {
+  page.cover = true;
+}
+if (is_home() || is_category() || is_archive() || is_tag() || page.layout == 'list') {
+  if (page.sidebar == undefined) {
+    if (theme.layout.on_list.sidebar.length == 0) {
+      page.sidebar = [];
+    } else {
+      page.sidebar = theme.layout.on_list.sidebar;
+    }
+  }
+
+} else {
+  if (page.sidebar == undefined) {
+    if (theme.layout.on_page.sidebar.length == 0) {
+      page.sidebar = [];
+    } else {
+      page.sidebar = theme.layout.on_page.sidebar;
+    }
+  }
+}
+if (page.sidebar == false) {
+  page.sidebar = [];
+}
+%>
