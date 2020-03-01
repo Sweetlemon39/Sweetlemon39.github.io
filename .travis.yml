@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-  - 10 # use nodejs v10 LTS
+  - 12 # use node.js v12
 cache: npm
 branches:
   only:
