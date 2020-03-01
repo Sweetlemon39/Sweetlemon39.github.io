@@ -109,15 +109,21 @@ cover:
   title: Sweetlemon 的异世界
   subtitle: 原来你也在这里啊
   logo: # assets/logo.png    # logo和title只显示一个，若同时设置，则只显示logo
-  search: '搜索'
+  search: '一直在寻找着你的踪迹'
   # 主页封面菜单
   features:
-    # - name: 主页
-    #   icon: fas fa-bullhorn
-    #   url: /
-    # - name: 文档
-    #   icon: fas fa-book
-    #   url: getting-started/
+    - name: 主页
+      icon: fas fa-home
+      url: /
+    - name: 分类
+      icon: fas fa-folder-open
+      url: categories/
+    - name: 归档
+      icon: fas fa-archive
+      url: archives/
+    - name: 关于
+      icon: fas fa-info-circle
+      url: about/
     # - name: 示例
     #   icon: fas fa-play-circle
     #   url: examples/
@@ -145,51 +151,33 @@ navbar:
   menu:
     # 在桌面端显示的导航菜单
     on_desktop:
-      - name: 开始
-        icon: fas fa-flag
-        url: getting-started/
-      - name: 站点
-        icon: fas fa-globe-asia
-        url: site-settings/
-      - name: 主题
-        icon: fas fa-palette
-        url: theme-settings/
-      - name: 页面
-        icon: fas fa-file-alt
-        url: page-settings/
-      - name: 书写
-        icon: fas fa-pen-alt
-        url: tag-plugins/
-      - name: 进阶
-        icon: fas fa-flask
-        url: advanced-settings/
+      - name: 主页
+        icon: fas fa-home
+        url: /
+      - name: 分类
+        icon: fas fa-folder-open
+        url: categories/
+      - name: 归档
+        icon: fas fa-archive
+        url: archives/
+      - name: 关于
+        icon: fas fa-info-circle
+        url: about/
     # 手机端导航菜单（从右上角的按钮点击展开）
     on_mobile:
-      - name: 开始
-        icon: fas fa-flag
-        url: getting-started/
-      - name: 站点
-        icon: fas fa-globe-asia
-        url: site-settings/
-      - name: 主题
-        icon: fas fa-palette
-        url: theme-settings/
-      - name: 页面
-        icon: fas fa-file-alt
-        url: page-settings/
-      - name: 书写
-        icon: fas fa-pen-alt
-        url: tag-plugins/
-      - name: 进阶
-        icon: fas fa-flask
-        url: advanced-settings/
-      - name: 帮助
-        icon: fas fa-question-circle
-        url: faqs/
-      - name: 鸣谢
-        icon: fas fa-handshake
-        url: contributors/
-  search: 搜索   # 搜索框文字
+      - name: 主页
+        icon: fas fa-home
+        url: /
+      - name: 分类
+        icon: fas fa-folder-open
+        url: categories/
+      - name: 归档
+        icon: fas fa-archive
+        url: archives/
+      - name: 关于
+        icon: fas fa-info-circle
+        url: about/
+  search: 一直在寻找着你   # 搜索框文字
 
 
 
@@ -202,7 +190,7 @@ layout:
     # 列表中每一篇文章的meta信息
     meta: [title, author, date, updated, top]
     # 列表类页面的侧边栏
-    sidebar: [navigation, repos, qrcode]
+    sidebar: [blogger, navigation, repos]
   # 文章页面布局
   on_page:
     # 文章页面主体元素，你也可以在页面的Front-matter中设置
@@ -216,7 +204,7 @@ layout:
     # 文章页脚，自动在每一篇文章末尾添加
     footer: #[copyright, qrcode]
     # 文章页面的侧边栏
-    sidebar: [navigation, repos, qrcode, toc]
+    sidebar: [blogger, navigation, repos, catelogy, tagcloud, toc]
   # 其他的页面布局暂时等于文章列表
 
 
@@ -226,7 +214,7 @@ meta:
   title: # 暂无配置
   # 默认文章作者（可在front-matter中覆盖）
   author:
-    avatar: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png
+    avatar: https://cdn.jsdelivr.net/gh/mrj1018/OI/lemon.png
     name: Sweetlemon
     url: https://sweetlemon39.github.io/
   # 文章创建日期
@@ -310,10 +298,10 @@ widget:
   - id: blogger
     class: blogger
     display: [desktop] # [desktop, mobile]
-    avatar: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png
-    # title:  标题
-    # subtitle: 副标题
-    jinrishici: true # 今日诗词。可以设置字符串，加载失败时会显示占位字符串。
+    avatar: https://cdn.jsdelivr.net/gh/mrj1018/OI/lemon.png
+    title: Sweetlemon
+    subtitle: 一枚有趣的 OIer！
+    jinrishici: #true # 今日诗词。可以设置字符串，加载失败时会显示占位字符串。
     social: true
   # ---------------------------------------
   # 目录小部件配置(仅在文章中有效)
@@ -363,7 +351,7 @@ widget:
     class: copyright
     display: [desktop, mobile] # [desktop, mobile]
     blockquote: true # 是否把内容放到blockquote中
-    permalink: '本文永久链接是：' # 显示文章永久链接
+    permalink: '本文永久链接：' # 显示文章永久链接
     content:
       #- '这是文章页脚，可以放置版权说明以及打赏图片。<br>博客内容遵循 署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0) 协议'
       #- ''
@@ -389,52 +377,87 @@ widget:
     display: [desktop, mobile] # [desktop, mobile]
     header:
       icon: fas fa-map-signs
-      title: 文档导航
+      title: 博客导航
     rows:
-      - name: 常见问题
-        icon: fas fa-question-circle
-        url: faqs/
-      - name: 示例博客
-        icon: fas fa-play-circle
-        url: examples/
-      - name: 特别感谢
-        icon: fas fa-handshake
-        url: contributors/
-      - name: 历史事件
-        icon: fas fa-file-archive
-        url: news/archives/
-      - name: 主题源码
-        icon: fas fa-file-code
-        url: https://github.com/xaoxuu/hexo-theme-volantis/
-        rel: external nofollow noopener noreferrer
-        target: _blank
-      - name: 更新日志
-        icon: fas fa-clipboard-list
-        url: https://github.com/xaoxuu/hexo-theme-volantis/releases/
-        rel: external nofollow noopener noreferrer
-        target: _blank
+      - name: 博客主页
+        icon: fas fa-home
+        url: /
+      - name: 文章分类
+        icon: fas fa-folder-open
+        url: categories/
+      - name: 文章归档
+        icon: fas fa-archive
+        url: archives/
+      - name: 博客友链
+        icon: fas fa-users
+        url: friends/
+      - name: 留言板
+        icon: fas fa-comments
+        url: comments/
+      - name: 关于我
+        icon: fas fa-info-circle
+        url: about/
+      # - name: 主题源码
+      #   icon: fas fa-file-code
+      #   url: https://github.com/xaoxuu/hexo-theme-volantis/
+      #   rel: external nofollow noopener noreferrer
+      #   target: _blank
   - id: repos
-    class: text
-    display: [desktop] # [desktop, mobile]
+    class: grid
+    display: [desktop, mobile] # [desktop, mobile]
     header:
-      icon: fab fa-github
-      title: 点个赞吧
-      url: https://github.com/xaoxuu/
-    content:
-      - '您的赞对我来说很重要，如果您喜欢本主题，希望能够给下面的项目点个赞来支持一下。'
-      - '[<img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/logo.png" height="50px">](https://github.com/xaoxuu/ProHUD)'
-      - '[<img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/valuex/logo.png" height="50px">](https://github.com/xaoxuu/ValueX)'
-      - '[<img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/inspire/logo.png" height="50px">](https://github.com/xaoxuu/Inspire)'
+      icon: fas fa-link
+      title: 常用站导航
+      url: useful-links/
+    rows:
+      - name: OI Wiki
+        icon: fab fa-wikipedia-w
+        url: https://oi-wiki.org/
+        rel: external nofollow noopener noreferrer
+        target: _blank
+      - name: 洛谷
+        icon: fas fa-code
+        url: https://www.luogu.com.cn/
+        rel: external nofollow noopener noreferrer
+        target: _blank
+      - name: Codeforces
+        icon: fas fa-code
+        url: https://www.codeforces.com/
+        rel: external nofollow noopener noreferrer
+        target: _blank
+      - name: UOJ
+        icon: fas fa-code
+        url: http://uoj.ac/
+        rel: external nofollow noopener noreferrer
+        target: _blank
+      - name: LOJ
+        icon: fas fa-code
+        url: https://loj.ac/
+        rel: external nofollow noopener noreferrer
+        target: _blank
+      - name: CCF NOI
+        icon: fa fa-code
+        url: http://www.noi.cn/
+        rel: external nofollow noopener noreferrer
+        target: _blank
+    # class: text
+    # display: [desktop] # [desktop, mobile]
+    # header:
+    #
+    # content:
+    #   - '[<img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/logo.png" height="50px">](https://github.com/xaoxuu/ProHUD)'
+    #   - '[<img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/valuex/logo.png" height="50px">](https://github.com/xaoxuu/ValueX)'
+    #   - '[<img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/inspire/logo.png" height="50px">](https://github.com/xaoxuu/Inspire)'
 
 
 # 社交信息配置
 social:
-  - icon: fas fa-rss
-    url: atom.xml
   - icon: fas fa-envelope
     url: mailto:mrj1018@163.com
   - icon: fab fa-github
     url: https://github.com/mrj1018
+  - icon: fas fa-code
+    url: https://www.luogu.com.cn/user/25008
   #- icon: fas fa-headphones-alt
   #  url: https://music.163.com/#/user/home?id=63035382
 
