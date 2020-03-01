@@ -8,8 +8,16 @@ subtitle: 原来你也在这里啊
 description: ''
 keywords:
 author: Sweetlemon
-language: zh-CN
+language:
+  - zh-CN
+  - en
+  - zh-HK
+  - zh-TW
 timezone: ''
+favicon: https://cdn.jsdelivr.net/gh/mrj1018/OI/lemon.png
+avatar: https://cdn.jsdelivr.net/gh/mrj1018/OI/lemon.png
+copyright: "By Sweetlemon."
+use_cdn: true
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'

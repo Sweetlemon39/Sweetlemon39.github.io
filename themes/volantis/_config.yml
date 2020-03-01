@@ -33,7 +33,7 @@ plugins:
   clipboard: https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js
   ################################################## 运维服务
   # 访问量统计【加载非常缓慢】
-  busuanzi: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-busuanzi@2.3/js/busuanzi.pure.mini.js
+  # busuanzi: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-busuanzi@2.3/js/busuanzi.pure.mini.js
   # 文章字数统计、阅读时长，开启需要安装插件: npm i --save hexo-wordcount
   wordcount: #true
   ################################################## 美化类的服务
@@ -72,7 +72,7 @@ backstretch:
   enable: true          # 是否启用
   js: '//cdn.jsdelivr.net/npm/jquery-backstretch@2.1.18/jquery.backstretch.min.js'
   position: fixed       # cover: 封面背景   fixed: 整个网页背景
-  duration: 20000       # 持续时间（毫秒）
+  duration: 60000       # 持续时间（毫秒）
   fade: 2500            # 渐变（毫秒）
   is_dark: #true        # 图片是否是暗色的（调整文字为白色）
   images:               # 我上传了一些高清壁纸到CDN中，仅限个人使用，商用后果自负！！！
@@ -95,14 +95,14 @@ backstretch:
 # page的封面
 cover:
   scheme: search    # 后期将会提供多种封面布局方案
-  height: full      # full: 首页封面占据整个第一屏幕，其他页面占半个屏幕高度， half: 所有页面都封面都只占半个屏幕高度
+  height: half      # full: 首页封面占据整个第一屏幕，其他页面占半个屏幕高度， half: 所有页面都封面都只占半个屏幕高度
   title: Sweetlemon 的异世界
   subtitle: 原来你也在这里啊
   logo: # assets/logo.png    # logo和title只显示一个，若同时设置，则只显示logo
   search: '搜索'
   # 主页封面菜单
   features:
-    # - name: 公告
+    # - name: 主页
     #   icon: fas fa-bullhorn
     #   url: /
     # - name: 文档
@@ -130,7 +130,7 @@ navbar:
     # 显示图标
     icon:
     # 显示标题
-    title:
+    title: Sweetlemon 的异世界
   # logo后面的导航菜单
   menu:
     # 在桌面端显示的导航菜单
@@ -362,7 +362,7 @@ widget:
   # 二维码小部件（可用于文章中的打赏，只显示图片，无其他功能）
   - id: qrcode
     class: qrcode
-    display: [] #[desktop] # [desktop, mobile]
+    display:  #[desktop] # [desktop, mobile]
     header:
       icon: fas fa-mobile
       title: 手机观看
