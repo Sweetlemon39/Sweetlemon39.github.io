@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+<html>
+<head hexo-theme='Volantis' version='1.6.3' docs='https://volantis.js.org/'>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  <title>Hello World | Sweetlemon 的异世界</title>
+  
+  
+
+  
+
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <!-- meta -->
+  
+
+  <!-- link -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.12.1/css/all.min.css">
+  
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+
+  
+  
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-waves@0.7.6/dist/waves.min.css">
+
+  
+
+  
+
+  
+
+  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.css">
+  
+
+  
+    
+<link rel="stylesheet" href="/style.css">
+
+  
+
+  <script>
+    function setLoadingBarProgress(num) {
+      document.getElementById('loading-bar').style.width=num+"%";
+    }
+  </script>
+
+  
+  
+</head>
+
+<body>
+  
+  <div class="cover-wrapper">
+    <cover class='cover post half'>
+      
+        
+  <p class="title ">Sweetlemon 的异世界</p>
+  
+    <p class="subtitle ">原来你也在这里啊</p>
+  
+
+
+  <div class="m_search">
+    <form name="searchform" class="form u-search-form">
+      <i class="icon fas fa-search fa-fw"></i>
+      <input type="text" class="input u-search-input" placeholder="搜索" />
+    </form>
+  </div>
+
+<div class='menu navigation'>
+  <ul class='h-list'>
+    
+  </ul>
+</div>
+
+      
+    </cover>
+    <header class="l_header nav-blur">
+  <div id="loading-bar-wrapper">
+    <div id="loading-bar"></div>
+  </div>
+	<div class='wrapper'>
+		<div class="nav-main container container--flex">
+      
+        <a class="logo flat-box" target="_self" href='/' >
+          
+            
+              VOLANTIS <sup style='color:#2196f3'>1.6.3</sup>
+            
+          
+        </a>
+      
+
+			<div class='menu navigation'>
+				<ul class='h-list'>
+          
+  					
+  						<li>
+								<a class="nav flat-box" href="/getting-started/"
+                  
+                  
+                  id="getting-started">
+									<i class='fas fa-flag fa-fw'></i>&nbsp;开始
+								</a>
+							</li>
+      			
+  						<li>
+								<a class="nav flat-box" href="/site-settings/"
+                  
+                  
+                  id="site-settings">
+									<i class='fas fa-globe-asia fa-fw'></i>&nbsp;站点
+								</a>
+							</li>
+      			
+  						<li>
+								<a class="nav flat-box" href="/theme-settings/"
+                  
+                  
+                  id="theme-settings">
+									<i class='fas fa-palette fa-fw'></i>&nbsp;主题
+								</a>
+							</li>
+      			
+  						<li>
+								<a class="nav flat-box" href="/page-settings/"
+                  
+                  
+                  id="page-settings">
+									<i class='fas fa-file-alt fa-fw'></i>&nbsp;页面
+								</a>
+							</li>
+      			
+  						<li>
+								<a class="nav flat-box" href="/tag-plugins/"
+                  
+                  
+                  id="tag-plugins">
+									<i class='fas fa-pen-alt fa-fw'></i>&nbsp;书写
+								</a>
+							</li>
+      			
+  						<li>
+								<a class="nav flat-box" href="/advanced-settings/"
+                  
+                  
+                  id="advanced-settings">
+									<i class='fas fa-flask fa-fw'></i>&nbsp;进阶
+								</a>
+							</li>
+      			
+      		
+				</ul>
+			</div>
+
+      <div class="m_search">
+        <form name="searchform" class="form u-search-form">
+          <i class="icon fas fa-search fa-fw"></i>
+          <input type="text" class="input u-search-input" placeholder="搜索" />
+        </form>
+      </div>
+
+			<ul class='switcher h-list'>
+				
+					<li class='s-search'><a class="fas fa-search fa-fw" target="_self" href='javascript:void(0)'></a></li>
+				
+				<li class='s-menu'><a class="fas fa-bars fa-fw" target="_self" href='javascript:void(0)'></a></li>
+			</ul>
+		</div>
+
+		<div class='nav-sub container container--flex'>
+			<a class="logo flat-box"></a>
+			<ul class='switcher h-list'>
+				<li class='s-comment'><a class="flat-btn fas fa-comments fa-fw" target="_self" href='javascript:void(0)'></a></li>
+        
+          <li class='s-toc'><a class="flat-btn fas fa-list fa-fw" target="_self" href='javascript:void(0)'></a></li>
+        
+			</ul>
+		</div>
+	</div>
+</header>
+	<aside class="menu-phone white-box">
+    <header>
+		<nav class="menu navigation">
+      <ul>
+        
+          
+            <li>
+							<a class="nav flat-box" href="/getting-started/"
+                
+                
+                id="getting-started">
+								<i class='fas fa-flag fa-fw'></i>&nbsp;开始
+							</a>
+            </li>
+          
+            <li>
+							<a class="nav flat-box" href="/site-settings/"
+                
+                
+                id="site-settings">
+								<i class='fas fa-globe-asia fa-fw'></i>&nbsp;站点
+							</a>
+            </li>
+          
+            <li>
+							<a class="nav flat-box" href="/theme-settings/"
+                
+                
+                id="theme-settings">
+								<i class='fas fa-palette fa-fw'></i>&nbsp;主题
+							</a>
+            </li>
+          
+            <li>
+							<a class="nav flat-box" href="/page-settings/"
+                
+                
+                id="page-settings">
+								<i class='fas fa-file-alt fa-fw'></i>&nbsp;页面
+							</a>
+            </li>
+          
+            <li>
+							<a class="nav flat-box" href="/tag-plugins/"
+                
+                
+                id="tag-plugins">
+								<i class='fas fa-pen-alt fa-fw'></i>&nbsp;书写
+							</a>
+            </li>
+          
+            <li>
+							<a class="nav flat-box" href="/advanced-settings/"
+                
+                
+                id="advanced-settings">
+								<i class='fas fa-flask fa-fw'></i>&nbsp;进阶
+							</a>
+            </li>
+          
+            <li>
+							<a class="nav flat-box" href="/faqs/"
+                
+                
+                id="faqs">
+								<i class='fas fa-question-circle fa-fw'></i>&nbsp;帮助
+							</a>
+            </li>
+          
+            <li>
+							<a class="nav flat-box" href="/contributors/"
+                
+                
+                id="contributors">
+								<i class='fas fa-handshake fa-fw'></i>&nbsp;鸣谢
+							</a>
+            </li>
+          
+       
+      </ul>
+		</nav>
+    </header>
+	</aside>
+<script>setLoadingBarProgress(40);</script>
+
+  </div>
+
+
+  <div class="l_body">
+    <div class='body-wrapper'>
+      
+
+<div class='l_main'>
+  
+
+  
+    <article id="post" class="post white-box   article-type-post" itemscope itemprop="blogPost">
+      
+
+
+  <section class='meta'>
+    
+    
+    <div class="meta" id="header-meta">
+      
+        
+  
+    <h1 class="title">
+      <a href="/2020/03/01/hello-world/">
+        Hello World
+      </a>
+    </h1>
+  
+
+
+      
+      <div class='new-meta-box'>
+        
+          
+        
+          
+            
+<div class='new-meta-item author'>
+  <a href="https://sweetlemon39.github.io/" rel="nofollow">
+    <img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png">
+    <p>Sweetlemon</p>
+  </a>
+</div>
+
+          
+        
+          
+            
+
+          
+        
+          
+            <div class="new-meta-item date">
+  <a class='notlink'>
+    <i class="fas fa-edit" aria-hidden="true"></i>
+    <p>发布于：2020年3月1日</p>
+  </a>
+</div>
+
+          
+        
+          
+            
+
+          
+        
+      </div>
+      
+        <hr>
+      
+    </div>
+  </section>
+
+
+      <section class="article typo">
+        <div class="article-entry" itemprop="articleBody">
+          
+          <div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <div class="hbe-input-container">
+  <input type="password" id="hbePass" placeholder="" />
+    <label for="hbePass">Hey, password is required here.</label>
+    <div class="bottom-line"></div>
+  </div>
+  <script id="hbeData" type="hbeData" data-hmacdigest="e1d7f2fc4befcb32708a0b0760798b57a0795fe5d187090d9b97ebddf23316af">bcce47cd00477f5721226fb29952400beb41bd0eadbe47ccc77be2cb155418aed7cdd4d7cbcc817f6214ac2c0c307cf466504c4138ca4d78a9a2ba824778c919d262ceafbeba1bab850b5d81aec7cfbe6aa9715da4203843107f8a0e4ad9d074ab52c8df70ba77db42f8665f6b55c49858e16a7e7b4f987a411e127e401979689661f583b9b053188e0d21d458bf56ea2d2c77901cc6f71f9b4d5cad30b9989e8810fed45218782e0e9a8aa3b03649cf3a2cb68999d164146d3d0ac488242bc6cd0b43f0121ec0772f7d2badbfdbd506068ae731e76f49a62039fa5ed455b522fa2b43c559805df7e2f4e010224b88e28f984601f6eaa083567e676701c349eb931abe6683b94e2b59686859d57cf893bc09e62c555d7a11c80facd528a70afacc76db13659d8fcf7fec24d7c768d5e5ed22546e7caf106b0e364c2b38bde1df5e35a113fb3188d9bf3882ea3002661c9bd7a9a890d4e9d1623a0576ddeded07364c1b5903bcba730763895905d35274331b80b5a507af95dddf513e8ab7d94a0c6072514397413ffca116558d427c2401973fed0e000b4300dcbdf77273290a8d6bbe610f2296cb06be7fac4daf19bb507d0018d16b3dc384efcd3d6423b48e412ae33ba830477222cbdcd4b6612eadea4b24df0efb1923c368a2b8e280350bc6d7c2fffc5f153488ccba2403394981895eb15991e526547bfd74c2711d2506e4bebe44500e4a5c7c86957388e5f6dec6cfa9853ed6f0d06f8e6a9930e34105e9af91f0c8bdee440a277418642ed0eb984d1e87e3c5a92866b638244fbd57bd3aab0fe1d68d30efeaea8f4d9b2eef506d5b49929be271d662fd1a610c2e148783bf3f19af855ec0926e362c0dc242fc9ee85fd3f9e7b5490b6fcbd2260a7b026dc4389785ca40037e89fc9c40adb29ec954d5c3ac18e8dc575b6d33a12789c70b22c51ab9523e3c844955d10161740bdbd0e597b40d4e7899a400c79c8e20bb9ebba342663dc9f31a946d53a0f221f0b8cfc5c4f2fa967345843659011f5839a368a49401cfc2fa7de10118ee5a217a5c088817651a37693672b75fcf741ad36395c9403f4e8972688d091526c2dc6551bce144d76116485f72a2bfd342a0445afc1a08e6b22e9516f24c91eeb3cd2792bbf591c66b74260f058061e38920eecf22d93a413910149ac425e812b4f7bd44b7a24274d32eef85cb2686b067642bfa22daf434f56a7bb50ebb0f7b6d921def2365638fe787668a94064dadf059864dff565a843265184816d515b115c0d0d41eb2786ca4e3280b8770b7a6f006a96a32f12c1c22509038a1dc18af2a0d14084658cecf94ac974835152c4f0ac49434a4e9028fba71b92abf0226bc008949c358dabd99415cdca4686da9603002f3669386376450baca7aab95cb00db7dc5b97ff0e9d4ba2fc07ecd27cf28fde223ac92ac305dc09741c4039b9f0f298edf1533cb5900c8232dccbafa91618e4126136dca8fd92d3e4030165d844525fbdc9882a578907bd9e019595fcf07fcab00698b5b6008076a4f6537221a9527c860adc2041b4cc3bd725fbb0b7c11f2445edeca7fecaefccbdcd8c04795409eaf25d4258ead5800cb5936a7f9e3167c6781ffe4e806caf8ff64fdbd5f562076cc19862ebc9422ba425eb54aa00c7c3c27c86888b9a8c1972e921f0d5e8a345d1bb2967cc9025fc9db2658978002b52e621877480f83db9d5cb9f4a4e06d64540bd3b01f65f5d978b17ed9746a5c05a05fba5a7db340ca30bd29872a839536efe9f272032aa1d3b246927d9c235659b9145353d16f544f0eba5d10d8fdc19cb0ed240a55173758e43b16d9aaccea040efe836b189fdd56b2a254fd136fbb462f990e2f13d17c801801c1a53e22d640f2b60c7de300fa11d0e9d6d01e14315739c0c16ed48a8e7d4e84c97c55674c6fcf0941cc1a00a991b507ad7f8da3b39a1b89cc460a9beba9c5f02f9d378a9cee9a431c44493991d64a90fbb4369ca270861601026ab8b38360ef7aa0cf400c29545440d9ff0c59b559fde7b7ef33cfc45379e537d3ba8db000c5b81a2ff3dd687a8cfaa65543be17156a2116d73cf45524d7b1a1973c2d21e24a823021be501b3f2845f569c28351281aa6dfcf2cd77effc4b32c2cc819c9eeb885e37a986ca73c34632d027be3595fec8173d2b107c9cea027921d255fe70baebe7c396c1e31b57ed6d0bf1880249755be816865814d28d34625a68c8461fddd13f09b6e6492b81613c2f81ea23df0658781c44df7a6c11b42d9671675e293309dbe2d3003ad10a1050821a5c9307847e4d44d8a00814d19d60a824452fd85301b3520e4ff9fadfa264589facac105aac400f2a13fc7a2acd4c51b37ba393dbad46b3176cd9d01b7b54dde4b90d072e9878bc34d5553412909da67820ba648146414611e38bbce4a411d75bbe06ceed4ecd3f5e9f762c638d0a08df82d7b4f2cffc3294fbe5524d8f0df911da4ff456cc3f26c87c3c7b1c280839321e06f846fb04285d611fa257b173a64dbf223cc34aa93096f59b9c0a6fd7ee4479fff1c2f386c6f9b9fed0ebbbd721a21729d520436dd0002f6c081ca06fc6adb6e3eae11f5433f554d5a8f774e27a00a089aac55dd82cad13a5abd7586b7a409d0d06e13f9e6c8f5aab09157cb4600c2517ce2685a4ae064206483d3480b5cda4e16864d5360b72735606c4d68ec51b4eed15ba9d16579167815cb713d78d596be78ca31fa2e0a799c2b42c14ff85dab131833f97f7eb47166f20cf7efc02e3a93816cb497a52e32ce368c04c248a2e5432dd2f47d82c2c34baee328866c748a48c03cdb9d6555a0d884288176ee65526873df78c51c0a3186a7a5351a5248a7201345153e77de7dbd049f1b8ac71187b100dc18d1aadb1451cc5115a01da8865b0b1714ca21e7db0c65b1b12ffa9127c79b9d2cb32238879da6887d3e49f3479f33d91aff4b99bd8770fe9a97ef0c87e42a59c34c89fe7138b27b6432b38edb950996abf158fd5f5fdbe6721dbec0dc18c0882168916a2346df867d6ee35bccb545b3891be90fed768015782bae479f418e38370963a41ae43f8b296c897c8fb6ddd6fef0ddba2b92cdefaa067196c694aeef7e6a3dece50a5ed3c1a86c1389415b27a5a17da7df4af56c438404e92197390e399002fee9bbf803359701bddbe7f76f98e9b16a87a7d0e9c8abbdd2c0b2dc94428e6ea3290727cbc8e95d0c6647c62bd387fdc951c83d958ccba834478e312c055fd26c3ce77222d32224df751e999006b128f1b0b839b2428c5ebfbecdb8e7de7fcbc0d6d23dd41002c6ca9eb1aedc469826144a2693e0cd7800311b45d62c98704018ab93b9a3aed5caf7350380ea51ffc508333d791e36f66e0703cbe23a10f49c67278015dc6a6aca89a7727b629eec3be9d2f303943dac2e2afc0ffd03d10c759e3e19b1bb720351bf13d779b0e806496cfd87482febe5</script>
+</div>
+<script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">
+          
+        </div>
+        
+          <br>
+          
+
+
+  <section class='meta' id="footer-meta">
+    <div class='new-meta-box'>
+      
+        
+          
+
+        
+      
+        
+          
+
+        
+      
+    </div>
+  </section>
+
+
+        
+        
+            <div class="prev-next">
+                
+                    <section class="prev">
+                        <span class="art-item-left">
+                            <h6><i class="fas fa-chevron-left" aria-hidden="true"></i>&nbsp;上一页</h6>
+                            <h4>
+                                <a href="/2020/03/01/hello-encrypted/" rel="prev" title="Hello Encrypted">
+                                  
+                                      Hello Encrypted
+                                  
+                                </a>
+                            </h4>
+                            
+                        </span>
+                    </section>
+                
+                
+            </div>
+        
+      </section>
+    </article>
+  
+
+  
+    <!-- 显示推荐文章和评论 -->
+
+
+
+  
+
+
+  
+
+
+
+
+<!-- 根据页面mathjax变量决定是否加载MathJax数学公式js -->
+
+
+
+  <script>
+    window.subData = {
+      title: 'Hello World',
+      tools: true
+    }
+  </script>
+
+
+</div>
+<aside class='l_side'>
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        
+
+<section class="widget grid  widget-blur desktop mobile">
+  
+  <header>
+    
+      <i class="fas fa-map-signs fa-fw" aria-hidden="true"></i><span class='name'>文档导航</span>
+    
+  </header>
+
+
+  <div class='content'>
+    <ul class="grid navigation">
+      
+        <li><a class="flat-box" title="/faqs/" href="/faqs/"
+          
+          
+          id="faqs">
+          
+            <i class="fas fa-question-circle fa-fw" aria-hidden="true"></i>
+          
+          常见问题
+        </a></li>
+      
+        <li><a class="flat-box" title="/examples/" href="/examples/"
+          
+          
+          id="examples">
+          
+            <i class="fas fa-play-circle fa-fw" aria-hidden="true"></i>
+          
+          示例博客
+        </a></li>
+      
+        <li><a class="flat-box" title="/contributors/" href="/contributors/"
+          
+          
+          id="contributors">
+          
+            <i class="fas fa-handshake fa-fw" aria-hidden="true"></i>
+          
+          特别感谢
+        </a></li>
+      
+        <li><a class="flat-box" title="/news/archives/" href="/news/archives/"
+          
+          
+          id="newsarchives">
+          
+            <i class="fas fa-file-archive fa-fw" aria-hidden="true"></i>
+          
+          历史事件
+        </a></li>
+      
+        <li><a class="flat-box" title="https://github.com/xaoxuu/hexo-theme-volantis/" href="https://github.com/xaoxuu/hexo-theme-volantis/"
+          
+            rel="external nofollow noopener noreferrer"
+          
+          
+            target="_blank"
+          
+          id="https:github.comxaoxuuhexo-theme-volantis">
+          
+            <i class="fas fa-file-code fa-fw" aria-hidden="true"></i>
+          
+          主题源码
+        </a></li>
+      
+        <li><a class="flat-box" title="https://github.com/xaoxuu/hexo-theme-volantis/releases/" href="https://github.com/xaoxuu/hexo-theme-volantis/releases/"
+          
+            rel="external nofollow noopener noreferrer"
+          
+          
+            target="_blank"
+          
+          id="https:github.comxaoxuuhexo-theme-volantisreleases">
+          
+            <i class="fas fa-clipboard-list fa-fw" aria-hidden="true"></i>
+          
+          更新日志
+        </a></li>
+      
+    </ul>
+  </div>
+</section>
+
+      
+    
+      
+    
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        
+
+<section class="widget text  widget-blur desktop">
+  
+  <header>
+    
+      <a href='https://github.com/xaoxuu/' target="_blank" rel="noopener"><i class="fab fa-github fa-fw" aria-hidden="true"></i><span class='name'>点个赞吧</span></a>
+    
+  </header>
+
+
+  <div class='content'>
+    
+      <p>您的赞对我来说很重要，如果您喜欢本主题，希望能够给下面的项目点个赞来支持一下。</p>
+
+    
+      <p><a href="https://github.com/xaoxuu/ProHUD" target="_blank" rel="noopener"><img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/logo.png" height="50px"></a></p>
+
+    
+      <p><a href="https://github.com/xaoxuu/ValueX" target="_blank" rel="noopener"><img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/valuex/logo.png" height="50px"></a></p>
+
+    
+      <p><a href="https://github.com/xaoxuu/Inspire" target="_blank" rel="noopener"><img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/inspire/logo.png" height="50px"></a></p>
+
+    
+  </div>
+</section>
+
+      
+    
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        
+
+<section class="widget qrcode  widget-blur ">
+  
+  <header>
+    
+      <i class="fas fa-mobile fa-fw" aria-hidden="true"></i><span class='name'>手机观看</span>
+    
+  </header>
+
+
+  <div class='content article-entry'>
+    
+      
+        <img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/qrcode/wiki_volantis.png'
+        >
+      
+    
+  </div>
+</section>
+
+      
+    
+      
+    
+      
+    
+  
+    
+      
+    
+      
+        
+
+
+
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+</aside>
+
+<footer class="clearfix ">
+  <br><br>
+  
+    <div class="social-wrapper">
+      
+        
+          <a href="/atom.xml"
+            class="social fas fa-rss flat-btn"
+            target="_blank"
+            rel="external nofollow noopener noreferrer">
+          </a>
+        
+      
+        
+          <a href="mailto:mrj1018@163.com"
+            class="social fas fa-envelope flat-btn"
+            target="_blank"
+            rel="external nofollow noopener noreferrer">
+          </a>
+        
+      
+        
+          <a href="https://github.com/mrj1018"
+            class="social fab fa-github flat-btn"
+            target="_blank"
+            rel="external nofollow noopener noreferrer">
+          </a>
+        
+      
+    </div>
+  
+  
+    <br>
+    <div class="aplayer-container">
+      
+
+  
+    <meting-js
+      theme='#1BCDFC'
+      autoplay='false'
+      volume='0.7'
+      loop='all'
+      order='list'
+      fixed='false'
+      list-max-height='340px'
+      server='netease'
+      type='song'
+      id='551339691'
+      list-folded='true'>
+    </meting-js>
+  
+
+
+    </div>
+  
+  <br>
+  <div><p>博客内容遵循 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="noopener">署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0) 协议</a></p>
+</div>
+  <div>
+    本站使用
+    <a href="https://volantis.js.org/" target="_blank" class="codename">Volantis</a>
+    作为主题
+    
+      ，
+      总访问量为
+      <span id="busuanzi_value_site_pv"><i class="fas fa-spinner fa-spin fa-fw" aria-hidden="true"></i></span>
+      次
+    
+    。
+  </div>
+  
+</footer>
+<script>setLoadingBarProgress(80);</script>
+
+
+      <script>setLoadingBarProgress(60);</script>
+    </div>
+    <a class="s-top fas fa-arrow-up fa-fw" href='javascript:void(0)'></a>
+  </div>
+  
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+
+
+  <script>
+    
+    var SEARCH_SERVICE = "hexo" || "hexo";
+    var ROOT = "/" || "/";
+    if (!ROOT.endsWith('/')) ROOT += '/';
+  </script>
+
+
+  <script async src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@1.6.3/js/instant_page.js" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
+
+
+  <script async src="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js"></script>
+  <script async src="https://cdn.jsdelivr.net/npm/meting@2.0/dist/Meting.min.js"></script>
+
+
+
+  
+<script src="https://cdn.jsdelivr.net/npm/node-waves@0.7.6/dist/waves.min.js" async></script>
+
+  <script type="text/javascript">
+    $(function() {
+      Waves.attach('.flat-btn', ['waves-button']);
+      Waves.attach('.float-btn', ['waves-button', 'waves-float']);
+      Waves.attach('.float-btn-light', ['waves-button', 'waves-float', 'waves-light']);
+      Waves.attach('.flat-box', ['waves-block']);
+      Waves.attach('.float-box', ['waves-block', 'waves-float']);
+      Waves.attach('.waves-image');
+      Waves.init();
+    });
+  </script>
+
+
+  <script async src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-busuanzi@2.3/js/busuanzi.pure.mini.js"></script>
+
+
+
+  
+  
+  
+    
+<script src="//cdn.jsdelivr.net/npm/jquery-backstretch@2.1.18/jquery.backstretch.min.js"></script>
+
+    <script type="text/javascript">
+      $(function(){
+        if ('') {
+          $('').backstretch(
+          ["https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/41F215B9-261F-48B4-80B5-4E86E165259E.jpeg", "https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/BBC19066-E176-47C2-9D22-48C81EE5DF6B.jpeg", "https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/B18FCBB3-67FD-48CC-B4F3-457BA145F17A.jpeg", "https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/00E0F0ED-9F1C-407A-9AA6-545649D919F4.jpeg", "https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/67239FBB-E15D-4F4F-8EE8-0F1C9F3C4E7C.jpeg", "https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/B951AE18-D431-417F-B3FE-A382403FF21B.jpeg", "https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/landscape/AEB33F9D-7294-4CF1-B8C5-3020748A9D45.jpeg", "https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/2884F904-F1F3-479E-AE27-5EBC291B63B0.jpeg", "https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/landscape/10A0FCE5-36A1-4AD0-8CF0-019259A89E03.jpeg", "https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/landscape/250662D4-5A21-4AAA-BB63-CD25CF97CFF1.jpeg", "https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/landscape/298468D7-E388-44A8-8CC5-8213BDC33CED.jpeg"],
+          {
+            duration: "20000",
+            fade: "2500"
+          });
+        } else {
+          $.backstretch(
+          ["https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/41F215B9-261F-48B4-80B5-4E86E165259E.jpeg", "https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/BBC19066-E176-47C2-9D22-48C81EE5DF6B.jpeg", "https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/B18FCBB3-67FD-48CC-B4F3-457BA145F17A.jpeg", "https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/00E0F0ED-9F1C-407A-9AA6-545649D919F4.jpeg", "https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/67239FBB-E15D-4F4F-8EE8-0F1C9F3C4E7C.jpeg", "https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/B951AE18-D431-417F-B3FE-A382403FF21B.jpeg", "https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/landscape/AEB33F9D-7294-4CF1-B8C5-3020748A9D45.jpeg", "https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/2884F904-F1F3-479E-AE27-5EBC291B63B0.jpeg", "https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/landscape/10A0FCE5-36A1-4AD0-8CF0-019259A89E03.jpeg", "https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/landscape/250662D4-5A21-4AAA-BB63-CD25CF97CFF1.jpeg", "https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/landscape/298468D7-E388-44A8-8CC5-8213BDC33CED.jpeg"],
+          {
+            duration: "20000",
+            fade: "2500"
+          });
+        }
+      });
+    </script>
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+<script src="/js/app.js"></script>
+
+
+
+  
+<script src="/js/search.js"></script>
+
+
+
+  
+<script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@1.6.3/js/comment_typing.js"></script>
+
+
+
+<!-- 复制 -->
+
+  <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
+<script>
+  let COPY_SUCCESS = "复制成功";
+  let COPY_FAILURE = "复制失败";
+  /*页面载入完成后，创建复制按钮*/
+  !function (e, t, a) {
+    /* code */
+    var initCopyCode = function(){
+      var copyHtml = '';
+      copyHtml += '<button class="btn-copy" data-clipboard-snippet="">';
+      copyHtml += '  <i class="fa fa-copy"></i><span>复制</span>';
+      copyHtml += '</button>';
+      $(".highlight .code pre").before(copyHtml);
+      var clipboard = new ClipboardJS('.btn-copy', {
+        target: function(trigger) {
+          return trigger.nextElementSibling;
+        }
+      });
+
+      clipboard.on('success', function(e) {
+        //您可以加入成功提示
+        console.info('Action:', e.action);
+        console.info('Text:', e.text);
+        console.info('Trigger:', e.trigger);
+        success_prompt(COPY_SUCCESS);
+        e.clearSelection();
+      });
+      clipboard.on('error', function(e) {
+        //您可以加入失败提示
+        console.error('Action:', e.action);
+        console.error('Trigger:', e.trigger);
+        fail_prompt(COPY_FAILURE);
+      });
+    }
+    initCopyCode();
+
+  }(window, document);
+
+  /**
+   * 弹出式提示框，默认1.5秒自动消失
+   * @param message 提示信息
+   * @param style 提示样式，有alert-success、alert-danger、alert-warning、alert-info
+   * @param time 消失时间
+   */
+  var prompt = function (message, style, time)
+  {
+      style = (style === undefined) ? 'alert-success' : style;
+      time = (time === undefined) ? 1500 : time*1000;
+      $('<div>')
+          .appendTo('body')
+          .addClass('alert ' + style)
+          .html(message)
+          .show()
+          .delay(time)
+          .fadeOut();
+  };
+
+  // 成功提示
+  var success_prompt = function(message, time)
+  {
+      prompt(message, 'alert-success', time);
+  };
+
+  // 失败提示
+  var fail_prompt = function(message, time)
+  {
+      prompt(message, 'alert-danger', time);
+  };
+
+  // 提醒
+  var warning_prompt = function(message, time)
+  {
+      prompt(message, 'alert-warning', time);
+  };
+
+  // 信息提示
+  var info_prompt = function(message, time)
+  {
+      prompt(message, 'alert-info', time);
+  };
+
+</script>
+
+
+
+
+<!-- fancybox -->
+
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<script>
+  let LAZY_LOAD_IMAGE = "";
+  $(".article-entry").find("fancybox").find("img").each(function () {
+      var element = document.createElement("a");
+      $(element).attr("data-fancybox", "gallery");
+      $(element).attr("href", $(this).attr("src"));
+      /* 图片采用懒加载处理时,
+       * 一般图片标签内会有个属性名来存放图片的真实地址，比如 data-original,
+       * 那么此处将原本的属性名src替换为对应属性名data-original,
+       * 修改如下
+       */
+       if (LAZY_LOAD_IMAGE) {
+         $(element).attr("href", $(this).attr("data-original"));
+       }
+      $(this).wrap(element);
+  });
+</script>
+
+
+
+
+
+
+  <script>setLoadingBarProgress(100);</script>
+</body>
+</html>
