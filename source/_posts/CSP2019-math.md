@@ -18,7 +18,7 @@ tags: [笔记, 数学]
 
 定义：$\gcd(a,b)$ 定义为最大的 $d$，使得 $d\mid a,d\mid b$。
 
-$\gcd(a,b)=\gcd(b,a\%b)$ 的证明：设 $a=bq+r$。
+$\gcd(a,b)=\gcd ( b,a \% b )$ 的证明：设 $a=bq+r$。
 
 假设 $d\mid b$，则可以由上式证明 $d\mid a$ 等价于 $d\mid r$。证毕。
 
@@ -90,15 +90,15 @@ $(a+1)^p=a^p+\mathrm{C}^1_pa^{p-1}+\mathrm{C}^2_pa^{p-2}+\cdots+\mathrm{C}^{p-1}
 
 如果 $p_1,p_2,\cdots,p_n$ 互质，那么下面方程组
 
-$$\begin{cases}x\equiv a_1\pmod{p_1}\\ x\equiv a_2\pmod{p_2}\\x\equiv a_3\pmod{p_3}\\\vdots\\x\equiv a_n \pmod{p_n}\end{cases}$$
+$$\begin{cases}x \equiv a_1\pmod{p_1}\\\\ x\equiv a_2\pmod{p_2}\\\\ x\equiv a_3\pmod{p_3}\\\\ \vdots\\\\ x \equiv a_n \pmod{p_n}\end{cases}$$
 
-在 $\mod{p_1p_2\cdots p_n}$ 意义下有唯一解。
+在 $\mod{p_1 p_2 \cdots p_n}$ 意义下有唯一解。
 
 如何求这一组解呢？
 
 这里有一个神奇构造。
 
-令 $M=\Pi p$，$M_i=\Pi^{i-1}_{j=1}p_j\times \Pi^{n}_{j=i+1}p_j$，$t_i$ 是 $M_i$ 在 $\mod{p_i}$ 意义下的逆元。那么令 $x=\sum_{i=1}^n a_iM_it_i$ 即可。
+令 $M=\Pi p$，则 $M_i=\Pi^{i-1}_{j=1} p_j \times \Pi^{n}_{j=i+1} p_j$，于是 $t_i$ 是 $M_i$ 在 $\mod{p_i}$ 意义下的逆元。那么令 $x=\sum_{i=1}^n a_iM_it_i$ 即可。
 
 如果考场上不记得神奇构造了，那就可以用 $\mathrm{exCRT}$。
 
