@@ -109,3 +109,14 @@ deploy:
   type: git
   repository: git@github.com:Sweetlemon39/Sweetlemon39.github.io.git
   branch: master
+
+# Security
+encrypt: # hexo-blog-encrypt
+  abstract: 这里好像有些加密内容，输入密码就可以看到哦~
+  message: 您好，请输入世界穿越口令 qwq ~
+  tags:
+  - {name: tagName, password: 密码A}
+  - {name: tagName, password: 密码B}
+  template: <div id="hexo-blog-encrypt" data-wpm="{{hbeWrongPassMessage}}" data-whm="{{hbeWrongHashMessage}}"><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="{{hbeMessage}}" /><label>{{hbeMessage}}</label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="{{hbeHmacDigest}}">{{hbeEncryptedData}}</script></div>
+  wrong_pass_message: 抱歉，这个口令不能通过世界的检查哦，再试试？
+  wrong_hash_message: 抱歉，世界线出问题了，不过您还是可以看看解密后的内容。
