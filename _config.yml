@@ -120,3 +120,8 @@ encrypt: # hexo-blog-encrypt
   template: <div id="hexo-blog-encrypt" data-wpm="{{hbeWrongPassMessage}}" data-whm="{{hbeWrongHashMessage}}"><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="{{hbeMessage}}" /><label>{{hbeMessage}}</label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="{{hbeHmacDigest}}">{{hbeEncryptedData}}</script></div>
   wrong_pass_message: 抱歉，这个口令不能通过世界的检查哦，再试试？
   wrong_hash_message: 抱歉，世界线出问题了，不过您还是可以看看解密后的内容。
+
+leancloud:
+  app_id: uzT4lXHwcPJOlEGevXF7jqRU-gzGzoHsz
+  app_key: vVl1bqbOX0WUiA9WFlFhMxBb
+  valine_path: comments
