@@ -1,0 +1,1439 @@
+<!DOCTYPE html>
+<html>
+<head hexo-theme='Volantis' version='1.6.3' docs='https://volantis.js.org/'>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  <title>CSP 2019 集训 贪心和动态规划 | Sweetlemon 的异世界</title>
+  
+  
+
+  
+
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <!-- meta -->
+  
+
+  <!-- link -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.12.1/css/all.min.css">
+  
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+
+  
+  
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-waves@0.7.6/dist/waves.min.css">
+
+  
+
+  
+
+  
+  <link rel="shortcut icon" type='image/x-icon' href="https://cdn.jsdelivr.net/gh/mrj1018/OI/lemon.png">
+  
+
+  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.css">
+  
+
+  
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@1.6.3/css/style.css">
+
+  
+
+  <script>
+    function setLoadingBarProgress(num) {
+      document.getElementById('loading-bar').style.width=num+"%";
+    }
+  </script>
+
+  
+  
+</head>
+
+<body>
+  
+  <div class="cover-wrapper">
+    <cover class='cover post half'>
+      
+        
+  <p class="title ">Sweetlemon 的异世界</p>
+  
+    <p class="subtitle ">原来你也在这里啊</p>
+  
+
+
+  <div class="m_search">
+    <form name="searchform" class="form u-search-form">
+      <i class="icon fas fa-search fa-fw"></i>
+      <input type="text" class="input u-search-input" placeholder="一直在寻找着你的踪迹" />
+    </form>
+  </div>
+
+<div class='menu navigation'>
+  <ul class='h-list'>
+    
+      
+        <li>
+          <a class="nav home "
+            href="/"
+            
+            
+            id="home">
+            <i class='fas fa-home fa-fw'></i>&nbsp;主页
+          </a>
+        </li>
+      
+        <li>
+          <a class="nav home "
+            href="/categories/"
+            
+            
+            id="categories">
+            <i class='fas fa-folder-open fa-fw'></i>&nbsp;分类
+          </a>
+        </li>
+      
+        <li>
+          <a class="nav home "
+            href="/archives/"
+            
+            
+            id="archives">
+            <i class='fas fa-archive fa-fw'></i>&nbsp;归档
+          </a>
+        </li>
+      
+        <li>
+          <a class="nav home "
+            href="/about/"
+            
+            
+            id="about">
+            <i class='fas fa-info-circle fa-fw'></i>&nbsp;关于
+          </a>
+        </li>
+      
+    
+  </ul>
+</div>
+
+      
+    </cover>
+    <header class="l_header nav-blur">
+  <div id="loading-bar-wrapper">
+    <div id="loading-bar"></div>
+  </div>
+	<div class='wrapper'>
+		<div class="nav-main container container--flex">
+      
+        <a class="logo flat-box" target="_self" href='/' >
+          
+            
+              
+              
+                Sweetlemon 的异世界
+              
+            
+          
+        </a>
+      
+
+			<div class='menu navigation'>
+				<ul class='h-list'>
+          
+  					
+  						<li>
+								<a class="nav flat-box" href="/"
+                  
+                  
+                  id="home">
+									<i class='fas fa-home fa-fw'></i>&nbsp;主页
+								</a>
+							</li>
+      			
+  						<li>
+								<a class="nav flat-box" href="/categories/"
+                  
+                  
+                  id="categories">
+									<i class='fas fa-folder-open fa-fw'></i>&nbsp;分类
+								</a>
+							</li>
+      			
+  						<li>
+								<a class="nav flat-box" href="/archives/"
+                  
+                  
+                  id="archives">
+									<i class='fas fa-archive fa-fw'></i>&nbsp;归档
+								</a>
+							</li>
+      			
+  						<li>
+								<a class="nav flat-box" href="/about/"
+                  
+                  
+                  id="about">
+									<i class='fas fa-info-circle fa-fw'></i>&nbsp;关于
+								</a>
+							</li>
+      			
+      		
+				</ul>
+			</div>
+
+      <div class="m_search">
+        <form name="searchform" class="form u-search-form">
+          <i class="icon fas fa-search fa-fw"></i>
+          <input type="text" class="input u-search-input" placeholder="一直在寻找着你" />
+        </form>
+      </div>
+
+			<ul class='switcher h-list'>
+				
+					<li class='s-search'><a class="fas fa-search fa-fw" target="_self" href='javascript:void(0)'></a></li>
+				
+				<li class='s-menu'><a class="fas fa-bars fa-fw" target="_self" href='javascript:void(0)'></a></li>
+			</ul>
+		</div>
+
+		<div class='nav-sub container container--flex'>
+			<a class="logo flat-box"></a>
+			<ul class='switcher h-list'>
+				<li class='s-comment'><a class="flat-btn fas fa-comments fa-fw" target="_self" href='javascript:void(0)'></a></li>
+        
+          <li class='s-toc'><a class="flat-btn fas fa-list fa-fw" target="_self" href='javascript:void(0)'></a></li>
+        
+			</ul>
+		</div>
+	</div>
+</header>
+	<aside class="menu-phone white-box">
+    <header>
+		<nav class="menu navigation">
+      <ul>
+        
+          
+            <li>
+							<a class="nav flat-box" href="/"
+                
+                
+                id="home">
+								<i class='fas fa-home fa-fw'></i>&nbsp;主页
+							</a>
+            </li>
+          
+            <li>
+							<a class="nav flat-box" href="/categories/"
+                
+                
+                id="categories">
+								<i class='fas fa-folder-open fa-fw'></i>&nbsp;分类
+							</a>
+            </li>
+          
+            <li>
+							<a class="nav flat-box" href="/archives/"
+                
+                
+                id="archives">
+								<i class='fas fa-archive fa-fw'></i>&nbsp;归档
+							</a>
+            </li>
+          
+            <li>
+							<a class="nav flat-box" href="/about/"
+                
+                
+                id="about">
+								<i class='fas fa-info-circle fa-fw'></i>&nbsp;关于
+							</a>
+            </li>
+          
+       
+      </ul>
+		</nav>
+    </header>
+	</aside>
+<script>setLoadingBarProgress(40);</script>
+
+  </div>
+
+
+  <div class="l_body">
+    <div class='body-wrapper'>
+      
+
+<div class='l_main'>
+  
+
+  
+    <article id="post" class="post white-box   article-type-post" itemscope itemprop="blogPost">
+      
+
+
+  <section class='meta'>
+    
+    
+    <div class="meta" id="header-meta">
+      
+        
+  
+    <h1 class="title">
+      <a href="/CSP2019-greedy-and-dp/">
+        CSP 2019 集训 贪心和动态规划
+      </a>
+    </h1>
+  
+
+
+      
+      <div class='new-meta-box'>
+        
+          
+        
+          
+            
+<div class='new-meta-item author'>
+  <a href="https://sweetlemon39.github.io/" rel="nofollow">
+    <img src="https://cdn.jsdelivr.net/gh/mrj1018/OI/lemon.png">
+    <p>Sweetlemon</p>
+  </a>
+</div>
+
+          
+        
+          
+            
+  
+  <div class='new-meta-item category'>
+    <a href='/categories/%E5%8D%B3%E6%97%B6%E7%AC%94%E8%AE%B0/' rel="nofollow">
+      <i class="fas fa-folder-open" aria-hidden="true"></i>
+      <p>即时笔记</p>
+    </a>
+  </div>
+
+
+          
+        
+          
+            <div class="new-meta-item date">
+  <a class='notlink'>
+    <i class="fas fa-edit" aria-hidden="true"></i>
+    <p>发布于：2019年11月13日</p>
+  </a>
+</div>
+
+          
+        
+          
+            <div class="new-meta-item date" itemprop="dateUpdated" datetime="2020-02-02T00:00:00+00:00">
+  <a class='notlink'>
+    <i class="fas fa-save" aria-hidden="true"></i>
+    <p>更新于：2020年2月2日</p>
+  </a>
+</div>
+
+          
+        
+          
+            
+
+          
+        
+      </div>
+      
+        <hr>
+      
+    </div>
+  </section>
+
+
+      <section class="article typo">
+        <div class="article-entry" itemprop="articleBody">
+          
+          <h2 id="贪心"><a href="#贪心" class="headerlink" title="贪心"></a>贪心</h2><a id="more"></a>
+
+<h3 id="简单贪心"><a href="#简单贪心" class="headerlink" title="简单贪心"></a>简单贪心</h3><h4 id="排队接水"><a href="#排队接水" class="headerlink" title="排队接水"></a>排队接水</h4><p>用邻项交换的方法可以证明，是从时间短到时间长排序。</p>
+<h4 id="区间选取"><a href="#区间选取" class="headerlink" title="区间选取"></a>区间选取</h4><p>每次尽量选早结束的区间。</p>
+<h4 id="选点覆盖区间"><a href="#选点覆盖区间" class="headerlink" title="选点覆盖区间"></a>选点覆盖区间</h4><p>每一个区间用尽量靠右的点覆盖。</p>
+<h4 id="删数字"><a href="#删数字" class="headerlink" title="删数字"></a>删数字</h4><p>从最高位开始，如果后一个数字比前一个数字小，那么就删去这个数，删够 $k$ 个为止。</p>
+<h4 id="数位乘积"><a href="#数位乘积" class="headerlink" title="数位乘积"></a>数位乘积</h4><p>注意到如果把末尾的一些数字改成 $9$，乘积可能会变大。</p>
+<p>枚举要把末尾的多少位数字改成 $9$，求 $\max$ 即可。</p>
+<h3 id="进阶贪心"><a href="#进阶贪心" class="headerlink" title="进阶贪心"></a>进阶贪心</h3><h4 id="均分纸牌"><a href="#均分纸牌" class="headerlink" title="均分纸牌"></a>均分纸牌</h4><p>像网络流一样，每个点最后的净流入/出是一定的，而且端点的流入/出只有一个方向。因此只需要进行那一次净流入/出就可以了。</p>
+<h4 id="环形均分纸牌"><a href="#环形均分纸牌" class="headerlink" title="环形均分纸牌"></a>环形均分纸牌</h4><p>Usaco 2012 Mar Haybale Restacking</p>
+<p>设 $1$ 与 $n$ 的流量为 $x$，就变成一堆绝对值之和的函数了。</p>
+<h4 id="合并果子"><a href="#合并果子" class="headerlink" title="合并果子"></a>合并果子</h4><p>参照哈夫曼树。</p>
+<h4 id="ONTAK-2010-Creative-Accounting"><a href="#ONTAK-2010-Creative-Accounting" class="headerlink" title="ONTAK 2010 Creative Accounting"></a>ONTAK 2010 Creative Accounting</h4><p>BZOJ 3544.</p>
+<p>给定数列 $A$ 和一个模数 $p$，找一段区间，使得区间和模 $p$ 最大。</p>
+<p>使用前缀和转化，对每一个 $S_r$，都找一个 $S_l(1\le l&lt;r)$，使得 $S_r-S_l$ 模 $p$ 最大。</p>
+<p>分成两段，用 <code>set</code> 维护就可以了。</p>
+<h3 id="反悔型贪心专题"><a href="#反悔型贪心专题" class="headerlink" title="反悔型贪心专题"></a>反悔型贪心专题</h3><h4 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h4><p>使用贪心算法的一个条件是“局部最优可得出整体最优”，但是很多时候，这是不成立的。</p>
+<p>但有些情况下，我们可以通过“反悔”操作，修改局部最优解的一个或几个操作，使得局部最优解导出全局最优解。</p>
+<h4 id="EXPEDI-Expedition"><a href="#EXPEDI-Expedition" class="headerlink" title="EXPEDI - Expedition"></a>EXPEDI - Expedition</h4><p>拿到题目，如果我们不敢用贪心怎么办呢？</p>
+<p>如果是 dp，那么状态数实在是爆炸啊。</p>
+<p>所以在考虑 dp 状态优化的时候，我们想到了贪心。</p>
+<p>有一种贪心策略是，只加油最多的加油站。但是这样的问题是，可能在到达好的加油站之前，车子已经没油了。</p>
+<p>考虑“子问题”。设“子问题”是走到第 $i$ 个加油站，油箱容量一直非负的情况下，最少的加油次数。</p>
+<p>下面要从第 $i$ 个加油站走到第 $i+1$ 个加油站，要是车子目前油足够还好说，直接更新油量即可；若是油不够呢？</p>
+<p>我们先前已经对“每个加油站加不加油”作出了决策，现在发现油不够了，是要反悔了没有？</p>
+<p>怎么反悔？“唉，要是我们在之前那个加油站加过油就好了。”可以在之前没有加过油的、油量最多的加油站加一次油。由于我们是迫不得已才加油，因此加油次数是最少的。</p>
+<p>把经过的加油站的油量放进堆里，每次取堆顶即可。</p>
+<h4 id="数据备份"><a href="#数据备份" class="headerlink" title="数据备份"></a>数据备份</h4><p>同样是一道反悔的贪心。由于相邻两个数不能同时取，因此我们设置一个“自动反悔”的机制，即若 $a,b,c$ 相邻，选了 $b$ 后把三者删除，加入 $a+c-b$。今后如果选了 $a+c-b$，就意味着反悔了。这样就能平衡局部最优与全局最优的矛盾。</p>
+<h4 id="Cow-Coupons"><a href="#Cow-Coupons" class="headerlink" title="Cow Coupons"></a>Cow Coupons</h4><p>先考虑简单的情况：如果钱很少，没买完优惠的牛就花完了呢？那当然是直接贪心取优惠价最低的若干头牛，也就是取 $C_i$ 最小的一段。</p>
+<p>那么如果把 $k$ 张优惠券用完了，还剩有钱呢？</p>
+<p>这时候就有牛需要按原价购买了。我们原先选的牛价格低，但是优惠幅度不一定大，在钱比较多的情况下买它们不一定划算。</p>
+<p>怎么办呢？我们考虑反悔，也就是调换优惠券的使用对象，原先买的牛不用优惠券，现在买的新牛使用优惠券。于是代价就是 $C_j+(P_i-C_i)$。</p>
+<p>还可以从另外的角度考虑这个问题。为什么 $C_i$ 前 $k$ 小的牛一定要买呢？不妨假设某头 $C_i$ 前 $k$ 小的牛 $\alpha$ 没有买，那么一定有一头 $C_i$ 较大（不是前 $k$ 小）的牛 $\beta$ 使用了优惠券；把牛 $\beta$ 调换成牛 $\alpha$，答案不会变劣。</p>
+<p>因此 $C_i$ 前 $k$ 小的牛是一定要买的，但是不一定使用优惠券，因为可能有其他的牛优惠幅度更大。因此上述反悔型贪心的算法是正确的。</p>
+<p>综上，反悔型贪心可以着重考虑“局部最优解”如何转化为“全局最优解”，通过转化使得贪心算法变得正确。</p>
+<h2 id="动态规划"><a href="#动态规划" class="headerlink" title="动态规划"></a>动态规划</h2><h3 id="递推与动态规划"><a href="#递推与动态规划" class="headerlink" title="递推与动态规划"></a>递推与动态规划</h3><p>斐波那契, LIS。</p>
+<h4 id="动态规划的使用条件"><a href="#动态规划的使用条件" class="headerlink" title="动态规划的使用条件"></a>动态规划的使用条件</h4><h5 id="最优子结构"><a href="#最优子结构" class="headerlink" title="最优子结构"></a>最优子结构</h5><p>整个问题的最优解蕴含子问题最优解。</p>
+<h5 id="无后效性"><a href="#无后效性" class="headerlink" title="无后效性"></a>无后效性</h5><p>下一时刻的状态仅与当前状态有关，与前面的状态无关。如果不满足就要扩充状态才行。</p>
+<h4 id="动态规划的一般做题方法"><a href="#动态规划的一般做题方法" class="headerlink" title="动态规划的一般做题方法"></a>动态规划的一般做题方法</h4><ol>
+<li>设计状态</li>
+<li>设计转移，注意转移方向</li>
+<li>注意初值</li>
+<li>计算复杂度</li>
+</ol>
+<h4 id="动态规划的分类"><a href="#动态规划的分类" class="headerlink" title="动态规划的分类"></a>动态规划的分类</h4><ol>
+<li>线型动规</li>
+<li>背包问题</li>
+<li>区间动规</li>
+<li>树形动规</li>
+<li>状态压缩动规</li>
+<li>记忆化搜索</li>
+<li>特定的动态规划优化方法：决策单调性、斜率优化</li>
+</ol>
+<h3 id="线型动规"><a href="#线型动规" class="headerlink" title="线型动规"></a>线型动规</h3><p>LIS, LCS (子段/子序列)</p>
+<h3 id="背包问题"><a href="#背包问题" class="headerlink" title="背包问题"></a>背包问题</h3><p>01 背包、多重背包、完全背包、分数背包。</p>
+<p>其实还有有依赖的背包、分组背包等。</p>
+<h3 id="区间动规"><a href="#区间动规" class="headerlink" title="区间动规"></a>区间动规</h3><h4 id="石子合并"><a href="#石子合并" class="headerlink" title="石子合并"></a>石子合并</h4><p>设 $f[i][j]$ 表示区间 $[i,j]$ 全部合并的最小代价，枚举分割点（最后一次合并的位置）。</p>
+<h4 id="环形石子合并"><a href="#环形石子合并" class="headerlink" title="环形石子合并"></a>环形石子合并</h4><p>环形问题要么考虑断环成链，要么倍长环。</p>
+<p>这题可以考虑倍长环，在得到的链中取所有 $n$ 长区间的最小答案即可。</p>
+<h4 id="能量项链"><a href="#能量项链" class="headerlink" title="能量项链"></a>能量项链</h4><p>据说只是把 $+$ 变成了 $\times$。</p>
+<h4 id="CQOI-2007-涂色"><a href="#CQOI-2007-涂色" class="headerlink" title="[CQOI 2007] 涂色"></a>[CQOI 2007] 涂色</h4><p>设 $f[i][j]$ 表示区间 $[i,j]$ 都被涂好的最小代价。</p>
+<p>每个区间肯定不会被涂超过一次，而且涂的区间“重叠而不覆盖”没有意义。（“重叠而不覆盖”指的是两个区间交集非空但不是子集关系。）</p>
+<p>下面把所有涂色方案分类。考虑涂的过程中有没有涂 $[i,j]$ 这个区间。</p>
+<p>如果没有涂这个区间，那么一定可以找到一个点 $k$，使得不存在一次涂色，同时涂了 $k$ 和 $k+1$。这个是由“不存在重叠而不覆盖的两个区间”性质保证的。于是我们枚举断点 $k$，令 $f[i][j]=\min(f[i][j],f[i][k]+f[k+1][j])$。</p>
+<p>如果涂了这个区间，那么一定是因为这个区间的头和尾是一样的，我们想要先涂满这个区间，再在其上覆盖。因此这种情况仅当 $a[i]=a[j]$ 时才会发生。</p>
+<p>如果我们强制不能涂这个区间呢？那么头和尾都必须单独着色，着色次数会多 $1$，且情况转换为“没有涂这个区间”。于是像上一种情况那样转移。</p>
+<p>但是，实际上我们是涂了 $[i,j]$ 这个区间的，因此实际上着色次数要减 $1$，转移完成后减 $1$ 即可。</p>
+<p>综上，$f[i][j]=\min(f[i][k]+f[k+1][j])-(a[i]==a[j])$。程序实现很简单，但是想出情况的转化还是有难度的。</p>
+<h3 id="树形动规"><a href="#树形动规" class="headerlink" title="树形动规"></a>树形动规</h3><h4 id="没有上司的舞会"><a href="#没有上司的舞会" class="headerlink" title="没有上司的舞会"></a>没有上司的舞会</h4><p>由于每个点选不选对它的父亲有影响，因此要记录到状态中。</p>
+<h4 id="骑士"><a href="#骑士" class="headerlink" title="骑士"></a>骑士</h4><p>刚才那道题的基环树版本。</p>
+<p>对于环，我们可以断环成链，也可以倍长环。由于环上的点外面还挂有东西，因此不方便倍长环。于是可以选择断环成链。</p>
+<p>如何断环成链呢？我们找到环上的某一条边，把它断开，再人工考虑断开边的影响——我们强制边上的某一个点不可选。</p>
+<p>强制当然可以直接特判，但这里有一个比较神奇的方法。直接把禁用的点的权值设为 $0$ 即可！（当然如果不放心，可以设为 $-\infty$）。</p>
+<h4 id="POI-2008-STA"><a href="#POI-2008-STA" class="headerlink" title="POI 2008 STA"></a>POI 2008 STA</h4><p>这道题才是换根 dp 的模板吧。</p>
+<p>换根的影响非常简单，子树内的点深度减 $1$，子树外的点深度加 $1$。</p>
+<h4 id="USACO-2008-Jan-手机网络"><a href="#USACO-2008-Jan-手机网络" class="headerlink" title="USACO 2008 Jan 手机网络"></a>USACO 2008 Jan 手机网络</h4><p>树上最小支配集。</p>
+<p>每个点可能被自己、父亲或孩子控制，需要分别讨论一下。</p>
+<p>类似的题目有“消防局的设立”，不过那个控制的范围更广一些。</p>
+<h3 id="DAG-动规"><a href="#DAG-动规" class="headerlink" title="DAG 动规"></a>DAG 动规</h3><h4 id="HAOI-2016-食物链"><a href="#HAOI-2016-食物链" class="headerlink" title="HAOI 2016 食物链"></a>HAOI 2016 食物链</h4><p>裸题。</p>
+<h3 id="状压动规"><a href="#状压动规" class="headerlink" title="状压动规"></a>状压动规</h3><h4 id="疾病管理"><a href="#疾病管理" class="headerlink" title="疾病管理"></a>疾病管理</h4><p>$f[i][j]$ 表示前 $i$ 头牛，疾病集合为 $j$，直接转移即可。</p>
+<p>另外还有更简单的贪心做法：枚举最终的疾病集合（所含疾病个数不超过 $k$），对每一个集合，扫描所有牛，统计有多少牛的疾病是当前集合的子集。</p>
+<h4 id="混乱的奶牛"><a href="#混乱的奶牛" class="headerlink" title="混乱的奶牛"></a>混乱的奶牛</h4><p>记录最后一头奶牛和当前已选的奶牛。</p>
+<h4 id="送外卖"><a href="#送外卖" class="headerlink" title="送外卖"></a>送外卖</h4><p>由于是环，因此一个环会被算 $n$ 次，非常不划算。我们强制环从 $1$ 开始，这样就只需要记录当前环上点的集合和最后的点即可。</p>
+<h4 id="互不侵犯"><a href="#互不侵犯" class="headerlink" title="互不侵犯"></a>互不侵犯</h4><p>按行选择，记录当前选了几行、放了几个国王、当前行的状态即可。</p>
+<h3 id="概率动规"><a href="#概率动规" class="headerlink" title="概率动规"></a>概率动规</h3><h4 id="SGU495-Kids-and-Prizes"><a href="#SGU495-Kids-and-Prizes" class="headerlink" title="SGU495 Kids and Prizes"></a>SGU495 Kids and Prizes</h4><p>概率论解法：考虑每一个盒子，它没有被任何人选到的概率自然是 $(1-\frac{1}{n})^m$，于是可以计算出它被选的概率，也就是它被选的期望。把所有盒子的期望加起来（其实就是乘以 $n$，或者说是独立观察量）就得到答案了。</p>
+<p>概率 dp 解法 1：设状态是 $i$ 人，选了 $j$ 个礼物的概率。进行一些变换可以得到更好的递推式。</p>
+<p>概率 dp 解法 2：设状态是第 $i$ 个人得到礼物的概率。如果上一个人没有得到礼物，那么这个人得到礼物的概率和上一个人一样；如果上一个人得到了礼物，那么这个人得到礼物的概率少了 $\frac{1}{n}$。同样化简可以变得更好。</p>
+<h3 id="记忆化搜索"><a href="#记忆化搜索" class="headerlink" title="记忆化搜索"></a>记忆化搜索</h3><p>可以简化实现，甚至可以剪枝。</p>
+<h3 id="经典动规算法"><a href="#经典动规算法" class="headerlink" title="经典动规算法"></a>经典动规算法</h3><h4 id="Floyd"><a href="#Floyd" class="headerlink" title="Floyd"></a>Floyd</h4><p>$f[i][j][k]$ 表示允许经过点 $[1,k]$ 中转的前提下 $i,j$ 的最短路，$f[i][j][k]=\min(f[i][k][k-1]+f[k][j][k-1],f[i][j][k-1])$。第三维度滚动压掉。</p>
+<p>理解这个意义很重要，有专门考这个的题。</p>
+<h3 id="动态规划的优化"><a href="#动态规划的优化" class="headerlink" title="动态规划的优化"></a>动态规划的优化</h3><h4 id="琪露诺"><a href="#琪露诺" class="headerlink" title="琪露诺"></a>琪露诺</h4><p>很明显的单调队列优化。</p>
+<h4 id="LIS"><a href="#LIS" class="headerlink" title="LIS"></a>LIS</h4><p>有两种数据结构的优化方法。</p>
+<p>一种是反转值域后用单调数组，比较巧妙。</p>
+<p>另一种是令 $f[a[i]]$ 表示以 $a[i]$ 结尾的 LIS 的长度，然后利用动态开点线段树或离散化+树状数组就可以了。</p>
+<h3 id="动态规划的-NOIP-例题"><a href="#动态规划的-NOIP-例题" class="headerlink" title="动态规划的 NOIP 例题"></a>动态规划的 NOIP 例题</h3><h4 id="加分二叉树"><a href="#加分二叉树" class="headerlink" title="加分二叉树"></a>加分二叉树</h4><p>因为有了序列，所以不是树形 dp，是区间 dp。</p>
+<p>注意考虑边界情况。</p>
+<h4 id="合唱队形"><a href="#合唱队形" class="headerlink" title="合唱队形"></a>合唱队形</h4><p>把 LIS 和 LDS 合并起来就行了。</p>
+<h4 id="过河"><a href="#过河" class="headerlink" title="过河"></a>过河</h4><p>离散化后单调队列（？）。</p>
+<h4 id="金明的预算方案"><a href="#金明的预算方案" class="headerlink" title="金明的预算方案"></a>金明的预算方案</h4><p>由于附件很少，因此直接枚举附件的选取情况。</p>
+<p>如果附件比较多，先对每一棵树做一次背包，然后分组背包即可。</p>
+<h4 id="传纸条"><a href="#传纸条" class="headerlink" title="传纸条"></a>传纸条</h4><p>由于两个路径不能相交，而相交的两个点到起点的路径长度一定相同，因此只要保证两条路径在距离起点相等的地方不相交即可。</p>
+<p>这样我们对两条路径同步走，$f[i][j][k]<a href="i+j=k+l">l</a>$ 表示两条路径分别到达 $(i,j),(k,l)$ 的方案数。另外由于 $i+j=k+l$，因此可以压掉一维 $l$。</p>
+<h4 id="乌龟棋"><a href="#乌龟棋" class="headerlink" title="乌龟棋"></a>乌龟棋</h4><p>由于当前位置和用过的四种卡片的数量是线性相关的，因此可以压掉当前位置。</p>
+<h4 id="花匠"><a href="#花匠" class="headerlink" title="花匠"></a>花匠</h4><p>考场上估计会写 $O(n\log n)$ 的树状数组/线段树/set 优化 dp。</p>
+<p>当然这题还有一个更巧妙的方法，结合贪心，直接考虑与上一个的联系，如果这一个比上一个小，那么要么把上一个作为峰、这一个作为谷，要么不选这一个——因为上一个作为峰肯定比这一个作为峰更好。经过一番神奇 dp，就可以 $O(n)$ 得到答案。另外还有直接贪心构造解的办法。</p>
+<h3 id="动态规划的高级应用"><a href="#动态规划的高级应用" class="headerlink" title="动态规划的高级应用"></a>动态规划的高级应用</h3><h4 id="最大半连通子图-Part"><a href="#最大半连通子图-Part" class="headerlink" title="最大半连通子图 (Part)"></a>最大半连通子图 (Part)</h4><p>裸题？别忘了只是一个部分分。</p>
+<p>如果使用记忆化搜索，就不需要拓扑排序了。</p>
+<h4 id="Treats-for-the-Cows"><a href="#Treats-for-the-Cows" class="headerlink" title="Treats for the Cows"></a>Treats for the Cows</h4><p>因为是双端队列，所以就只能 dp 了，而且是区间 dp。</p>
+<p>另外这题实际上可以按区间长度滚动数组。</p>
+<h4 id="Round-Subset"><a href="#Round-Subset" class="headerlink" title="Round Subset"></a>Round Subset</h4><p>有二维属性的背包？</p>
+<p>值域上不可能有两个数，因此可以把其中一个数拿到定义域里。$f[i][j][k]$ 表示前 $i$ 个数、选了 $j$ 个、其中有 $k$ 个 $5$ 因子时 $2$ 因子的最多个数。</p>
+<p>计算量有点大，但毕竟是 CF 评测机嘛，信仰过。</p>
+<h4 id="New-Year-Santa-Network"><a href="#New-Year-Santa-Network" class="headerlink" title="New Year Santa Network"></a>New Year Santa Network</h4><p>又是树上点对 / 点组的问题，确实不能考虑以点组作为计数主体，一定会 TLE 的。因此我们考虑计算边的贡献。</p>
+<p>我们发现，树上三个点之间的三对距离经过一条边要么是 $0$ 次，要么是 $2$ 次——如果三个点分布在这条边的两侧（一边 $1$ 个、一边 $2$ 个），那么贡献是 $2$ 次；否则贡献是 $0$ 次。</p>
+<p>贡献为 $2$ 次的情况数当然是 $\mathrm{C}^2_p\times \mathrm{C}^1_q+\mathrm{C}^1_p\times \mathrm{C}^2_q$。</p>
+<p>修改边的时候用贡献乘以 $\Delta w$ 即可。</p>
+<h4 id="树上染色"><a href="#树上染色" class="headerlink" title="树上染色"></a>树上染色</h4><p>如果我们两两考虑点对，那肯定是要超时的。</p>
+<p>如果我们考虑树边对答案的贡献如何呢？一条树边对答案的贡献应该是“子树内外黑点数量之积”加上“子树内外白点数量之积”再乘以边权。接下来做一个树上背包就可以了。</p>
+<p>关于复杂度，有一个<a href="https://www.luogu.org/blog/fusu2333/solution-p3177" target="_blank" rel="noopener">参考证明</a>。</p>
+<h4 id="Outer-Space-Invaders"><a href="#Outer-Space-Invaders" class="headerlink" title="Outer Space Invaders"></a>Outer Space Invaders</h4><p>拿到这道题，好像没有什么思路？每个外星人都有出现时间和消失时间，贪心似乎不太能做……</p>
+<p>我们先把外星人抽象成区间 $[a_i,b_i]$，画在高度 $d_i$ 上——也就是一条从 $(a_i,d_i)$ 到 $(b_i,d_i)$ 的线段。</p>
+<p>每次操作就是选取一个点 $(x_i,y_i)$，表示在 $x_i$ 时间进行一次半径为 $y_i$ 的攻击，这次攻击可以消灭所有在时刻 $x_i$ 存在的、半径不大于 $y_i$ 的外星人，也就是消除所有与线段 $(x_i,0),(x_i,y_i)$ 相交的线段。</p>
+<p>似乎还是没有什么思路？这里有一种“极限思考法”——没有思路的时候，考虑“最 xx”这样的特殊的元素。我们考虑半径最大的外星人，我们肯定需要一次半径为 $y_i$ 的攻击来消灭它，但是在什么时刻攻击还不确定；并且，这一次攻击能够消灭此时存在的一切外星人。</p>
+<p>也就是，如果我们按照半径从大到小考虑所有外星人，那么我们就不需要收到“半径”的限制，已消灭的外星人就是若干个连续的区间——可以区间 dp！</p>
+<p>虽说是“区间”，但是我们还是没有搞清楚呐……</p>
+<p>想一想记忆化搜索吧。</p>
+<p>假设我们枚举“最强外星人”在时刻 $t$ 被消灭，那么还剩下哪些外星人需要被消灭呢？当然是还剩“时刻 $t$ 之前消失的外星人”和“时刻 $t$ 之后出现的外星人”了。于是子问题就变成了“消灭时刻 $t$ 之前消失的外星人”和“消灭时刻 $t$ 之后出现的外星人”。</p>
+<p>假设“在时刻 $t$ 之前消失的外星人”中，我们枚举“最强外星人”在时刻 $t’$ 被消灭。那么剩下的外星人当然是“在时刻 $t$ 之前消失的外星人”和“在时刻 $t’$ 之后出现、但在时刻 $t$ 之前消失的外星人”。</p>
+<p>终于找到规律了吗？我们的子问题其实是“在时刻 $l$ 之后出现、但在时刻 $r$ 之前消失的外星人”，原问题是“在时刻 $0$ 之后出现、但在时刻 $n+1$ 之前消失的外星人”。</p>
+<p>于是这个区间 dp 终于定义完全了！转移方程也随之而来——$f[i][j]=f[i][k-1]+f[k+1][j]+g[k]$，其中 $g[k]$ 表示在时刻 $k$ 存在的所有外星人的半径的最大值。这个转移表示“在时刻 $k$ 进行一次消灭在场所有外星人”的操作，其合理性已在上面论述。</p>
+<p>因此，很多时候记忆化搜索可以作为思考的切入点（“脚手架”），当然也可以作为实现的方式。</p>
+<h4 id="Problem-a"><a href="#Problem-a" class="headerlink" title="Problem a"></a>Problem a</h4><p>这些信息很多，怎么整理成容易处理的形式呢？</p>
+<p>我们要为每一个人安排一个准确的分数吗？好像非常困难啊。</p>
+<p>再思考一下每一个人说的话是什么意思。“有 $a_i$ 个人比我分数高，有 $b_i$ 个人比我分数低”其实对“比我分数高”的人和“比我分数低”的人这两部分都没有要求，叙述的只是“把所有分数排序后， $(a_i,n-b_i]$ 这一个区间是一个极大连续相等的段，并且我是其中的一个元素”。</p>
+<p>我们把每一个人说话的区间整合起来，把区间相同的人进行合并。如果同一个区间 $(a_i,n-b_i]$ 的人数超过了 $n-a_i-b_i$，那么多出的人一定在说假话。接下来就是处理数轴上不同的区间了。</p>
+<p>如果两个不同的区间相交，就会出现矛盾，这是因为相等是等价关系，具有传递性，不同的极长连续相等区间是不可能相交的。因此问题变成了在数轴上选若干个不相交的区间，使得它们的权值和最大。</p>
+<p>把每一个区间的左右端点记为 $L_i,R_i$，按 $L_i$ 排序依次处理，$f[i]$ 表示前 $i$ 个区间（必选第 $i$ 个）的最大权值和，那么 $f[i]=\max(f[j])+w[i]\ (R_j&lt;L_i)$。</p>
+<p>这个东西可以用线段树或者树状数组优化到 $O(n\log n)$，于是问题解决。</p>
+<p>这题告诉我们要如何抽象处理信息。</p>
+<h4 id="庆典"><a href="#庆典" class="headerlink" title="庆典"></a>庆典</h4><p>求把正整数 $n$ 写成 $m$ 个不同正整数的和的方案数，$n\le 10^5$。</p>
+<p>“不同正整数”启示我们可以把整数从小到大排序，接着如果使用差分数组就可以很好地描述这个数列的性质——差分数组的每一项都为正。</p>
+<p>差分数组中第 $i$ 位的数对答案的贡献是 $(m-i+1)d_i$，按照这个 dp，设状态 $f[i][j]$ 是前 $i$ 个数、对和的贡献为 $j$ 的方案数，那么 $f[i][j]\rightarrow f[i+1][j+(m-i)d_{i+1}]$ ，其中 $d_{i+1}$ 是所枚举的差分数组第 $i+1$ 位的值。</p>
+<p>状态总数是 $O(nm)$ 的，转移好像又不止 $O(1)$……感觉不太行的样子。不过可以用记忆化搜索 + 强剪枝搞掉不可能状态，也许有一定希望。</p>
+<p>但是！转移其实是可以 $O(1)$ 的。</p>
+<p>这其实就是一个完全背包——每一个位置上的数的体积分别是 $m,m-1,\cdots,m-i+1,\cdots,1$，都有无穷多个，求把背包装满的方案数是多少。实际做的时候，我们不需要枚举 $d_{i+1}$，只要像完全背包一样顺序枚举 $j$，并从本行转移（$f[i+1][j]\rightarrow f[i+1][j+(m-i)]$，并滚动数组）即可！因此，熟悉经典的背包模型，对解题还是很有帮助的。差分数组也是处理单调递增 / 递减问题的好方法。</p>
+<p>注：上述方法有缺漏。这个和完全背包有区别，因为完全背包某个物品可以不选，但是这里不能不选。因此需要对完全背包的方程进行一些改动，变成 $f[i][j]=f[i-1][j-(m-i+1)]+f[i][j-(m-i+1)]$。</p>
+<p>这里又提供两种方法。</p>
+<p>一种方法是，先把差分数组的每一个数设为 $1$，计算这些 $1$ 的总贡献。剩余的贡献要给差分数组里的某些数一点点加 $1$，给每个位置的数作调整对答案的贡献都不一样。接下来就考虑“给前 $i$ 个位置加了 $1$，总贡献是 $j$”即可。</p>
+<p>另一种方法是，构造一个每一个数都不相同的集合，可以有两种操作：给集合中所有数加 $1$、给集合中所有数加 $1$ 后再加入一个 $1$——也可以从差分数组的角度理解。</p>
+<p>注：这里有一个可以提交的类似的题目：<a href="http://www.51nod.com/Challenge/Problem.html#problemId=1201" target="_blank" rel="noopener">51nod 1201 整数拆分</a>，但是这道题没有限定拆成多少个数。</p>
+<p>这样怎么办呢？没有确定的 $m$，我们又应该如何计算差分数组每个数的贡献呢？</p>
+<p>这里有一种办法：把差分数组倒过来，每个位置存储“这个位置的数比下一个数大多少”，那么第 $i$ 个位置的数对和的贡献就是 $i$ 了。于是就可以对所有的 $m$ 都进行计算了。</p>
+<h4 id="集合选数"><a href="#集合选数" class="headerlink" title="集合选数"></a>集合选数</h4><p>这是一个有向无环图上独立集的计数问题，我们可以先把图画一画。</p>
+<p>在纸上稍微画一画就会发现，这是一个网格图森林！这是因为，$2x$ 的三倍和 $3x$ 的二倍都是 $6x$。而且网格图的宽不会很大，只有 $\log_{3}n\approx 10$。</p>
+<p>于是就可以在网格图上按列做状压 dp，最后把不同的网格图的答案乘起来就可以了。</p>
+<p>这道题的关键还是发现图的性质。</p>
+<h4 id="Eden-的新背包问题"><a href="#Eden-的新背包问题" class="headerlink" title="Eden 的新背包问题"></a>Eden 的新背包问题</h4><p>有 $n$ 个物品，每个物品有若干个。有 $Q$ 次询问，每次询问用 $V_i$ 的背包能装下的物品的最大价值，但是要求不能用物品 $D_i$（每次询问给定一对 $V_i,D_i$）。</p>
+<p>$n,V_i\le 1000,\     Q\le 1000$ 怎么做？那当然是做一个前后缀背包然后简单合并一下就好了。</p>
+<p>如果 $Q\le 3\times 10^5$ 怎么办？这时候就不能每次查询都合并了！</p>
+<p>我们考虑离线之后进行 CDQ 分治或者线段树分治。（怎么想到的？区间太多大概是需要分治的吧(bushi)。联系分治 FFT。）</p>
+<h4 id="Hotel"><a href="#Hotel" class="headerlink" title="Hotel"></a>Hotel</h4><p>求树上三元点集 ${u,v,w}$ 的数量，要求三个点两两等距。$n\le 5000$。</p>
+<p>考虑三个点的中间点（必定有这样一个点），它到三个点等距。把这个点作为根，变成了计算来自三个不同子树、深度相等的点的个数。</p>
+<p>这个应该不是很难进行树形 dp。</p>
+<h4 id="Osu-Easy"><a href="#Osu-Easy" class="headerlink" title="Osu! Easy"></a>Osu! Easy</h4><p>这题比 osu! 一些图的 Easy 难多了……</p>
+<p>我们需要详细定义<strong>随机变量</strong>，这样有利于理解。注意，下面的几段都还没有引入期望。</p>
+<p>随机变量的推导可以认为是涵盖了各种可能情况时的推导。再次提醒，这里还没有期望！</p>
+<p>$L_i$ 表示以第 $i$ 个点击结尾的 combo 的<strong>长度</strong>。对于 x，$L_i=0$；对于 o，$L_i=L_{i-1}+1$，也就是不论 $L_{i-1}$ 如何，$L_i$ 总是等于 $L_{i-1}+1$。对于 ?，情况比较复杂，$L_i$ 有 $\frac{1}{2}$ 的概率等于 $L_{i-1}+1$，有 $\frac{1}{2}$ 的概率等于 $0$。</p>
+<p>$F_i$ 表示假如在第 $i$ 次点击后游戏意外退出（这个说法好牵强），此时的得分（或者可以理解为进行到第 $i$ 次点击时游戏界面显示的分数，打过 osu! 也大概知道吧(大雾)）。</p>
+<p>考虑如何从 $F_{i-1}$ 计算 $F_i$ 呢？这当然是考虑第 $i$ 次点击对分数有多少贡献啦。假如第 $i$ 次点击 miss 了，那么 $F_i$ 当然等于 $F_{i-1}$。但是如果成功了，那么 combo 加长了 $1$，分数增加了多少呢？</p>
+<p>由于 $(x+1)^2=x^2+2x+1$，也就是 $(x+1)^2-x^2=2x+1$，于是 combo 增长 $1$ 对答案的增加量应该是 $2L_{i-1}+1$。</p>
+<p>因此，对于 x，$F_i=F_{i-1}$；对于 o，$F_i=F_{i-1}+2L_{i-1}+1$；对于 ?，上述两个等式成立的概率各为 $\frac{1}{2}$。</p>
+<p>或者，我们可以定义随机变量 $\Delta_i=F_i-F_{i-1}$。对于 x，$\Delta_i=0$；对于 o，$\Delta_i=2L_{i-1}+1$；对于 ?，上述两个等式成立的概率各为 $\frac{1}{2}$。</p>
+<p>这些可都是随机变量的分布啊，我要它干什么呢？</p>
+<p>算期望确实要用到概率，接下来我们开始了！</p>
+<p>由于期望的线性性，$\mathrm{Ex}(F_i)=\mathrm{Ex}(F_{i-1}+\Delta_i)=\mathrm{Ex}(F_{i-1})+\mathrm{Ex}(\Delta_i)$。因此，我们只需要想办法计算出 $\mathrm{Ex}(\Delta_i)$，就可以很容易地递推出 $\mathrm{Ex}(F_i)$ 了（其实就是 $\mathrm{Ex}(\Delta_i)$ 的前缀和嘛）。</p>
+<p>对于 x，由于 $\Delta_i$ 恒等于 $0$，因此 $\mathrm{Ex}(\Delta_i)=0$。</p>
+<p>对于 o，由于 $\Delta_i$ 恒等于 $2L_i-1$，由期望的线性性，$\mathrm{Ex}(\Delta_i)=\mathrm{Ex}(2L_{i-1}+1)=2\mathrm{Ex}(L_{i-1})+1$。</p>
+<p>对于 ?，我们要根据分布列计算 $\mathrm{Ex}(\Delta_i)$，也就是把两种情况下的取值与概率相乘，加权相加——这应该算是全期望公式的应用吧。由于 $\Delta_i$ 取上述两种式子的概率各为 $\frac{1}{2}$，因此 $\mathrm{Ex}(\Delta_i)=\frac{1}{2}(0+2\mathrm{Ex}(L_{i-1})+1)=\mathrm{Ex}(L_{i-1})+\frac{1}{2}$。</p>
+<p>上面的三个式子中有两个出现了 $\mathrm{Ex}(L_{i-1})$，因此我们在计算 $\mathrm{Ex}(\Delta_i)$ 的同时也要计算 $\mathrm{Ex}(L_i)$。</p>
+<p>对于 x，由于 $L_i$ 恒等于 $0$，因此 $\mathrm{Ex}(L_i)=0$。</p>
+<p>对于 o，由于 $L_i$ 恒等于 $L_{i-1}+1$，由期望的线性性，$\mathrm{Ex}(L_i)=\mathrm{Ex}(L_{i-1}+1)=\mathrm{Ex}(L_{i-1})+1$。</p>
+<p>对于 ?，我们还是要根据分布列计算 $\mathrm{Ex}(L_i)$。由于 $L_i$ 取上述两种式子的概率各为 $\frac{1}{2}$，因此 $\mathrm{Ex}(L_i)=\frac{1}{2}(0+\mathrm{Ex}(L_{i-1})+1)=\frac{1}{2}\mathrm{Ex}(L_{i-1})+\frac{1}{2}$。</p>
+<p>这样我们所需的所有递推式都全了，可以整理如下：</p>
+<p>$$\begin{cases}\begin{align} &amp;\mathrm{Ex}(L_i)=0,&amp;a_i=\mathrm{x} \ &amp;\mathrm{Ex}(L_i)=\mathrm{Ex}(L_{i-1})+1,&amp;a_i=\mathrm{o}\ &amp;\mathrm{Ex}(L_i)=\frac{1}{2}\mathrm{Ex}(L_{i-1})+\frac{1}{2}, &amp;a_i=\mathrm{?} \end{align}\end{cases}$$</p>
+<p>$$\begin{cases}\begin{align} &amp;\mathrm{Ex}(F_i)=\mathrm{Ex}(F_{i-1}),&amp;a_i=\mathrm{x} \ &amp;\mathrm{Ex}(F_i)=\mathrm{Ex}(F_{i-1})+2\mathrm{Ex}(L_{i-1})+1,&amp;a_i=\mathrm{o}\ &amp;\mathrm{Ex}(F_i)=\mathrm{Ex}(F_{i-1})+\mathrm{Ex}(L_{i-1})+\frac{1}{2}, &amp;a_i=\mathrm{?} \end{align}\end{cases}$$</p>
+<p>初始值是 $F_0=L_0=0$。我们已经把辅助变量 $\Delta_i$ 处理掉了。</p>
+<p>注意一个要点！$F_i$ 的式子里不要出现 $L_i$，因为这样在应用全期望公式的时候会出问题。简单地说，就是全期望公式里面已经在讨论这个 ? 是否 miss 的这两种可能性了，但是 $\mathrm{Ex}(L_i)$ 里面同样包含了这个 ? 是否 miss 的讨论，一个事件重复讨论就会导致问题；或者说，在全期望公式里，已经假设（或者说在……的条件下）了这个 ? 是否 miss，因此应该代入的是已经确定下来的上一个状态，而不是代入目前这个状态。如果不好理解，可以试着把 $\mathrm{Ex}(F_i)=\mathrm{Ex}(F_{i-1})+\mathrm{Ex}(L_i)-\frac{1}{2},\ a_i=\mathrm{?}$ 代入 <code>?</code> 这个序列计算，就会发现问题。</p>
+<p>所以这道题就不用数组解决了。话说这题二次方是道蓝题，还有一道三次方的是一道紫题，真是不可理喻(bushi。</p>
+<h4 id="Vasya-and-Binary-String"><a href="#Vasya-and-Binary-String" class="headerlink" title="Vasya and Binary String"></a>Vasya and Binary String</h4><p>此题略（大雾）。</p>
+<h4 id="POI2004-PRZ"><a href="#POI2004-PRZ" class="headerlink" title="POI2004 PRZ"></a>POI2004 PRZ</h4><p>不是特别困难的状压 dp。</p>
+<h4 id="BZOJ3791-作业"><a href="#BZOJ3791-作业" class="headerlink" title="BZOJ3791 作业"></a>BZOJ3791 作业</h4><p>首先我们可以把连续的语文作业或数学作业累积在一起，这样序列就变成严格语数交错的了。</p>
+<p>下面有一个结论：$k$ 次操作可以生成所有不超过 $2k+1$ 块的序列。所谓“块”是指极长的连续 $0$ 或 $1$。</p>
+<p>可以用数学归纳法证明，要点是“在一段 $1$ 中间选一个区间变为 $0$，会变成 $101$，一次操作可以多产生 $2$ 个区间”。</p>
+<p>于是就可以 dp 了。$f[i][j][d]$ 表示第 $j$ 段的末尾是 $i$，变成了 $d\ (d\in{0,1})$ 序列时的最大收益，考虑上一段在哪里就可以了。</p>
+<h4 id="百度之星-最强密码"><a href="#百度之星-最强密码" class="headerlink" title="百度之星 最强密码"></a>百度之星 最强密码</h4><p>给出一个只含小写字母的字符串 $A$，求最短的只含小写字母的字符串 $B$，使得 $B$ 不是 $A$ 的子序列（子序列可以不连续）。求 $B$ 的长度和方案数。$\vert A \vert\le 10^5$。</p>
+<p>我们怎么判断一个序列是不是另一个的子序列呢？先在 $A$ 中找 $B_1$ 第一次出现的位置 $i_1$，在 $i_1$ 之后找 $B_2$ 第一次出现的位置 $i_2$，在 $i_2$ 之后再找 $B_3$ 第一次出现的位置 $i_3$……</p>
+<p>因此“$B_j$ 匹配到 $A_i$”的 $i$ 和 $j$ 是重要的状态。设 $f[i]$ 表示匹配到 $A_i$ 的最小的 $j$，那么我们枚举 $B_j$ 的下一个字符 $c$，找到 $A_i$ 之后第一个为 $c$ 的字符 $i’$（找不到则为 $n+1$），更新 $f[i’]=\min(f[i’],f[i]+1)$，同时统计方案数即可。</p>
+<p>找 $i’$ 的过程可以用一个数组维护，这样转移变为 $O(26)$。</p>
+<h4 id="The-Minima-Game"><a href="#The-Minima-Game" class="headerlink" title="The Minima Game"></a>The Minima Game</h4><p>每个人都会从大到小取数，进行 min-max dp 即可。</p>
+<h4 id="Treasure-Chest"><a href="#Treasure-Chest" class="headerlink" title="Treasure Chest"></a>Treasure Chest</h4><p>状态不难想，但是卡空间怎么办呢？</p>
+<p>dp 压空间，当然是用滚动数组啦。如果按长度顺序转移，那么 $l$ 只会由 $l-1$ 转移到，所以只记录左端点就可以描述状态了。</p>
+<h4 id="花仙子的魔法"><a href="#花仙子的魔法" class="headerlink" title="花仙子的魔法"></a>花仙子的魔法</h4><p>这题的 dp……很难理解吧。</p>
+<p>实在不行就找规律 + 大力拉格朗日吧。</p>
+<h4 id="严格-n-元树"><a href="#严格-n-元树" class="headerlink" title="严格 $n$ 元树"></a>严格 $n$ 元树</h4><p>不错的题目。</p>
+<p>如果设状态为“深度为 $i$ 的严格 $n$ 元树的数量”，那么子节点的深度怎么限制呢？可以有至多 $n-1$ 个儿子深度小于 $i-1$，但是必须有一个儿子深度为 $i-1$……难道要用容斥？</p>
+<p>似乎容斥也是可以的——$f[i]=(f[0]+f[1]+\cdots+f[i-1])^n-(f[0]+f[1]+\cdots+f[i-2])^n$，初始条件 $f[0]=f[1]=1$。</p>
+<p>当然这里有更巧妙的办法。设 $g[i]$ 表示深度不超过 $i$ 的严格 $n$ 元树数量，那么 $g[i]=1+g[i-1]^n$——怎么理解呢？考虑严格 $n$ 元树的深度，可以是 $0$（这时只有 $1$ 种），可以大于 $0$（这时根节点的每一棵子树都是深度不超过 $i-1$ 的严格 $n$ 元树）。</p>
+<p>因此，很多时候放松限制条件也是 dp 状态设计的一种方法。</p>
+
+          
+            <br>
+            
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+                  
+
+<section class="widget copyright  widget-blur desktop mobile">
+  <div class='content'>
+    
+      <blockquote>
+        
+          
+            <p>转载请标明出处，本文链接：<a href=https://sweetlemon39.github.io/CSP2019-greedy-and-dp/>https://sweetlemon39.github.io/CSP2019-greedy-and-dp/</a></p>
+          
+        
+      </blockquote>
+    
+  </div>
+</section>
+
+                
+              
+                
+              
+                
+              
+                
+              
+            
+          
+        </div>
+        
+          <br>
+          
+
+
+  <section class='meta' id="footer-meta">
+    <div class='new-meta-box'>
+      
+        
+          
+  
+  <div class="new-meta-item meta-tags"><a class="tag" href="/tags/%E7%AC%94%E8%AE%B0/" rel="nofollow"><i class="fas fa-tag" aria-hidden="true"></i><p>笔记</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/tags/%E8%B4%AA%E5%BF%83/" rel="nofollow"><i class="fas fa-tag" aria-hidden="true"></i><p>贪心</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/" rel="nofollow"><i class="fas fa-tag" aria-hidden="true"></i><p>动态规划</p></a></div>
+
+
+        
+      
+    </div>
+  </section>
+
+
+        
+        
+            <div class="prev-next">
+                
+                    <section class="prev">
+                        <span class="art-item-left">
+                            <h6><i class="fas fa-chevron-left" aria-hidden="true"></i>&nbsp;上一页</h6>
+                            <h4>
+                                <a href="/CSP2019-search-and-ds/" rel="prev" title="CSP 2019 集训 搜索和数据结构">
+                                  
+                                      CSP 2019 集训 搜索和数据结构
+                                  
+                                </a>
+                            </h4>
+                            
+                                
+                                <h6 class="tags">
+                                    <a class="tag" href="/tags/%E7%AC%94%E8%AE%B0/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> 笔记</a> <a class="tag" href="/tags/%E6%90%9C%E7%B4%A2/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> 搜索</a> <a class="tag" href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> 数据结构</a>
+                                </h6>
+                            
+                        </span>
+                    </section>
+                
+                
+                    <section class="next">
+                        <span class="art-item-right" aria-hidden="true">
+                            <h6>下一页&nbsp;<i class="fas fa-chevron-right" aria-hidden="true"></i></h6>
+                            <h4>
+                                <a href="/CSP2019-graph/" rel="prev" title="CSP 2019 集训 图论">
+                                    
+                                        CSP 2019 集训 图论
+                                    
+                                </a>
+                            </h4>
+                            
+                                
+                                <h6 class="tags">
+                                    <a class="tag" href="/tags/%E7%AC%94%E8%AE%B0/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> 笔记</a> <a class="tag" href="/tags/%E5%9B%BE%E8%AE%BA/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> 图论</a>
+                                </h6>
+                            
+                        </span>
+                    </section>
+                
+            </div>
+        
+      </section>
+    </article>
+  
+
+  
+    <!-- 显示推荐文章和评论 -->
+
+
+
+  
+
+
+  
+
+
+
+
+<!-- 根据页面mathjax变量决定是否加载MathJax数学公式js -->
+
+  <!-- MathJax配置，可通过单美元符号书写行内公式等 -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    "HTML-CSS": {
+      preferredFont: "TeX",
+      availableFonts: ["STIX","TeX"],
+      linebreaks: { automatic:true },
+      EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50)
+    },
+    tex2jax: {
+      inlineMath: [ ["$", "$"], ["\\(","\\)"] ],
+      processEscapes: true,
+      ignoreClass: "tex2jax_ignore|dno",
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    },
+    TeX: {
+      equationNumbers: { autoNumber: "AMS" },
+      noUndefined: { attributes: { mathcolor: "red", mathbackground: "#FFEEEE", mathsize: "90%" } },
+      Macros: { href: "{}" }
+    },
+    messageStyle: "none"
+  });
+</script>
+<!-- 给MathJax元素添加has-jax class -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += (all[i].SourceElement().parentNode.className ? ' ' : '') + 'has-jax';
+    }
+  });
+</script>
+<!-- 通过连接CDN加载MathJax的js代码 -->
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+
+
+  <script>
+    window.subData = {
+      title: 'CSP 2019 集训 贪心和动态规划',
+      tools: true
+    }
+  </script>
+
+
+</div>
+<aside class='l_side'>
+  
+    
+      
+        
+
+<section class="widget blogger  widget-blur desktop">
+  <div class='content'>
+    
+      <div class='avatar'>
+        <img class='avatar' src='https://cdn.jsdelivr.net/gh/mrj1018/OI/lemon.png'/>
+      </div>
+    
+    
+      <div class='text'>
+        
+          <h2>Sweetlemon</h2>
+        
+        
+          <p>一枚有趣的 OIer！</p>
+
+        
+        
+      </div>
+    
+    
+      <div class="social-wrapper">
+        
+          
+            <a href="mailto:mrj1018@163.com"
+              class="social fas fa-envelope flat-btn"
+              target="_blank"
+              rel="external nofollow noopener noreferrer">
+            </a>
+          
+        
+          
+            <a href="https://github.com/mrj1018"
+              class="social fab fa-github flat-btn"
+              target="_blank"
+              rel="external nofollow noopener noreferrer">
+            </a>
+          
+        
+          
+            <a href="https://www.luogu.com.cn/user/25008"
+              class="social fas fa-code flat-btn"
+              target="_blank"
+              rel="external nofollow noopener noreferrer">
+            </a>
+          
+        
+      </div>
+    
+  </div>
+</section>
+
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        
+
+<section class="widget grid  widget-blur desktop mobile">
+  
+  <header>
+    
+      <i class="fas fa-map-signs fa-fw" aria-hidden="true"></i><span class='name'>博客导航</span>
+    
+  </header>
+
+
+  <div class='content'>
+    <ul class="grid navigation">
+      
+        <li><a class="flat-box" title="/" href="/"
+          
+          
+          id="home">
+          
+            <i class="fas fa-home fa-fw" aria-hidden="true"></i>
+          
+          博客主页
+        </a></li>
+      
+        <li><a class="flat-box" title="/categories/" href="/categories/"
+          
+          
+          id="categories">
+          
+            <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
+          
+          文章分类
+        </a></li>
+      
+        <li><a class="flat-box" title="/archives/" href="/archives/"
+          
+          
+          id="archives">
+          
+            <i class="fas fa-archive fa-fw" aria-hidden="true"></i>
+          
+          文章归档
+        </a></li>
+      
+        <li><a class="flat-box" title="/friends/" href="/friends/"
+          
+          
+          id="friends">
+          
+            <i class="fas fa-users fa-fw" aria-hidden="true"></i>
+          
+          博客友链
+        </a></li>
+      
+        <li><a class="flat-box" title="/comments/" href="/comments/"
+          
+          
+          id="comments">
+          
+            <i class="fas fa-comments fa-fw" aria-hidden="true"></i>
+          
+          留言评论
+        </a></li>
+      
+        <li><a class="flat-box" title="/about/" href="/about/"
+          
+          
+          id="about">
+          
+            <i class="fas fa-info-circle fa-fw" aria-hidden="true"></i>
+          
+          关于博主
+        </a></li>
+      
+    </ul>
+  </div>
+</section>
+
+      
+    
+      
+    
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        
+
+<section class="widget grid  widget-blur desktop mobile">
+  
+  <header>
+    
+      <a href='/useful-links/'><i class="fas fa-link fa-fw" aria-hidden="true"></i><span class='name'>常用站导航</span></a>
+    
+  </header>
+
+
+  <div class='content'>
+    <ul class="grid navigation">
+      
+        <li><a class="flat-box" title="https://oi-wiki.org/" href="https://oi-wiki.org/"
+          
+            rel="external nofollow noopener noreferrer"
+          
+          
+            target="_blank"
+          
+          id="https:oi-wiki.org">
+          
+            <i class="fab fa-wikipedia-w fa-fw" aria-hidden="true"></i>
+          
+          OI Wiki
+        </a></li>
+      
+        <li><a class="flat-box" title="https://www.luogu.com.cn/" href="https://www.luogu.com.cn/"
+          
+            rel="external nofollow noopener noreferrer"
+          
+          
+            target="_blank"
+          
+          id="https:www.luogu.com.cn">
+          
+            <i class="fas fa-code fa-fw" aria-hidden="true"></i>
+          
+          洛谷
+        </a></li>
+      
+        <li><a class="flat-box" title="https://www.codeforces.com/" href="https://www.codeforces.com/"
+          
+            rel="external nofollow noopener noreferrer"
+          
+          
+            target="_blank"
+          
+          id="https:www.codeforces.com">
+          
+            <i class="fas fa-code fa-fw" aria-hidden="true"></i>
+          
+          Codeforces
+        </a></li>
+      
+        <li><a class="flat-box" title="http://uoj.ac/" href="http://uoj.ac/"
+          
+            rel="external nofollow noopener noreferrer"
+          
+          
+            target="_blank"
+          
+          id="http:uoj.ac">
+          
+            <i class="fas fa-code fa-fw" aria-hidden="true"></i>
+          
+          UOJ
+        </a></li>
+      
+        <li><a class="flat-box" title="https://loj.ac/" href="https://loj.ac/"
+          
+            rel="external nofollow noopener noreferrer"
+          
+          
+            target="_blank"
+          
+          id="https:loj.ac">
+          
+            <i class="fas fa-code fa-fw" aria-hidden="true"></i>
+          
+          LOJ
+        </a></li>
+      
+        <li><a class="flat-box" title="http://www.noi.cn/" href="http://www.noi.cn/"
+          
+            rel="external nofollow noopener noreferrer"
+          
+          
+            target="_blank"
+          
+          id="http:www.noi.cn">
+          
+            <i class="fa fa-code fa-fw" aria-hidden="true"></i>
+          
+          CCF NOI
+        </a></li>
+      
+    </ul>
+  </div>
+</section>
+
+      
+    
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+    
+      
+    
+      
+    
+      
+    
+      
+        
+  
+
+  <section class="widget tagcloud  widget-blur desktop">
+    
+  <header>
+    
+      <a href='/tags/'><i class="fas fa-tags fa-fw" aria-hidden="true"></i><span class='name'>热门标签</span></a>
+    
+  </header>
+
+
+    <div class='content'>
+      <a href="/tags/THUWC/" style="font-size: 14px; color: #999">THUWC</a> <a href="/tags/%E4%B8%96%E7%95%8C%E9%97%B4%E7%BB%AA%E8%AE%BA/" style="font-size: 14px; color: #999">世界间绪论</a> <a href="/tags/%E4%B8%96%E7%95%8C%E9%97%B4%E8%AF%84%E8%AE%BA/" style="font-size: 14px; color: #999">世界间评论</a> <a href="/tags/%E4%BD%A0%E7%9A%84%E5%90%8D%E5%AD%97/" style="font-size: 14px; color: #999">你的名字</a> <a href="/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/" style="font-size: 14px; color: #999">动态规划</a> <a href="/tags/%E5%9B%BE%E8%AE%BA/" style="font-size: 14px; color: #999">图论</a> <a href="/tags/%E5%A5%87%E9%97%BB/" style="font-size: 14px; color: #999">奇闻</a> <a href="/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/" style="font-size: 14px; color: #999">字符串</a> <a href="/tags/%E6%90%9C%E7%B4%A2/" style="font-size: 14px; color: #999">搜索</a> <a href="/tags/%E6%95%B0%E5%AD%A6/" style="font-size: 14px; color: #999">数学</a> <a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" style="font-size: 14px; color: #999">数据结构</a> <a href="/tags/%E6%A0%91/" style="font-size: 14px; color: #999">树</a> <a href="/tags/%E7%AC%94%E8%AE%B0/" style="font-size: 24px; color: #555">笔记</a> <a href="/tags/%E8%92%9F%E8%92%BB/" style="font-size: 14px; color: #999">蒟蒻</a> <a href="/tags/%E8%B4%AA%E5%BF%83/" style="font-size: 14px; color: #999">贪心</a> <a href="/tags/%E9%80%80%E5%BD%B9/" style="font-size: 14px; color: #999">退役</a>
+    </div>
+  </section>
+
+
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+    
+      
+    
+      
+        
+
+
+  <section class="widget toc-wrapper  widget-blur desktop mobile">
+    
+  <header>
+    
+      <i class="fas fa-list fa-fw" aria-hidden="true"></i><span class='name'>本文目录</span>
+    
+  </header>
+
+
+    <div class='content'>
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#贪心"><span class="toc-text">贪心</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#简单贪心"><span class="toc-text">简单贪心</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#排队接水"><span class="toc-text">排队接水</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#区间选取"><span class="toc-text">区间选取</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#选点覆盖区间"><span class="toc-text">选点覆盖区间</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#删数字"><span class="toc-text">删数字</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#数位乘积"><span class="toc-text">数位乘积</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#进阶贪心"><span class="toc-text">进阶贪心</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#均分纸牌"><span class="toc-text">均分纸牌</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#环形均分纸牌"><span class="toc-text">环形均分纸牌</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#合并果子"><span class="toc-text">合并果子</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#ONTAK-2010-Creative-Accounting"><span class="toc-text">ONTAK 2010 Creative Accounting</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#反悔型贪心专题"><span class="toc-text">反悔型贪心专题</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#概述"><span class="toc-text">概述</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#EXPEDI-Expedition"><span class="toc-text">EXPEDI - Expedition</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#数据备份"><span class="toc-text">数据备份</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Cow-Coupons"><span class="toc-text">Cow Coupons</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#动态规划"><span class="toc-text">动态规划</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#递推与动态规划"><span class="toc-text">递推与动态规划</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#动态规划的使用条件"><span class="toc-text">动态规划的使用条件</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#最优子结构"><span class="toc-text">最优子结构</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#无后效性"><span class="toc-text">无后效性</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#动态规划的一般做题方法"><span class="toc-text">动态规划的一般做题方法</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#动态规划的分类"><span class="toc-text">动态规划的分类</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#线型动规"><span class="toc-text">线型动规</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#背包问题"><span class="toc-text">背包问题</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#区间动规"><span class="toc-text">区间动规</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#石子合并"><span class="toc-text">石子合并</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#环形石子合并"><span class="toc-text">环形石子合并</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#能量项链"><span class="toc-text">能量项链</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#CQOI-2007-涂色"><span class="toc-text">[CQOI 2007] 涂色</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#树形动规"><span class="toc-text">树形动规</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#没有上司的舞会"><span class="toc-text">没有上司的舞会</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#骑士"><span class="toc-text">骑士</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#POI-2008-STA"><span class="toc-text">POI 2008 STA</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#USACO-2008-Jan-手机网络"><span class="toc-text">USACO 2008 Jan 手机网络</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#DAG-动规"><span class="toc-text">DAG 动规</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#HAOI-2016-食物链"><span class="toc-text">HAOI 2016 食物链</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#状压动规"><span class="toc-text">状压动规</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#疾病管理"><span class="toc-text">疾病管理</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#混乱的奶牛"><span class="toc-text">混乱的奶牛</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#送外卖"><span class="toc-text">送外卖</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#互不侵犯"><span class="toc-text">互不侵犯</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#概率动规"><span class="toc-text">概率动规</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#SGU495-Kids-and-Prizes"><span class="toc-text">SGU495 Kids and Prizes</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#记忆化搜索"><span class="toc-text">记忆化搜索</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#经典动规算法"><span class="toc-text">经典动规算法</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Floyd"><span class="toc-text">Floyd</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#动态规划的优化"><span class="toc-text">动态规划的优化</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#琪露诺"><span class="toc-text">琪露诺</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#LIS"><span class="toc-text">LIS</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#动态规划的-NOIP-例题"><span class="toc-text">动态规划的 NOIP 例题</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#加分二叉树"><span class="toc-text">加分二叉树</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#合唱队形"><span class="toc-text">合唱队形</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#过河"><span class="toc-text">过河</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#金明的预算方案"><span class="toc-text">金明的预算方案</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#传纸条"><span class="toc-text">传纸条</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#乌龟棋"><span class="toc-text">乌龟棋</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#花匠"><span class="toc-text">花匠</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#动态规划的高级应用"><span class="toc-text">动态规划的高级应用</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#最大半连通子图-Part"><span class="toc-text">最大半连通子图 (Part)</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Treats-for-the-Cows"><span class="toc-text">Treats for the Cows</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Round-Subset"><span class="toc-text">Round Subset</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#New-Year-Santa-Network"><span class="toc-text">New Year Santa Network</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#树上染色"><span class="toc-text">树上染色</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Outer-Space-Invaders"><span class="toc-text">Outer Space Invaders</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Problem-a"><span class="toc-text">Problem a</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#庆典"><span class="toc-text">庆典</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#集合选数"><span class="toc-text">集合选数</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Eden-的新背包问题"><span class="toc-text">Eden 的新背包问题</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Hotel"><span class="toc-text">Hotel</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Osu-Easy"><span class="toc-text">Osu! Easy</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Vasya-and-Binary-String"><span class="toc-text">Vasya and Binary String</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#POI2004-PRZ"><span class="toc-text">POI2004 PRZ</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#BZOJ3791-作业"><span class="toc-text">BZOJ3791 作业</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#百度之星-最强密码"><span class="toc-text">百度之星 最强密码</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#The-Minima-Game"><span class="toc-text">The Minima Game</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Treasure-Chest"><span class="toc-text">Treasure Chest</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#花仙子的魔法"><span class="toc-text">花仙子的魔法</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#严格-n-元树"><span class="toc-text">严格 $n$ 元树</span></a></li></ol></li></ol></li></ol>
+    </div>
+  </section>
+
+
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+</aside>
+
+<footer class="clearfix ">
+  <br><br>
+  
+    <div class="social-wrapper">
+      
+        
+          <a href="mailto:mrj1018@163.com"
+            class="social fas fa-envelope flat-btn"
+            target="_blank"
+            rel="external nofollow noopener noreferrer">
+          </a>
+        
+      
+        
+          <a href="https://github.com/mrj1018"
+            class="social fab fa-github flat-btn"
+            target="_blank"
+            rel="external nofollow noopener noreferrer">
+          </a>
+        
+      
+        
+          <a href="https://www.luogu.com.cn/user/25008"
+            class="social fas fa-code flat-btn"
+            target="_blank"
+            rel="external nofollow noopener noreferrer">
+          </a>
+        
+      
+    </div>
+  
+  
+    <br>
+    <div class="aplayer-container">
+      
+
+  
+    <meting-js
+      theme='#1BCDFC'
+      autoplay='false'
+      volume='0.7'
+      loop='all'
+      order='list'
+      fixed='false'
+      list-max-height='340px'
+      server='netease'
+      type='song'
+      id='551339691'
+      list-folded='true'>
+    </meting-js>
+  
+
+
+    </div>
+  
+  <br>
+  <div><p>博客内容遵循 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="noopener">署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0) 协议</a></p>
+</div>
+  <div>
+    本站使用
+    <a href="https://volantis.js.org/" target="_blank" class="codename">Volantis</a>
+    作为主题
+    
+    。
+  </div>
+  
+    <div class='copyright'>
+    <p>By Sweetlemon.</p>
+
+    </div>
+  
+</footer>
+<script>setLoadingBarProgress(80);</script>
+
+
+      <script>setLoadingBarProgress(60);</script>
+    </div>
+    <a class="s-top fas fa-arrow-up fa-fw" href='javascript:void(0)'></a>
+  </div>
+  
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+
+
+  <script>
+    
+    var SEARCH_SERVICE = "hexo" || "hexo";
+    var ROOT = "/" || "/";
+    if (!ROOT.endsWith('/')) ROOT += '/';
+  </script>
+
+
+  <script async src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@1.6.3/js/instant_page.js" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
+
+
+  <script async src="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js"></script>
+  <script async src="https://cdn.jsdelivr.net/npm/meting@2.0/dist/Meting.min.js"></script>
+
+
+
+  
+<script src="https://cdn.jsdelivr.net/npm/node-waves@0.7.6/dist/waves.min.js" async></script>
+
+  <script type="text/javascript">
+    $(function() {
+      Waves.attach('.flat-btn', ['waves-button']);
+      Waves.attach('.float-btn', ['waves-button', 'waves-float']);
+      Waves.attach('.float-btn-light', ['waves-button', 'waves-float', 'waves-light']);
+      Waves.attach('.flat-box', ['waves-block']);
+      Waves.attach('.float-box', ['waves-block', 'waves-float']);
+      Waves.attach('.waves-image');
+      Waves.init();
+    });
+  </script>
+
+
+
+
+  
+  
+  
+    
+<script src="//cdn.jsdelivr.net/npm/jquery-backstretch@2.1.18/jquery.backstretch.min.js"></script>
+
+    <script type="text/javascript">
+      $(function(){
+        function shuffle(arr){
+          /*From countercurrent-time*/
+          var n = arr.length;
+          while(n--) {
+            var index = Math.floor(Math.random() * n);
+            var temp = arr[index];
+            arr[index] = arr[n];
+            arr[n] = temp;
+          }
+        }
+        var image_array=["https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/vc_247324.jpg", "https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/violet_259998.jpg", "https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/sukasuka__07.jpg", "https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/sukasuka__06.jpg", "https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/sukasuka__03.jpg", "https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/your_name_233767.jpg", "https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/sukasuka__05.jpg", "https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/kagerou_183538.jpg", "https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/miku_262935.jpg", "https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/sukasuka__01.jpg", "https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/tianyi_221481.jpg", "https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/miku_289028.jpg", "https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/kagerou_184531.jpg", "https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/ia_292142.jpg", "https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/vc_184412.jpg", "https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/tianyi_229042.jpg", "https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/sukasuka__02.jpg", "https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/miku_288524.jpg", "https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/sukasuka__04.jpg", "https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/anohana_172855.jpg", "https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/miku_279631.jpg", "https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/sukasuka__08.jpg", "https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/kagerou_191672.jpg", "https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/violet_261791.jpg"];
+        shuffle(image_array);
+        if ('') {
+          $('').backstretch(
+            image_array,
+          {
+            duration: "20000",
+            fade: "2500"
+          });
+        } else {
+          $.backstretch(
+            image_array,
+          {
+            duration: "20000",
+            fade: "2500"
+          });
+        }
+      });
+    </script>
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+<script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@1.6.3/js/app.js"></script>
+
+
+
+  
+<script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@1.6.3/js/search.js"></script>
+
+
+
+  
+<script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@1.6.3/js/comment_typing.js"></script>
+
+
+
+<!-- 复制 -->
+
+  <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
+<script>
+  let COPY_SUCCESS = "复制成功";
+  let COPY_FAILURE = "复制失败";
+  /*页面载入完成后，创建复制按钮*/
+  !function (e, t, a) {
+    /* code */
+    var initCopyCode = function(){
+      var copyHtml = '';
+      copyHtml += '<button class="btn-copy" data-clipboard-snippet="">';
+      copyHtml += '  <i class="fa fa-copy"></i><span>复制</span>';
+      copyHtml += '</button>';
+      $(".highlight .code pre").before(copyHtml);
+      var clipboard = new ClipboardJS('.btn-copy', {
+        target: function(trigger) {
+          return trigger.nextElementSibling;
+        }
+      });
+
+      clipboard.on('success', function(e) {
+        //您可以加入成功提示
+        console.info('Action:', e.action);
+        console.info('Text:', e.text);
+        console.info('Trigger:', e.trigger);
+        success_prompt(COPY_SUCCESS);
+        e.clearSelection();
+      });
+      clipboard.on('error', function(e) {
+        //您可以加入失败提示
+        console.error('Action:', e.action);
+        console.error('Trigger:', e.trigger);
+        fail_prompt(COPY_FAILURE);
+      });
+    }
+    initCopyCode();
+
+  }(window, document);
+
+  /**
+   * 弹出式提示框，默认1.5秒自动消失
+   * @param message 提示信息
+   * @param style 提示样式，有alert-success、alert-danger、alert-warning、alert-info
+   * @param time 消失时间
+   */
+  var prompt = function (message, style, time)
+  {
+      style = (style === undefined) ? 'alert-success' : style;
+      time = (time === undefined) ? 1500 : time*1000;
+      $('<div>')
+          .appendTo('body')
+          .addClass('alert ' + style)
+          .html(message)
+          .show()
+          .delay(time)
+          .fadeOut();
+  };
+
+  // 成功提示
+  var success_prompt = function(message, time)
+  {
+      prompt(message, 'alert-success', time);
+  };
+
+  // 失败提示
+  var fail_prompt = function(message, time)
+  {
+      prompt(message, 'alert-danger', time);
+  };
+
+  // 提醒
+  var warning_prompt = function(message, time)
+  {
+      prompt(message, 'alert-warning', time);
+  };
+
+  // 信息提示
+  var info_prompt = function(message, time)
+  {
+      prompt(message, 'alert-info', time);
+  };
+
+</script>
+
+
+
+
+<!-- fancybox -->
+
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<script>
+  let LAZY_LOAD_IMAGE = "";
+  $(".article-entry").find("fancybox").find("img").each(function () {
+      var element = document.createElement("a");
+      $(element).attr("data-fancybox", "gallery");
+      $(element).attr("href", $(this).attr("src"));
+      /* 图片采用懒加载处理时,
+       * 一般图片标签内会有个属性名来存放图片的真实地址，比如 data-original,
+       * 那么此处将原本的属性名src替换为对应属性名data-original,
+       * 修改如下
+       */
+       if (LAZY_LOAD_IMAGE) {
+         $(element).attr("href", $(this).attr("data-original"));
+       }
+      $(this).wrap(element);
+  });
+</script>
+
+
+
+
+
+
+  <script>setLoadingBarProgress(100);</script>
+</body>
+</html>

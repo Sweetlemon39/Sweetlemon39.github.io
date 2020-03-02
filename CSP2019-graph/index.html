@@ -1,0 +1,1281 @@
+<!DOCTYPE html>
+<html>
+<head hexo-theme='Volantis' version='1.6.3' docs='https://volantis.js.org/'>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  <title>CSP 2019 集训 图论 | Sweetlemon 的异世界</title>
+  
+  
+
+  
+
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <!-- meta -->
+  
+
+  <!-- link -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.12.1/css/all.min.css">
+  
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+
+  
+  
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-waves@0.7.6/dist/waves.min.css">
+
+  
+
+  
+
+  
+  <link rel="shortcut icon" type='image/x-icon' href="https://cdn.jsdelivr.net/gh/mrj1018/OI/lemon.png">
+  
+
+  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.css">
+  
+
+  
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@1.6.3/css/style.css">
+
+  
+
+  <script>
+    function setLoadingBarProgress(num) {
+      document.getElementById('loading-bar').style.width=num+"%";
+    }
+  </script>
+
+  
+  
+</head>
+
+<body>
+  
+  <div class="cover-wrapper">
+    <cover class='cover post half'>
+      
+        
+  <p class="title ">Sweetlemon 的异世界</p>
+  
+    <p class="subtitle ">原来你也在这里啊</p>
+  
+
+
+  <div class="m_search">
+    <form name="searchform" class="form u-search-form">
+      <i class="icon fas fa-search fa-fw"></i>
+      <input type="text" class="input u-search-input" placeholder="一直在寻找着你的踪迹" />
+    </form>
+  </div>
+
+<div class='menu navigation'>
+  <ul class='h-list'>
+    
+      
+        <li>
+          <a class="nav home "
+            href="/"
+            
+            
+            id="home">
+            <i class='fas fa-home fa-fw'></i>&nbsp;主页
+          </a>
+        </li>
+      
+        <li>
+          <a class="nav home "
+            href="/categories/"
+            
+            
+            id="categories">
+            <i class='fas fa-folder-open fa-fw'></i>&nbsp;分类
+          </a>
+        </li>
+      
+        <li>
+          <a class="nav home "
+            href="/archives/"
+            
+            
+            id="archives">
+            <i class='fas fa-archive fa-fw'></i>&nbsp;归档
+          </a>
+        </li>
+      
+        <li>
+          <a class="nav home "
+            href="/about/"
+            
+            
+            id="about">
+            <i class='fas fa-info-circle fa-fw'></i>&nbsp;关于
+          </a>
+        </li>
+      
+    
+  </ul>
+</div>
+
+      
+    </cover>
+    <header class="l_header nav-blur">
+  <div id="loading-bar-wrapper">
+    <div id="loading-bar"></div>
+  </div>
+	<div class='wrapper'>
+		<div class="nav-main container container--flex">
+      
+        <a class="logo flat-box" target="_self" href='/' >
+          
+            
+              
+              
+                Sweetlemon 的异世界
+              
+            
+          
+        </a>
+      
+
+			<div class='menu navigation'>
+				<ul class='h-list'>
+          
+  					
+  						<li>
+								<a class="nav flat-box" href="/"
+                  
+                  
+                  id="home">
+									<i class='fas fa-home fa-fw'></i>&nbsp;主页
+								</a>
+							</li>
+      			
+  						<li>
+								<a class="nav flat-box" href="/categories/"
+                  
+                  
+                  id="categories">
+									<i class='fas fa-folder-open fa-fw'></i>&nbsp;分类
+								</a>
+							</li>
+      			
+  						<li>
+								<a class="nav flat-box" href="/archives/"
+                  
+                  
+                  id="archives">
+									<i class='fas fa-archive fa-fw'></i>&nbsp;归档
+								</a>
+							</li>
+      			
+  						<li>
+								<a class="nav flat-box" href="/about/"
+                  
+                  
+                  id="about">
+									<i class='fas fa-info-circle fa-fw'></i>&nbsp;关于
+								</a>
+							</li>
+      			
+      		
+				</ul>
+			</div>
+
+      <div class="m_search">
+        <form name="searchform" class="form u-search-form">
+          <i class="icon fas fa-search fa-fw"></i>
+          <input type="text" class="input u-search-input" placeholder="一直在寻找着你" />
+        </form>
+      </div>
+
+			<ul class='switcher h-list'>
+				
+					<li class='s-search'><a class="fas fa-search fa-fw" target="_self" href='javascript:void(0)'></a></li>
+				
+				<li class='s-menu'><a class="fas fa-bars fa-fw" target="_self" href='javascript:void(0)'></a></li>
+			</ul>
+		</div>
+
+		<div class='nav-sub container container--flex'>
+			<a class="logo flat-box"></a>
+			<ul class='switcher h-list'>
+				<li class='s-comment'><a class="flat-btn fas fa-comments fa-fw" target="_self" href='javascript:void(0)'></a></li>
+        
+          <li class='s-toc'><a class="flat-btn fas fa-list fa-fw" target="_self" href='javascript:void(0)'></a></li>
+        
+			</ul>
+		</div>
+	</div>
+</header>
+	<aside class="menu-phone white-box">
+    <header>
+		<nav class="menu navigation">
+      <ul>
+        
+          
+            <li>
+							<a class="nav flat-box" href="/"
+                
+                
+                id="home">
+								<i class='fas fa-home fa-fw'></i>&nbsp;主页
+							</a>
+            </li>
+          
+            <li>
+							<a class="nav flat-box" href="/categories/"
+                
+                
+                id="categories">
+								<i class='fas fa-folder-open fa-fw'></i>&nbsp;分类
+							</a>
+            </li>
+          
+            <li>
+							<a class="nav flat-box" href="/archives/"
+                
+                
+                id="archives">
+								<i class='fas fa-archive fa-fw'></i>&nbsp;归档
+							</a>
+            </li>
+          
+            <li>
+							<a class="nav flat-box" href="/about/"
+                
+                
+                id="about">
+								<i class='fas fa-info-circle fa-fw'></i>&nbsp;关于
+							</a>
+            </li>
+          
+       
+      </ul>
+		</nav>
+    </header>
+	</aside>
+<script>setLoadingBarProgress(40);</script>
+
+  </div>
+
+
+  <div class="l_body">
+    <div class='body-wrapper'>
+      
+
+<div class='l_main'>
+  
+
+  
+    <article id="post" class="post white-box   article-type-post" itemscope itemprop="blogPost">
+      
+
+
+  <section class='meta'>
+    
+    
+    <div class="meta" id="header-meta">
+      
+        
+  
+    <h1 class="title">
+      <a href="/CSP2019-graph/">
+        CSP 2019 集训 图论
+      </a>
+    </h1>
+  
+
+
+      
+      <div class='new-meta-box'>
+        
+          
+        
+          
+            
+<div class='new-meta-item author'>
+  <a href="https://sweetlemon39.github.io/" rel="nofollow">
+    <img src="https://cdn.jsdelivr.net/gh/mrj1018/OI/lemon.png">
+    <p>Sweetlemon</p>
+  </a>
+</div>
+
+          
+        
+          
+            
+  
+  <div class='new-meta-item category'>
+    <a href='/categories/%E5%8D%B3%E6%97%B6%E7%AC%94%E8%AE%B0/' rel="nofollow">
+      <i class="fas fa-folder-open" aria-hidden="true"></i>
+      <p>即时笔记</p>
+    </a>
+  </div>
+
+
+          
+        
+          
+            <div class="new-meta-item date">
+  <a class='notlink'>
+    <i class="fas fa-edit" aria-hidden="true"></i>
+    <p>发布于：2019年11月10日</p>
+  </a>
+</div>
+
+          
+        
+          
+            <div class="new-meta-item date" itemprop="dateUpdated" datetime="2019-11-14T00:00:00+00:00">
+  <a class='notlink'>
+    <i class="fas fa-save" aria-hidden="true"></i>
+    <p>更新于：2019年11月14日</p>
+  </a>
+</div>
+
+          
+        
+          
+            
+
+          
+        
+      </div>
+      
+        <hr>
+      
+    </div>
+  </section>
+
+
+      <section class="article typo">
+        <div class="article-entry" itemprop="articleBody">
+          
+          <h2 id="图论"><a href="#图论" class="headerlink" title="图论"></a>图论</h2><a id="more"></a>
+
+<h3 id="NOIP-欢乐-赛"><a href="#NOIP-欢乐-赛" class="headerlink" title="NOIP 欢乐 赛"></a><del>NOIP</del> <del>欢乐</del> 赛</h3><h4 id="和"><a href="#和" class="headerlink" title="和"></a>和</h4><p>注意到模意义下有乘法群，因此 $n$ 的范围可以放到 $m$。</p>
+<p>如果直接暴力当然是可以拿到 80 分，但是带个 $\log 10^{18}$ 肯定不能过 $3\times 10^6$。</p>
+<p>于是这里有一个把指数变小的小优化——扩展欧拉定理。</p>
+<p>$a^{b}\equiv \begin{cases}\begin{align} &amp;a^{b% \varphi (p)}, &amp; a\perp p \ &amp;a^{b},&amp;\gcd(a,p)&gt;1,b&lt;\varphi(p)\ &amp;a^{b%\varphi(p)+\varphi(p)},&amp;\gcd(a,p)&gt;1,b\ge \varphi(p)  \end{align}\end{cases}$</p>
+<p>总之就是如果 $b\ge\varphi(p)$，$a^b\equiv a^{b% \varphi (p)+\varphi (p)}$。</p>
+<p>为什么呢？</p>
+<p>证明有一定的难度，就先咕咕。可以参考<a href="https://www.cnblogs.com/yifusuyi/p/9997009.html" target="_blank" rel="noopener">这篇文章</a>。</p>
+<p>可是 $\log k$ 和 $\log m$ 其实差距不大。因此该 T 还是 T。</p>
+<p>怎么办呢？</p>
+<p>考虑我们是怎么计算 $\varphi,\mu$ 这些函数的？它们是积性函数，因此我们可以用线性筛计算。</p>
+<p>这里也是一样。我们对于每一个质数调用线性筛计算 $p^b$，对于合数直接根据已经算好的 $p^b$ 得到 $a^b$。这样的时间复杂度就是 $O(n+\log n\log m)$，可以通过本题。</p>
+<h4 id="三角形"><a href="#三角形" class="headerlink" title="三角形"></a>三角形</h4><p>三元环计数题啊……</p>
+<p>正统的三元环计数方法是由度数大的点向度数小的点连边（反之亦可，度数相等的点按编号顺序）。然后对于每一个点 $x$，标记它所有（出边的）邻点 $u$，标记完成后再从每一个邻点 $u$ 遍历它的所有邻点 $v$，如果 $v$ 也是 $u$ 的邻点（也就是被 $u$ 标记过），那么就找到了一个三元环。</p>
+<p>关于时间复杂度，考虑把上面两步（从 $x$ 出发的遍历和从 $u$ 出发的便利）分开计算。第一步的时间复杂度是 $O(n+m)$，第二步则比较玄学，是 $O(n\sqrt{m})$ 一类的（假设 $n,m$ 同阶）。</p>
+<p>如何计算补图中三角形的数目呢？</p>
+<p>考虑原图中的所有三点组，这些三点组之间可能有 $0,1,2,3$ 条边。并且式子 $m(n-2)$ 就把所有的一边组计数 $1$ 次、二边组计数 $2$ 次、三边组计数 $3$ 次。在上述找三元环的过程中很容易计算出一边组和三边组的数量，再算出二边组的数量，用总的三点组数减去一、二、三边组的数量就可以得到补图中的三元环数了。</p>
+<p>这种题……如果不知道算法的话就多多暴力吧。</p>
+<h4 id="数"><a href="#数" class="headerlink" title="数"></a>数</h4><p>谁知道这题暴搜能过啊？</p>
+<h3 id="最短路"><a href="#最短路" class="headerlink" title="最短路"></a>最短路</h3><h4 id="Greg-and-Graph"><a href="#Greg-and-Graph" class="headerlink" title="Greg and Graph"></a>Greg and Graph</h4><p>所有的删东西都是不好做的，因此只要题目允许，直接离线倒过来做。</p>
+<p>加点？$n\le 500$？直接 Floyd 就可以了。</p>
+<p>如果要加边，似乎是 SPFA？虽然正解似乎是动态树就是了。</p>
+<h4 id="社交网络"><a href="#社交网络" class="headerlink" title="社交网络"></a>社交网络</h4><p>$n\le 100$ 的最短路？直接 Floyd 更新一下方案数。</p>
+<h4 id="权值变换"><a href="#权值变换" class="headerlink" title="权值变换"></a>权值变换</h4><p>$f(x)=-\frac{1}{x-1},\ f(f(x))=1-\frac{1}{x}$。好像没有什么希望？</p>
+<p>再算下去就可以了，$f(f(f(x)))=x$！</p>
+<p>由于三次就循环了，所以只需要扩充状态，记录当前走的步数模 $3$ 即可。</p>
+<h3 id="欧拉路和欧拉回路"><a href="#欧拉路和欧拉回路" class="headerlink" title="欧拉路和欧拉回路"></a>欧拉路和欧拉回路</h3><h4 id="SGU101"><a href="#SGU101" class="headerlink" title="SGU101"></a>SGU101</h4><p>这道题怎么好像是见过的样子……？</p>
+<p>如果把骨牌当做点，相同的数字当做边，然后……边数怎么好像很大的样子？而且我们要求的是一条恰好所有点且不重复的路径，这是……哈密顿路径？NPC 啊。</p>
+<p>这里有更好的方法！</p>
+<p>把数字当做点，骨牌当做边，就变成欧拉路径了。</p>
+<h4 id="POI-Garbage"><a href="#POI-Garbage" class="headerlink" title="POI Garbage"></a>POI Garbage</h4><p>这里有一个神奇的地方，存在一种方案，使得每一条边都只被操作奇数次，因为考虑两个有交的操作环（桥环），他们的公共边会被操作两次；但是如果我们观察实际操作一次的边，就会发现这些边是两个环的异或，并且恰好形成了一个大环；于是这样的操作可以被替换为“操作一个大环”。</p>
+<h3 id="DAG"><a href="#DAG" class="headerlink" title="DAG"></a>DAG</h3><h4 id="经典题"><a href="#经典题" class="headerlink" title="经典题"></a>经典题</h4><p>求 DAG 上 $1$ 到 $n$ 路径的必经点。</p>
+<p>考虑路径计数，如果 $1\rightarrow u$ 的路径数和 $u\rightarrow n$ 的路径数之积等于 $1\rightarrow n$ 的路径数，就说明 $u$ 是必经点。</p>
+<h4 id="菜肴制作"><a href="#菜肴制作" class="headerlink" title="菜肴制作"></a>菜肴制作</h4><p>求（置换群意义下）逆元的字典序最小的拓扑序。也就是在 $1$ 的位置尽量靠前的前提下，让 $2$ 的位置尽量靠前；……；在 $1,2,\cdots,k$ 的位置尽量靠前的前提下，让 $k+1$ 的位置尽量靠前；……</p>
+<p>事实上这里有一个<del>很巧妙的</del>转化：取反图，在反图上跑字典序最大的拓扑序，再反过来就可以了。</p>
+<p>这怎么证明呢？其实相当有难度。</p>
+<p>先证明一个小引理：反图的任意拓扑序反过来都是原图的拓扑序。这个根据拓扑序的定义就可以证出来了。</p>
+<p>下面说明这个算法一定会计算出最优解（证明不会证）。在反图上求解的过程中，如果在当前所有可选点中尽量选择大的，那么可以把小的位置留给小的点，并且可选的点的集合会变大；因此从理解上，这样是最优解。</p>
+<h3 id="连通性"><a href="#连通性" class="headerlink" title="连通性"></a>连通性</h3><h4 id="Business"><a href="#Business" class="headerlink" title="Business"></a>Business</h4><p>这是入门经典的题目。我们肯定不会选择割点，接着讨论每一个点双，如果点双的周围有不小于 $2$ 个割点，那么久不需要选；如果只有 $1$ 个割点，那么就要在连通块内部建一个。特别地，如果全图点双连通，需要选 $2$ 个。</p>
+<p>也可以从缩点的角度考虑。</p>
+<h4 id="新年的毒瘤"><a href="#新年的毒瘤" class="headerlink" title="新年的毒瘤"></a>新年的毒瘤</h4><p>根据树的定义——树是 $n$ 个点、$n-1$ 条边的简单无向连通图；因此只要删除一个点后，图仍满足这个性质，那么这个点就是毒瘤节点。只需要考虑非割点的点，去掉之后边数是否符合条件即可。</p>
+<h4 id="CF402E-Strictly-Positive-Matrix"><a href="#CF402E-Strictly-Positive-Matrix" class="headerlink" title="CF402E Strictly Positive Matrix"></a>CF402E Strictly Positive Matrix</h4><p>这题真的很厉害。</p>
+<p>首先由于我们只关心是不是 $0$，因此我们可以把所有的正数变成 $1$，这样这个矩阵就变成了 $01$ 矩阵。</p>
+<p>接下来根据讲课内容，我们要把这个矩阵与图论联系起来。图论……矩阵……</p>
+<p>似乎只有邻接矩阵<del>和基尔霍夫矩阵</del>了。那么邻接矩阵的 $k$ 次幂是什么意思呢？</p>
+<p>先令 $k=2$。那么 $G^2_{i,j}=\sum \limits_{u=1}^{n} G_{i,u}\times G_{u,j}$，由于只关心 $01$，又可以化为 $G^2_{i,j}=\bigcup\limits_{u=1}^{n} G_{i,u}\and G_{u,j}$。发现了什么？和 Floyd 很像吧。这就表示 $i$ 能否途经 $u$ 到达 $j$！</p>
+<p>于是问题就明朗了。$G^k_{i,j}$ 表示是否存在长度为 $k$ 的 $i\rightarrow j$ 路径。因此只要这个图是强连通的，就可以满足要求。由于 $n$ 只有 $2000$，因此每个点搜一遍就好了。</p>
+<p>另外多提一句，如果不改为 $01$ 矩阵，这个 $G^k$ 又是什么意思呢？</p>
+<p>邻接矩阵某一位上的数如果大于 $1$，就说明这两点间有重边。而再看 $G^2_{i,j}=\sum \limits_{u=1}^{n} G_{i,u}\times G_{u,j}$，就会发现…… $G^{2}<em>{i,j}$ 表示长度为 $2$ 的 $i\rightarrow j$ 路径的条数！于是 $G^{k}</em>{i,j}$ 就表示长度为 $k$ 的 $i\rightarrow j$ 路径的条数。</p>
+
+          
+            <br>
+            
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+                  
+
+<section class="widget copyright  widget-blur desktop mobile">
+  <div class='content'>
+    
+      <blockquote>
+        
+          
+            <p>转载请标明出处，本文链接：<a href=https://sweetlemon39.github.io/CSP2019-graph/>https://sweetlemon39.github.io/CSP2019-graph/</a></p>
+          
+        
+      </blockquote>
+    
+  </div>
+</section>
+
+                
+              
+                
+              
+                
+              
+                
+              
+            
+          
+        </div>
+        
+          <br>
+          
+
+
+  <section class='meta' id="footer-meta">
+    <div class='new-meta-box'>
+      
+        
+          
+  
+  <div class="new-meta-item meta-tags"><a class="tag" href="/tags/%E7%AC%94%E8%AE%B0/" rel="nofollow"><i class="fas fa-tag" aria-hidden="true"></i><p>笔记</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/tags/%E5%9B%BE%E8%AE%BA/" rel="nofollow"><i class="fas fa-tag" aria-hidden="true"></i><p>图论</p></a></div>
+
+
+        
+      
+    </div>
+  </section>
+
+
+        
+        
+            <div class="prev-next">
+                
+                    <section class="prev">
+                        <span class="art-item-left">
+                            <h6><i class="fas fa-chevron-left" aria-hidden="true"></i>&nbsp;上一页</h6>
+                            <h4>
+                                <a href="/CSP2019-greedy-and-dp/" rel="prev" title="CSP 2019 集训 贪心和动态规划">
+                                  
+                                      CSP 2019 集训 贪心和动态规划
+                                  
+                                </a>
+                            </h4>
+                            
+                                
+                                <h6 class="tags">
+                                    <a class="tag" href="/tags/%E7%AC%94%E8%AE%B0/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> 笔记</a> <a class="tag" href="/tags/%E8%B4%AA%E5%BF%83/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> 贪心</a> <a class="tag" href="/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> 动态规划</a>
+                                </h6>
+                            
+                        </span>
+                    </section>
+                
+                
+                    <section class="next">
+                        <span class="art-item-right" aria-hidden="true">
+                            <h6>下一页&nbsp;<i class="fas fa-chevron-right" aria-hidden="true"></i></h6>
+                            <h4>
+                                <a href="/CSP2019-string-and-tree/" rel="prev" title="CSP 2019 集训 字符串和树">
+                                    
+                                        CSP 2019 集训 字符串和树
+                                    
+                                </a>
+                            </h4>
+                            
+                                
+                                <h6 class="tags">
+                                    <a class="tag" href="/tags/%E7%AC%94%E8%AE%B0/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> 笔记</a> <a class="tag" href="/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> 字符串</a> <a class="tag" href="/tags/%E6%A0%91/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> 树</a>
+                                </h6>
+                            
+                        </span>
+                    </section>
+                
+            </div>
+        
+      </section>
+    </article>
+  
+
+  
+    <!-- 显示推荐文章和评论 -->
+
+
+
+  
+
+
+  
+
+
+
+
+<!-- 根据页面mathjax变量决定是否加载MathJax数学公式js -->
+
+  <!-- MathJax配置，可通过单美元符号书写行内公式等 -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    "HTML-CSS": {
+      preferredFont: "TeX",
+      availableFonts: ["STIX","TeX"],
+      linebreaks: { automatic:true },
+      EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50)
+    },
+    tex2jax: {
+      inlineMath: [ ["$", "$"], ["\\(","\\)"] ],
+      processEscapes: true,
+      ignoreClass: "tex2jax_ignore|dno",
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    },
+    TeX: {
+      equationNumbers: { autoNumber: "AMS" },
+      noUndefined: { attributes: { mathcolor: "red", mathbackground: "#FFEEEE", mathsize: "90%" } },
+      Macros: { href: "{}" }
+    },
+    messageStyle: "none"
+  });
+</script>
+<!-- 给MathJax元素添加has-jax class -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += (all[i].SourceElement().parentNode.className ? ' ' : '') + 'has-jax';
+    }
+  });
+</script>
+<!-- 通过连接CDN加载MathJax的js代码 -->
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+
+
+  <script>
+    window.subData = {
+      title: 'CSP 2019 集训 图论',
+      tools: true
+    }
+  </script>
+
+
+</div>
+<aside class='l_side'>
+  
+    
+      
+        
+
+<section class="widget blogger  widget-blur desktop">
+  <div class='content'>
+    
+      <div class='avatar'>
+        <img class='avatar' src='https://cdn.jsdelivr.net/gh/mrj1018/OI/lemon.png'/>
+      </div>
+    
+    
+      <div class='text'>
+        
+          <h2>Sweetlemon</h2>
+        
+        
+          <p>一枚有趣的 OIer！</p>
+
+        
+        
+      </div>
+    
+    
+      <div class="social-wrapper">
+        
+          
+            <a href="mailto:mrj1018@163.com"
+              class="social fas fa-envelope flat-btn"
+              target="_blank"
+              rel="external nofollow noopener noreferrer">
+            </a>
+          
+        
+          
+            <a href="https://github.com/mrj1018"
+              class="social fab fa-github flat-btn"
+              target="_blank"
+              rel="external nofollow noopener noreferrer">
+            </a>
+          
+        
+          
+            <a href="https://www.luogu.com.cn/user/25008"
+              class="social fas fa-code flat-btn"
+              target="_blank"
+              rel="external nofollow noopener noreferrer">
+            </a>
+          
+        
+      </div>
+    
+  </div>
+</section>
+
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        
+
+<section class="widget grid  widget-blur desktop mobile">
+  
+  <header>
+    
+      <i class="fas fa-map-signs fa-fw" aria-hidden="true"></i><span class='name'>博客导航</span>
+    
+  </header>
+
+
+  <div class='content'>
+    <ul class="grid navigation">
+      
+        <li><a class="flat-box" title="/" href="/"
+          
+          
+          id="home">
+          
+            <i class="fas fa-home fa-fw" aria-hidden="true"></i>
+          
+          博客主页
+        </a></li>
+      
+        <li><a class="flat-box" title="/categories/" href="/categories/"
+          
+          
+          id="categories">
+          
+            <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
+          
+          文章分类
+        </a></li>
+      
+        <li><a class="flat-box" title="/archives/" href="/archives/"
+          
+          
+          id="archives">
+          
+            <i class="fas fa-archive fa-fw" aria-hidden="true"></i>
+          
+          文章归档
+        </a></li>
+      
+        <li><a class="flat-box" title="/friends/" href="/friends/"
+          
+          
+          id="friends">
+          
+            <i class="fas fa-users fa-fw" aria-hidden="true"></i>
+          
+          博客友链
+        </a></li>
+      
+        <li><a class="flat-box" title="/comments/" href="/comments/"
+          
+          
+          id="comments">
+          
+            <i class="fas fa-comments fa-fw" aria-hidden="true"></i>
+          
+          留言评论
+        </a></li>
+      
+        <li><a class="flat-box" title="/about/" href="/about/"
+          
+          
+          id="about">
+          
+            <i class="fas fa-info-circle fa-fw" aria-hidden="true"></i>
+          
+          关于博主
+        </a></li>
+      
+    </ul>
+  </div>
+</section>
+
+      
+    
+      
+    
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        
+
+<section class="widget grid  widget-blur desktop mobile">
+  
+  <header>
+    
+      <a href='/useful-links/'><i class="fas fa-link fa-fw" aria-hidden="true"></i><span class='name'>常用站导航</span></a>
+    
+  </header>
+
+
+  <div class='content'>
+    <ul class="grid navigation">
+      
+        <li><a class="flat-box" title="https://oi-wiki.org/" href="https://oi-wiki.org/"
+          
+            rel="external nofollow noopener noreferrer"
+          
+          
+            target="_blank"
+          
+          id="https:oi-wiki.org">
+          
+            <i class="fab fa-wikipedia-w fa-fw" aria-hidden="true"></i>
+          
+          OI Wiki
+        </a></li>
+      
+        <li><a class="flat-box" title="https://www.luogu.com.cn/" href="https://www.luogu.com.cn/"
+          
+            rel="external nofollow noopener noreferrer"
+          
+          
+            target="_blank"
+          
+          id="https:www.luogu.com.cn">
+          
+            <i class="fas fa-code fa-fw" aria-hidden="true"></i>
+          
+          洛谷
+        </a></li>
+      
+        <li><a class="flat-box" title="https://www.codeforces.com/" href="https://www.codeforces.com/"
+          
+            rel="external nofollow noopener noreferrer"
+          
+          
+            target="_blank"
+          
+          id="https:www.codeforces.com">
+          
+            <i class="fas fa-code fa-fw" aria-hidden="true"></i>
+          
+          Codeforces
+        </a></li>
+      
+        <li><a class="flat-box" title="http://uoj.ac/" href="http://uoj.ac/"
+          
+            rel="external nofollow noopener noreferrer"
+          
+          
+            target="_blank"
+          
+          id="http:uoj.ac">
+          
+            <i class="fas fa-code fa-fw" aria-hidden="true"></i>
+          
+          UOJ
+        </a></li>
+      
+        <li><a class="flat-box" title="https://loj.ac/" href="https://loj.ac/"
+          
+            rel="external nofollow noopener noreferrer"
+          
+          
+            target="_blank"
+          
+          id="https:loj.ac">
+          
+            <i class="fas fa-code fa-fw" aria-hidden="true"></i>
+          
+          LOJ
+        </a></li>
+      
+        <li><a class="flat-box" title="http://www.noi.cn/" href="http://www.noi.cn/"
+          
+            rel="external nofollow noopener noreferrer"
+          
+          
+            target="_blank"
+          
+          id="http:www.noi.cn">
+          
+            <i class="fa fa-code fa-fw" aria-hidden="true"></i>
+          
+          CCF NOI
+        </a></li>
+      
+    </ul>
+  </div>
+</section>
+
+      
+    
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+    
+      
+    
+      
+    
+      
+    
+      
+        
+  
+
+  <section class="widget tagcloud  widget-blur desktop">
+    
+  <header>
+    
+      <a href='/tags/'><i class="fas fa-tags fa-fw" aria-hidden="true"></i><span class='name'>热门标签</span></a>
+    
+  </header>
+
+
+    <div class='content'>
+      <a href="/tags/THUWC/" style="font-size: 14px; color: #999">THUWC</a> <a href="/tags/%E4%B8%96%E7%95%8C%E9%97%B4%E7%BB%AA%E8%AE%BA/" style="font-size: 14px; color: #999">世界间绪论</a> <a href="/tags/%E4%B8%96%E7%95%8C%E9%97%B4%E8%AF%84%E8%AE%BA/" style="font-size: 14px; color: #999">世界间评论</a> <a href="/tags/%E4%BD%A0%E7%9A%84%E5%90%8D%E5%AD%97/" style="font-size: 14px; color: #999">你的名字</a> <a href="/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/" style="font-size: 14px; color: #999">动态规划</a> <a href="/tags/%E5%9B%BE%E8%AE%BA/" style="font-size: 14px; color: #999">图论</a> <a href="/tags/%E5%A5%87%E9%97%BB/" style="font-size: 14px; color: #999">奇闻</a> <a href="/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/" style="font-size: 14px; color: #999">字符串</a> <a href="/tags/%E6%90%9C%E7%B4%A2/" style="font-size: 14px; color: #999">搜索</a> <a href="/tags/%E6%95%B0%E5%AD%A6/" style="font-size: 14px; color: #999">数学</a> <a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" style="font-size: 14px; color: #999">数据结构</a> <a href="/tags/%E6%A0%91/" style="font-size: 14px; color: #999">树</a> <a href="/tags/%E7%AC%94%E8%AE%B0/" style="font-size: 24px; color: #555">笔记</a> <a href="/tags/%E8%92%9F%E8%92%BB/" style="font-size: 14px; color: #999">蒟蒻</a> <a href="/tags/%E8%B4%AA%E5%BF%83/" style="font-size: 14px; color: #999">贪心</a> <a href="/tags/%E9%80%80%E5%BD%B9/" style="font-size: 14px; color: #999">退役</a>
+    </div>
+  </section>
+
+
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+    
+      
+    
+      
+        
+
+
+  <section class="widget toc-wrapper  widget-blur desktop mobile">
+    
+  <header>
+    
+      <i class="fas fa-list fa-fw" aria-hidden="true"></i><span class='name'>本文目录</span>
+    
+  </header>
+
+
+    <div class='content'>
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#图论"><span class="toc-text">图论</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#NOIP-欢乐-赛"><span class="toc-text">NOIP 欢乐 赛</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#和"><span class="toc-text">和</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#三角形"><span class="toc-text">三角形</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#数"><span class="toc-text">数</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#最短路"><span class="toc-text">最短路</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Greg-and-Graph"><span class="toc-text">Greg and Graph</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#社交网络"><span class="toc-text">社交网络</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#权值变换"><span class="toc-text">权值变换</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#欧拉路和欧拉回路"><span class="toc-text">欧拉路和欧拉回路</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#SGU101"><span class="toc-text">SGU101</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#POI-Garbage"><span class="toc-text">POI Garbage</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#DAG"><span class="toc-text">DAG</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#经典题"><span class="toc-text">经典题</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#菜肴制作"><span class="toc-text">菜肴制作</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#连通性"><span class="toc-text">连通性</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Business"><span class="toc-text">Business</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#新年的毒瘤"><span class="toc-text">新年的毒瘤</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#CF402E-Strictly-Positive-Matrix"><span class="toc-text">CF402E Strictly Positive Matrix</span></a></li></ol></li></ol></li></ol>
+    </div>
+  </section>
+
+
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+</aside>
+
+<footer class="clearfix ">
+  <br><br>
+  
+    <div class="social-wrapper">
+      
+        
+          <a href="mailto:mrj1018@163.com"
+            class="social fas fa-envelope flat-btn"
+            target="_blank"
+            rel="external nofollow noopener noreferrer">
+          </a>
+        
+      
+        
+          <a href="https://github.com/mrj1018"
+            class="social fab fa-github flat-btn"
+            target="_blank"
+            rel="external nofollow noopener noreferrer">
+          </a>
+        
+      
+        
+          <a href="https://www.luogu.com.cn/user/25008"
+            class="social fas fa-code flat-btn"
+            target="_blank"
+            rel="external nofollow noopener noreferrer">
+          </a>
+        
+      
+    </div>
+  
+  
+    <br>
+    <div class="aplayer-container">
+      
+
+  
+    <meting-js
+      theme='#1BCDFC'
+      autoplay='false'
+      volume='0.7'
+      loop='all'
+      order='list'
+      fixed='false'
+      list-max-height='340px'
+      server='netease'
+      type='song'
+      id='551339691'
+      list-folded='true'>
+    </meting-js>
+  
+
+
+    </div>
+  
+  <br>
+  <div><p>博客内容遵循 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="noopener">署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0) 协议</a></p>
+</div>
+  <div>
+    本站使用
+    <a href="https://volantis.js.org/" target="_blank" class="codename">Volantis</a>
+    作为主题
+    
+    。
+  </div>
+  
+    <div class='copyright'>
+    <p>By Sweetlemon.</p>
+
+    </div>
+  
+</footer>
+<script>setLoadingBarProgress(80);</script>
+
+
+      <script>setLoadingBarProgress(60);</script>
+    </div>
+    <a class="s-top fas fa-arrow-up fa-fw" href='javascript:void(0)'></a>
+  </div>
+  
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+
+
+  <script>
+    
+    var SEARCH_SERVICE = "hexo" || "hexo";
+    var ROOT = "/" || "/";
+    if (!ROOT.endsWith('/')) ROOT += '/';
+  </script>
+
+
+  <script async src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@1.6.3/js/instant_page.js" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
+
+
+  <script async src="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js"></script>
+  <script async src="https://cdn.jsdelivr.net/npm/meting@2.0/dist/Meting.min.js"></script>
+
+
+
+  
+<script src="https://cdn.jsdelivr.net/npm/node-waves@0.7.6/dist/waves.min.js" async></script>
+
+  <script type="text/javascript">
+    $(function() {
+      Waves.attach('.flat-btn', ['waves-button']);
+      Waves.attach('.float-btn', ['waves-button', 'waves-float']);
+      Waves.attach('.float-btn-light', ['waves-button', 'waves-float', 'waves-light']);
+      Waves.attach('.flat-box', ['waves-block']);
+      Waves.attach('.float-box', ['waves-block', 'waves-float']);
+      Waves.attach('.waves-image');
+      Waves.init();
+    });
+  </script>
+
+
+
+
+  
+  
+  
+    
+<script src="//cdn.jsdelivr.net/npm/jquery-backstretch@2.1.18/jquery.backstretch.min.js"></script>
+
+    <script type="text/javascript">
+      $(function(){
+        function shuffle(arr){
+          /*From countercurrent-time*/
+          var n = arr.length;
+          while(n--) {
+            var index = Math.floor(Math.random() * n);
+            var temp = arr[index];
+            arr[index] = arr[n];
+            arr[n] = temp;
+          }
+        }
+        var image_array=["https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/vc_247324.jpg", "https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/violet_259998.jpg", "https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/sukasuka__07.jpg", "https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/sukasuka__06.jpg", "https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/sukasuka__03.jpg", "https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/your_name_233767.jpg", "https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/sukasuka__05.jpg", "https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/kagerou_183538.jpg", "https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/miku_262935.jpg", "https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/sukasuka__01.jpg", "https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/tianyi_221481.jpg", "https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/miku_289028.jpg", "https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/kagerou_184531.jpg", "https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/ia_292142.jpg", "https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/vc_184412.jpg", "https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/tianyi_229042.jpg", "https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/sukasuka__02.jpg", "https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/miku_288524.jpg", "https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/sukasuka__04.jpg", "https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/anohana_172855.jpg", "https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/miku_279631.jpg", "https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/sukasuka__08.jpg", "https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/kagerou_191672.jpg", "https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/violet_261791.jpg"];
+        shuffle(image_array);
+        if ('') {
+          $('').backstretch(
+            image_array,
+          {
+            duration: "20000",
+            fade: "2500"
+          });
+        } else {
+          $.backstretch(
+            image_array,
+          {
+            duration: "20000",
+            fade: "2500"
+          });
+        }
+      });
+    </script>
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+<script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@1.6.3/js/app.js"></script>
+
+
+
+  
+<script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@1.6.3/js/search.js"></script>
+
+
+
+  
+<script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@1.6.3/js/comment_typing.js"></script>
+
+
+
+<!-- 复制 -->
+
+  <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
+<script>
+  let COPY_SUCCESS = "复制成功";
+  let COPY_FAILURE = "复制失败";
+  /*页面载入完成后，创建复制按钮*/
+  !function (e, t, a) {
+    /* code */
+    var initCopyCode = function(){
+      var copyHtml = '';
+      copyHtml += '<button class="btn-copy" data-clipboard-snippet="">';
+      copyHtml += '  <i class="fa fa-copy"></i><span>复制</span>';
+      copyHtml += '</button>';
+      $(".highlight .code pre").before(copyHtml);
+      var clipboard = new ClipboardJS('.btn-copy', {
+        target: function(trigger) {
+          return trigger.nextElementSibling;
+        }
+      });
+
+      clipboard.on('success', function(e) {
+        //您可以加入成功提示
+        console.info('Action:', e.action);
+        console.info('Text:', e.text);
+        console.info('Trigger:', e.trigger);
+        success_prompt(COPY_SUCCESS);
+        e.clearSelection();
+      });
+      clipboard.on('error', function(e) {
+        //您可以加入失败提示
+        console.error('Action:', e.action);
+        console.error('Trigger:', e.trigger);
+        fail_prompt(COPY_FAILURE);
+      });
+    }
+    initCopyCode();
+
+  }(window, document);
+
+  /**
+   * 弹出式提示框，默认1.5秒自动消失
+   * @param message 提示信息
+   * @param style 提示样式，有alert-success、alert-danger、alert-warning、alert-info
+   * @param time 消失时间
+   */
+  var prompt = function (message, style, time)
+  {
+      style = (style === undefined) ? 'alert-success' : style;
+      time = (time === undefined) ? 1500 : time*1000;
+      $('<div>')
+          .appendTo('body')
+          .addClass('alert ' + style)
+          .html(message)
+          .show()
+          .delay(time)
+          .fadeOut();
+  };
+
+  // 成功提示
+  var success_prompt = function(message, time)
+  {
+      prompt(message, 'alert-success', time);
+  };
+
+  // 失败提示
+  var fail_prompt = function(message, time)
+  {
+      prompt(message, 'alert-danger', time);
+  };
+
+  // 提醒
+  var warning_prompt = function(message, time)
+  {
+      prompt(message, 'alert-warning', time);
+  };
+
+  // 信息提示
+  var info_prompt = function(message, time)
+  {
+      prompt(message, 'alert-info', time);
+  };
+
+</script>
+
+
+
+
+<!-- fancybox -->
+
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<script>
+  let LAZY_LOAD_IMAGE = "";
+  $(".article-entry").find("fancybox").find("img").each(function () {
+      var element = document.createElement("a");
+      $(element).attr("data-fancybox", "gallery");
+      $(element).attr("href", $(this).attr("src"));
+      /* 图片采用懒加载处理时,
+       * 一般图片标签内会有个属性名来存放图片的真实地址，比如 data-original,
+       * 那么此处将原本的属性名src替换为对应属性名data-original,
+       * 修改如下
+       */
+       if (LAZY_LOAD_IMAGE) {
+         $(element).attr("href", $(this).attr("data-original"));
+       }
+      $(this).wrap(element);
+  });
+</script>
+
+
+
+
+
+
+  <script>setLoadingBarProgress(100);</script>
+</body>
+</html>
