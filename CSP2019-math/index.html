@@ -54,7 +54,6 @@
   
   
 </head>
-
 <body>
   
   <div class="cover-wrapper">
@@ -360,7 +359,7 @@
           <h2 id="数学"><a href="#数学" class="headerlink" title="数学"></a>数学</h2><a id="more"></a>
 
 <h3 id="gcd"><a href="#gcd" class="headerlink" title="$\gcd$"></a>$\gcd$</h3><h4 id="定义与证明"><a href="#定义与证明" class="headerlink" title="定义与证明"></a>定义与证明</h4><p>定义：$\gcd(a,b)$ 定义为最大的 $d$，使得 $d\mid a,d\mid b$。</p>
-<p>$\gcd(a,b)=\gcd(b,a%b)$ 的证明：设 $a=bq+r$。</p>
+<p>$\gcd(a,b)=\gcd ( b,a % b )$ 的证明：设 $a=bq+r$。</p>
 <p>假设 $d\mid b$，则可以由上式证明 $d\mid a$ 等价于 $d\mid r$。证毕。</p>
 <h4 id="CQOI-2014-数三角形"><a href="#CQOI-2014-数三角形" class="headerlink" title="CQOI 2014 数三角形"></a>CQOI 2014 数三角形</h4><p>用（简单）容斥原理，用三点组的个数减三点共线情况的个数。</p>
 <p>如何计算三点共线情况的个数呢？</p>
@@ -388,11 +387,11 @@
 <p>第二种利用了阶乘。我们可以在 $O(n)$ 时间内计算出 $1!,2!,\cdots,n!$。接着我们用某一种方法计算出 $(n!)^{-1}$，并递推 $((n-1)!)^{-1}\equiv n\times (n!)^{-1}$。于是 $x^{-1}\equiv (x-1)!\times (x!)^{-1}$。这个方法也许比经典方法快，而且适用于 $p$ 不是质数的情况（但是 $n$ 必须小于 $p$ 的最小质因子）。而且由 $(n!)^{-1}$ 递推 $((n-1)!)^{-1}$ 的方法也可以用于分段打表计算阶乘的逆元。</p>
 <h4 id="计算系数-组合数问题"><a href="#计算系数-组合数问题" class="headerlink" title="计算系数 组合数问题"></a>计算系数 组合数问题</h4><p>这两道题都涉及 $\mathrm{C}$ 的计算。可以灵活地运用定义式和杨辉三角递推式，在合适的场景使用合适的式子简化计算。也就是，如果 $n$ 只有 $2000$，那么使用杨辉三角就足够了。</p>
 <h3 id="中国剩余定理"><a href="#中国剩余定理" class="headerlink" title="中国剩余定理"></a>中国剩余定理</h3><p>如果 $p_1,p_2,\cdots,p_n$ 互质，那么下面方程组</p>
-<p>$$\begin{cases}x\equiv a_1\pmod{p_1}\ x\equiv a_2\pmod{p_2}\x\equiv a_3\pmod{p_3}\\vdots\x\equiv a_n \pmod{p_n}\end{cases}$$</p>
-<p>在 $\mod{p_1p_2\cdots p_n}$ 意义下有唯一解。</p>
+<p>$$\begin{cases}x \equiv a_1\pmod{p_1}\\ x\equiv a_2\pmod{p_2}\\ x\equiv a_3\pmod{p_3}\\ \vdots\\ x \equiv a_n \pmod{p_n}\end{cases}$$</p>
+<p>在 $\mod{p_1 p_2 \cdots p_n}$ 意义下有唯一解。</p>
 <p>如何求这一组解呢？</p>
 <p>这里有一个神奇构造。</p>
-<p>令 $M=\Pi p$，$M_i=\Pi^{i-1}<em>{j=1}p_j\times \Pi^{n}</em>{j=i+1}p_j$，$t_i$ 是 $M_i$ 在 $\mod{p_i}$ 意义下的逆元。那么令 $x=\sum_{i=1}^n a_iM_it_i$ 即可。</p>
+<p>令 $M=\Pi p$，则 $M_i=\Pi^{i-1}<em>{j=1} p_j \times \Pi^{n}</em>{j=i+1} p_j$，于是 $t_i$ 是 $M_i$ 在 $\mod{p_i}$ 意义下的逆元。那么令 $x=\sum_{i=1}^n a_iM_it_i$ 即可。</p>
 <p>如果考场上不记得神奇构造了，那就可以用 $\mathrm{exCRT}$。</p>
 <p>主要应用还是合并同余方程。</p>
 <h3 id="各种筛"><a href="#各种筛" class="headerlink" title="各种筛"></a>各种筛</h3><h4 id="Violet-5-樱花"><a href="#Violet-5-樱花" class="headerlink" title="Violet 5 樱花"></a>Violet 5 樱花</h4><p>求不定方程 $\frac{1}{x}+\frac{1}{y}=\frac{1}{n!}$ 的正整数解数量。</p>
