@@ -1,15 +1,15 @@
 ############################### 主题基本信息 ###############################
 info:
   name: Volantis
-  version: 1.6.3
+  version: 1.7.1
   docs: https://volantis.js.org/
   cdn: # 要使用CDN，请在根目录的config文件中写上 use_cdn: true
     css:
-      style: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@1.6.3/css/style.css
+      style: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@1.7.1/css/style.css
     js:
-      app: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@1.6.3/js/app.js
-      search: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@1.6.3/js/search.js
-      valine: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@1.6.3/js/valine.js
+      app: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@1.7.1/js/app.js
+      search: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@1.7.1/js/search.js
+      valine: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@1.7.1/js/valine.js
 
 
 
@@ -21,7 +21,7 @@ plugins:
   jquery: https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js
   ################################################## 提升速度类的服务
   # 鼠标放在链接上就提前开始加载了 [站内的url一定要以‘/’结尾]
-  instant_page: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@1.6.3/js/instant_page.js
+  instant_page: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@1.7.1/js/instant_page.js
   ################################################## 优化体验类的服务
   # 图片放大预览
   fancybox:
@@ -42,7 +42,7 @@ plugins:
     css: https://cdn.jsdelivr.net/npm/node-waves@0.7.6/dist/waves.min.css
     js: https://cdn.jsdelivr.net/npm/node-waves@0.7.6/dist/waves.min.js
   # 文本框打字机特效
-  comment_typing: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@1.6.3/js/comment_typing.js
+  comment_typing: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@1.7.1/js/comment_typing.js
 
 
 
@@ -190,7 +190,7 @@ layout:
     # 列表中每一篇文章的meta信息
     meta: [title, author, date, updated, top]
     # 列表类页面的侧边栏
-    sidebar: [blogger, navigation, repos]
+    sidebar: [blogger, guide, repos]
   # 文章页面布局
   on_page:
     # 文章页面主体元素，你也可以在页面的Front-matter中设置
@@ -202,9 +202,9 @@ layout:
       header: [title, author, category, date, updated, top]
       footer: [tags]
     # 文章页脚，自动在每一篇文章末尾添加
-    footer: [copyright]
+    footer: #[copyright]
     # 文章页面的侧边栏
-    sidebar: [blogger, navigation, repos, catelogy, tagcloud, toc]
+    sidebar: [blogger, guide, repos, category, tagcloud, toc]
   # 其他的页面布局暂时等于文章列表
 
 
@@ -295,7 +295,7 @@ meta:
 widget:
   # ---------------------------------------
   # 博主信息小部件配置
-  - id: blogger
+  blogger:
     class: blogger
     display: [desktop] # [desktop, mobile]
     avatar: https://cdn.jsdelivr.net/gh/mrj1018/OI/lemon.png
@@ -305,7 +305,7 @@ widget:
     social: true
   # ---------------------------------------
   # 目录小部件配置(仅在文章中有效)
-  - id: toc
+  toc:
     class: toc
     display: [desktop, mobile] # [desktop, mobile]
     header:
@@ -316,7 +316,7 @@ widget:
     max_depth: 5 # 由于宽度有限，主题没有针对所有层级进行布局优化，建议文章最多分为：H2/H3/H4/H5四个层级
   # ---------------------------------------
   # 文章分类小部件配置
-  - id: category
+  category:
     class: category
     display: [desktop] # [desktop, mobile]
     header:
@@ -325,7 +325,7 @@ widget:
       url: /categories/
   # ---------------------------------------
   # 标签云小部件配置
-  - id: tagcloud
+  tagcloud:
     class: tagcloud
     display: [desktop] # [desktop, mobile]
     header:
@@ -339,15 +339,16 @@ widget:
     end_color: '#555'
   # ---------------------------------------
   # 相关文章小部件配置
-  - id: related_posts
+  related_posts:
     class: related_posts # 需要安装插件  npm i -S hexo-related-popular-posts
     display: [desktop, mobile] # [desktop, mobile]
     header:
       icon: fas fa-bookmark
       title: 相关文章
+    max_count: 5
   # ---------------------------------------
   # 版权说明小部件（仅用于文章中）
-  - id: copyright
+  copyright:
     class: copyright
     display: [desktop, mobile] # [desktop, mobile]
     blockquote: true # 是否把内容放到blockquote中
@@ -358,7 +359,7 @@ widget:
       - permalink
   # ---------------------------------------
   # 二维码小部件（可用于文章中的打赏，只显示图片，无其他功能）
-  - id: qrcode
+  qrcode:
     class: qrcode
     display:  #[desktop] # [desktop, mobile]
     header:
@@ -372,7 +373,7 @@ widget:
   # ---------------------------------------
   # ---------------------------------------
   # 自定义组件，仿照如下写法
-  - id: navigation
+  guide:
     class: grid
     display: [desktop, mobile] # [desktop, mobile]
     header:
@@ -402,7 +403,7 @@ widget:
       #   url: https://github.com/xaoxuu/hexo-theme-volantis/
       #   rel: external nofollow noopener noreferrer
       #   target: _blank
-  - id: repos
+  repos:
     class: grid
     display: [desktop, mobile] # [desktop, mobile]
     header:
@@ -449,35 +450,56 @@ widget:
     #   - '[<img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/valuex/logo.png" height="50px">](https://github.com/xaoxuu/ValueX)'
     #   - '[<img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/inspire/logo.png" height="50px">](https://github.com/xaoxuu/Inspire)'
 
+# 网站页脚
+footer:
+  # 网站页脚布局，默认支持 aplayer/social/license/info/copyright
+  layout: [aplayer, social, copyright]
+  # APlayer配置 https://github.com/metowolf/MetingJS
+  aplayer:
+    # 是否启用，注释此项则不加载服务
+    enable: true
+    # 必选参数
+    server: netease   # netease, tencent, kugou, xiami, baidu
+    type: song    # song, playlist, album, search, artist
+    id: 551339691    # song id / playlist id / album id / search keyword
+    # 可选参数
+    fixed: false      # enable fixed mode
+    theme: '#1BCDFC'  # main color
+    autoplay: false   # audio autoplay
+    order: list       # player play order, values: 'list', 'random'
+    loop: all         # player loop play, values: 'all', 'one', 'none'
+    volume: 0.7       # default volume, notice that player will remember user setting, default volume will not work after user set volume themselves
+    list_max_height: 340px # list max height
+    list_folded: true
+  # 社交信息配置
+  social:
+    - icon: fas fa-envelope
+      url: mailto:mrj1018@163.com
+    - icon: fab fa-github
+      url: https://github.com/mrj1018
+    - icon: fas fa-code
+      url: https://www.luogu.com.cn/user/25008
+    #- icon: fas fa-headphones-alt
+    #  url: https://music.163.com/#/user/home?id=63035382
+  copyright: '[By Sweetlemon](https://sweetlemon39.github.io)'
+  # 可自己增加任意属性，支持markdown，例如：br: '<br>'
+  br: '<br>'
 
-# 社交信息配置
-social:
-  - icon: fas fa-envelope
-    url: mailto:mrj1018@163.com
-  - icon: fab fa-github
-    url: https://github.com/mrj1018
-  - icon: fas fa-code
-    url: https://www.luogu.com.cn/user/25008
-  #- icon: fas fa-headphones-alt
-  #  url: https://music.163.com/#/user/home?id=63035382
 
-# APlayer配置 https://github.com/metowolf/MetingJS
-aplayer:
-  # 是否启用，注释此项则不加载服务
-  enable: true
-  # 必选参数
-  server: netease   # netease, tencent, kugou, xiami, baidu
-  type: song    # song, playlist, album, search, artist
-  id: 551339691    # song id / playlist id / album id / search keyword
-  # 可选参数
-  fixed: false      # enable fixed mode
-  theme: '#1BCDFC'  # main color
-  autoplay: false   # audio autoplay
-  order: list       # player play order, values: 'list', 'random'
-  loop: all         # player loop play, values: 'all', 'one', 'none'
-  volume: 0.7       # default volume, notice that player will remember user setting, default volume will not work after user set volume themselves
-  list_max_height: 340px # list max height
-  list_folded: true
+
+seo:
+  # 当文章front-matter中没有keywords时，使用tags作为keywords
+  use_tags_as_keywords: true
+  # 当文章front-matter中没有description时，使用摘要作为description
+  use_excerpt_as_description: true
+  robots:
+    home_first_page: index,follow
+    home_other_pages: noindex,follow
+    archive: noindex,follow
+    category: noindex,follow
+    tag: noindex,follow
+# 其它页面自己在front-matter中写
+
 
 ############################### 需要复制到根目录配置文件中 ###############################
 # 请复制到根目录配置文件！

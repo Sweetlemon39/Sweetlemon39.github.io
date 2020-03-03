@@ -333,7 +333,6 @@
         font-weight: bold;
         margin: 0;
         a{
-          // line-height: @fontsize_small*1.7;
           line-height: inherit;
           padding-top: 4px;
           padding-bottom: 4px;
@@ -356,12 +355,20 @@
       margin-bottom: 4px;
     }
   }
+}
 
+.l_side > .widget.page{
+  .content{
+    padding-top: 0;
+    padding-left: @gap - 4px;
+    padding-right: @gap - 4px;
+  }
 }
 
 .aplayer-container{
   display: flex;
   justify-content: center;
+  min-height: 100px;
   meting-js{
     max-width: 100%;
   }
