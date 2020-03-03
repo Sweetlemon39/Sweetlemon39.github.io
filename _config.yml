@@ -124,4 +124,4 @@ encrypt: # hexo-blog-encrypt
 leancloud:
   app_id: uzT4lXHwcPJOlEGevXF7jqRU-gzGzoHsz
   app_key: vVl1bqbOX0WUiA9WFlFhMxBb
-  valine_path: comments
+  valine_path: # comments
