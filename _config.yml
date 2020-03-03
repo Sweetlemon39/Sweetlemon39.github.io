@@ -125,3 +125,6 @@ leancloud:
   app_id: uzT4lXHwcPJOlEGevXF7jqRU-gzGzoHsz
   app_key: vVl1bqbOX0WUiA9WFlFhMxBb
   valine_path: # comments
+
+# Speed up
+all_minifier: true
