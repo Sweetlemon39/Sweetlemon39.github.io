@@ -56,7 +56,7 @@ tags: [笔记, 数学]
 
 当然还可以用分治。现在要求$s=\sum_{i=0}^{n}a^i=1+a+a^2+\cdots+a^n \pmod{p}$。
 
-如果$n$是偶数，设$n=2k$，那么$$s=1+a+\cdots+a^k+a^{k+1}+\cdots+a^{2k}=(1+a^k)(1+\cdots+a^{k-1})+a^{2k}$$
+如果$n$是偶数，设$n=2k$，那么$s=1+a+\cdots+a^k+a^{k+1}+\cdots+a^{2k}=(1+a^{k})(1+\cdots+a^{k-1})+a^{2k}$
 
 如果$n$是奇数，设$n=2k+1$，那么
 $$s=1+a+\cdots+a^k+a^{k+1}+\cdots+a^{2k+1}=(1+a^{k+1})(1+\cdots+a^k)$$

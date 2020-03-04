@@ -152,7 +152,7 @@ $\text{HDM}$讲过，是[POJ2559](http://poj.org/problem?id=2559)。
 
 枚举矩形底端所在的行，转化为上一题。
 
-#### $\text{LIS}$模板题：[导弹拦截](https://www.luogu.org/problemnew/show/P1020)
+#### LIS 模板题：[导弹拦截](https://www.luogu.org/problemnew/show/P1020)
 
 维护单调数组$g[i]$，表示长度为$i$的最长不升子序列的最后一个元素的最大值（为了给后面的元素留下最大的余地）。由于序列越长，最后一个元素一般就越小，因此$g$的值是单调不升的。
 
