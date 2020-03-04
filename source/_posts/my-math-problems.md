@@ -111,7 +111,7 @@ tags: [随笔, 数学]
 现在已知映射$f_0:A\rightarrow \mathbb{R}$，设$A$上的映射$f_1,f_2,\cdots,f_n$，
 对所有$1\le k\le n$的整数$k$，满足以下条件：
 
-$$\forall x\in A \ \ \wedge \ \ a_k\notin x,\ \ f_{k}(x)=f_{k-1}(x)$$
+$$\forall x\in A \ \ \wedge \ \ a_k\not \in x,\ \ f_{k}(x)=f_{k-1}(x)$$
 
 $$\forall x\in A\ \  \wedge \ \  a_k\in x,\ \ f_k(x)=f_{k-1}(x)+f_{k-1}(\complement_{\left\{ a_{k} \right\} }x)$$
 

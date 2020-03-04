@@ -112,14 +112,14 @@ $\text{bzoj}$权限题，kule。
 
 #### [No Need](https://www.luogu.org/problemnew/show/AT2346)
 
-题意：对于集合$A$中的某一个数$x$，若$\exists B \subset A, x \notin B,\sum_{y\in B}y<k$，且$\sum_{y\in B\cup \left \{ x \right \}}\ge k$，则称$x$是必要的。求集合中不必要的数的个数。
+题意：对于集合$A$中的某一个数$x$，若$\exists B \subset A, x \not \in B,\sum_{y\in B}y<k$，且$\sum_{y\in B\cup \left \{ x \right \}}\ge k$，则称$x$是必要的。求集合中不必要的数的个数。
 
 注意到$\varnothing \subset A$，而对于$x\ge k$，令$B=\varnothing$，则$\sum_{y\in B}y=0<k, \sum_{y\in B\cup \left \{ x \right \}}=x\ge k$，知$x$是必要的。因此，不必要的数必小于$k$。
 
 我们还可以证明单调性：若$a\le b$，且$a$是必要的，那么$b$也是必要的。
 
 证明是，由于$a$是必要的，知存在满足上述条件的集合$B$。  
-若$b\notin B$，则$\sum_{y\in B\cup \left \{ b \right \}}\ge \sum_{y\in B\cup \left \{ a \right \}} \ge k$。  
+若$b\not \in B$，则$\sum_{y\in B\cup \left \{ b \right \}}\ge \sum_{y\in B\cup \left \{ a \right \}} \ge k$。  
 若$b \in B$，则将$B$中的$b$换成$a$得到集合$C$，由$a\le b$知$\sum_{y\in C}y\le \sum_{y\in B}y<k$，知$C$满足题设条件。而$\sum_{y\in C\cup \left \{ b \right \}}= \sum_{y\in B\cup \left \{ a \right \}} \ge k$，证毕。
 
 有了上下界和单调性，我们就可以进行二分了。注意，下面这段代码的真实时间复杂度是$\text{O}(n^2 \log n)$，因为$\text{bitset}$的移位操作在复杂度上是$\text{O}(n)$的，只是常数很小而已。
