@@ -1,122 +1,75 @@
-############################### 主题基本信息 ###############################
+############################### Basic Information ###############################
 info:
   name: Volantis
-  version: 1.7.4
+  version: '2.0.2'
   docs: https://volantis.js.org/
-  cdn: # 要使用CDN，请在根目录的config文件中写上 use_cdn: true
-    css:
-      style: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@1.7.4/css/style.css
-    js:
-      app: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@1.7.4/js/app.js
-      search: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@1.7.4/js/search.js
-      valine: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@1.7.4/js/valine.js
+  cdn: # To use CDN, write 'use_cdn: true' in 'blog/_config.yml'.
+    css: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.0.2/css/style.css
+    js: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.0.2/js/app.js
 
 
-
-
-############################### 第三方插件 ###############################
-# ⚠️ 注意：开启过多服务会导致网页加载缓慢、运行卡顿
-plugins:
-  # jquery是很多功能的基础，请勿关闭
-  jquery: https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js
-  ################################################## 提升速度类的服务
-  # 鼠标放在链接上就提前开始加载了 [站内的url一定要以‘/’结尾]
-  instant_page: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@1.7.4/js/instant_page.js
-  ################################################## 优化体验类的服务
-  # 图片放大预览
-  fancybox:
-    css: https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css
-    js: https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js
-  # 页面滚动显示动画
-  scrollreveal: #https://cdn.jsdelivr.net/npm/scrollreveal@4.0.5/dist/scrollreveal.min.js
-  # 代码块复制按钮
-  clipboard: https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js
-  ################################################## 运维服务
-  # 访问量统计【加载非常缓慢】
-  # busuanzi: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-busuanzi@2.3/js/busuanzi.pure.mini.js
-  # 文章字数统计、阅读时长，开启需要安装插件: npm i --save hexo-wordcount
-  wordcount: #true
-  ################################################## 美化类的服务
-  # 按钮点击涟漪效果
-  nodewaves:
-    css: https://cdn.jsdelivr.net/npm/node-waves@0.7.6/dist/waves.min.css
-    js: https://cdn.jsdelivr.net/npm/node-waves@0.7.6/dist/waves.min.js
-  # 文本框打字机特效
-  comment_typing: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@1.7.4/js/comment_typing.js
-
-
-
-############################### 主题样式 ###############################
-# 样式
+############################### Style ###############################
 style:
-  # 卡片阴影效果
-  shadow:
-    # 导航栏阴影
-    nav: true
-    # 卡片阴影和悬浮动画
-    # card: true
-  # 毛玻璃效果 具体效果调整在： source/less/_color.less
-  blur:
-    navbar: true
-    widget: true
-    # body: true
-# 建议：
-#   有背景图：开启毛玻璃，关闭卡片阴影
-#   无背景图：关闭毛玻璃，开启卡片阴影
+  max_width: 1080px # Sum of body width and sidebar width
+  navbar:
+    height: 64px
+    effect: [shadow, blur] # [shadow, floatable, blur]
+  sidebar:
+    effect: [shadow] # [shadow, floatable, blur]
+  body:
+    effect: [shadow] # [shadow, floatable, blur]
+    highlight:
+      language: false # show language of codeblock
+    text_align: # left, right, justify, center
+      h1: left
+      h2: left
+      h3: left
+      h4: left
+      p: justify
+  gap:
+    h2: 2.5em # Spacing above H2
+    h3: 1.5em # Spacing above H3
+    h4: 1em # Spacing above H4
+    line: 1rem # Paragraph spacing
+    inline: .5rem # Paragraph spacing within a block
+  fontfamily:
+    bodyfont:
+      name: 'Varela Round'
+      url: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-fonts/VarelaRound/VarelaRound-Regular.ttf
+      weight: normal
+      style: normal
+    # codefont:
+    #   name: 'Monaco'
+    #   url: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-fonts/Monaco/Monaco.ttf
+    #   weight: normal
+    #   style: normal
+  # color:
+  #   site: '#21232F' # Website background color
+  #   card: '#444' # Card background color
+  #   text: '#fff' # The color of the text on the card.
+  #   theme: '#ff9800' # Main color
+  #   link: '#1BCDFC' # Link color
+  #   hover: '#ff5722' # Link highlight color
+  #   inner: '#333' # Text color inside the button
+  #   block: '#555' # Block color
+  #   inlinecode: yellow # Inline code color
+  #   codeblock: '#555' # Codeblock color
+  #   p: '#ccc' # Paragraph color
 
-# 显示「阅读全文」按钮
-readmore: true
 
-# 幻灯片背景
-backstretch:
-  enable: true          # 是否启用
-  js: '//cdn.jsdelivr.net/npm/jquery-backstretch@2.1.18/jquery.backstretch.min.js'
-  position: fixed       # cover: 封面背景   fixed: 整个网页背景
-  duration: 20000       # 持续时间（毫秒）
-  fade: 2500            # 渐变（毫秒）
-  is_dark: #true        # 图片是否是暗色的（调整文字为白色）
-  images:               # 我上传了一些高清壁纸到CDN中，仅限个人使用，商用后果自负！！！
-    - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/vc_247324.jpg
-    - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/violet_259998.jpg
-    - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/sukasuka__07.jpg
-    - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/sukasuka__06.jpg
-    - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/sukasuka__03.jpg
-    - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/your_name_233767.jpg
-    - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/sukasuka__05.jpg
-    - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/kagerou_183538.jpg
-    - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/miku_262935.jpg
-    - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/sukasuka__01.jpg
-    - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/tianyi_221481.jpg
-    - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/miku_289028.jpg
-    - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/kagerou_184531.jpg
-    - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/ia_292142.jpg
-    - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/vc_184412.jpg
-    - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/tianyi_229042.jpg
-    - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/sukasuka__02.jpg
-    - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/miku_288524.jpg
-    - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/sukasuka__04.jpg
-    - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/anohana_172855.jpg
-    - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/miku_279631.jpg
-    - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/sukasuka__08.jpg
-    - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/kagerou_191672.jpg
-    - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/violet_261791.jpg
-    - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/ia_217561.jpg
-    - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/miku_297251.jpg
-    - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/voc_261300.jpg
-    - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/miku_289023.jpg
-    - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/sukasuka__09.jpg
-    - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/sukasuka__10.jpg
 
-############################### 自定义 ###############################
-# page的封面
+
+############################### Layout ###############################
 cover:
-  scheme: search    # 后期将会提供多种封面布局方案
-  height: half      # full: 首页封面占据整个第一屏幕，其他页面占半个屏幕高度， half: 所有页面都封面都只占半个屏幕高度
+  scheme: blog # docs, blog
+  display:
+    home: true
+    archive: true
+    others: false # can be written in front-matter 'cover: true'
+  logo: # https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/logo/256/google_logo.png
   title: Sweetlemon 的异世界
-  subtitle: 原来你也在这里啊
-  logo: # assets/logo.png    # logo和title只显示一个，若同时设置，则只显示logo
+  subtitle: '原来你也在这里啊'
   search: '一直在寻找着你的踪迹'
-  # 主页封面菜单
   features:
     - name: 主页
       icon: fas fa-home
@@ -130,32 +83,19 @@ cover:
     - name: 关于
       icon: fas fa-info-circle
       url: /about/
-    # - name: 示例
-    #   icon: fas fa-play-circle
-    #   url: examples/
-    # - name: 源码
-    #   icon: fas fa-file-code
-    #   url: https://github.com/xaoxuu/hexo-theme-volantis/
-    #   rel: external nofollow noopener noreferrer
-    #   target: _blank
-    # - name: 鸣谢
-    #   icon: fas fa-handshake
-    #   url: contributors/
 
 
-# 导航栏
+# Navigation Bar
 navbar:
-  # 左侧logo区
-  logo:
-    # 显示图片，使用图片时将不会显示icon和title
+  logo: # choose [img] or [icon + title]
     img:
-    # 显示图标
     icon:
     # 显示标题
     title: Sweetlemon 的异世界
   # logo后面的导航菜单
-  menu: # 下面的内容可以写在 `blog/source/_data/menu.yml` 中
-    # 在桌面端显示的导航菜单
+  menu:
+    # The following can be written in `blog/source/_data/menu.yml`
+    # This menu will be displayed on the laptop or desktop.
     on_desktop:
       - name: 主页
         icon: fas fa-home
@@ -187,10 +127,8 @@ navbar:
 
 
 
-# 布局
-layout: # 下面的内容可以写在 `blog/source/_data/layout.yml` 中
-  # 文章列表多列布局
-  multiple_columns: false # 部分浏览器不兼容，谨慎使用
+layout:
+  # The following can be written in `blog/source/_data/layout.yml`
   # 文章列表（主页、自定义的列表）布局
   on_list:
     # 列表中每一篇文章的meta信息
@@ -216,7 +154,7 @@ layout: # 下面的内容可以写在 `blog/source/_data/layout.yml` 中
   # 其他的页面布局暂时等于 on_list
 
 
-# meta库配置
+# meta library
 meta:
   # 文章标题
   title: # 暂无配置
@@ -250,20 +188,17 @@ meta:
     icon_duration: fas fa-hourglass-half
   # 文章标签
   tags:
-    icon: fas fa-tag
+    icon: fas fa-hashtag
   # 分享
   share:
     - id: qq
-      name: QQ好友
       img: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/logo/128/qq.png
     - id: qzone
-      name: QQ空间
       img: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/logo/128/qzone.png
     - id: weibo
-      name: 微博
       img: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/logo/128/weibo.png
     # - id: qrcode # 当id为qrcode时需要安装插件  npm i -S hexo-helper-qrcode
-    #   name: QRcode
+    #   img: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/logo/128/wechat.png
   # 链接
   btns:
     edit:
@@ -295,10 +230,11 @@ meta:
       title: 反馈
       color: '#1BCDFC'
 
-# 组件库配置
-widget: # 下面的内容可以写在 `blog/source/_data/widget.yml` 中
+# widget library
+widget:
+  # The following can be written in `blog/source/_data/widget.yml`
   # ---------------------------------------
-  # 博主信息小部件配置
+  # blogger info widget
   blogger:
     class: blogger
     display: [desktop] # [desktop, mobile]
@@ -308,18 +244,18 @@ widget: # 下面的内容可以写在 `blog/source/_data/widget.yml` 中
     jinrishici: #true # 今日诗词。可以设置字符串，加载失败时会显示占位字符串。
     social: true
   # ---------------------------------------
-  # 目录小部件配置(仅在文章中有效)
+  # toc widget (valid only in articles)
   toc:
     class: toc
     display: [desktop, mobile] # [desktop, mobile]
     header:
       icon: fas fa-list
       title: 本文目录
-    list_number: false # 是否显示章节
-    min_depth: 2 # H1建议用作网页或者文章的标题，章节从H2开始。
-    max_depth: 5 # 由于宽度有限，主题没有针对所有层级进行布局优化，建议文章最多分为：H2/H3/H4/H5四个层级
+    list_number: false
+    min_depth: 2
+    max_depth: 5
   # ---------------------------------------
-  # 文章分类小部件配置
+  # category widget
   category:
     class: category
     display: [desktop] # [desktop, mobile]
@@ -328,7 +264,7 @@ widget: # 下面的内容可以写在 `blog/source/_data/widget.yml` 中
       title: 文章分类
       url: /categories/
   # ---------------------------------------
-  # 标签云小部件配置
+  # tagcloud widget
   tagcloud:
     class: tagcloud
     display: [desktop] # [desktop, mobile]
@@ -342,50 +278,35 @@ widget: # 下面的内容可以写在 `blog/source/_data/widget.yml` 中
     start_color: '#999'
     end_color: '#555'
   # ---------------------------------------
-  # 相关文章小部件配置
+  # related posts widget
   related_posts:
-    class: related_posts # 需要安装插件  npm i -S hexo-related-popular-posts
+    class: related_posts # npm i -S hexo-related-popular-posts
     display: [desktop, mobile] # [desktop, mobile]
     header:
       icon: fas fa-bookmark
       title: 相关文章
     max_count: 5
   # ---------------------------------------
-  # 版权说明小部件（仅用于文章中）
+  # copyright widget (valid only in articles)
   copyright:
     class: copyright
     display: [desktop, mobile] # [desktop, mobile]
-    blockquote: true # 是否把内容放到blockquote中
-    permalink: '转载请标明出处，本文链接：' # 显示文章链接
+    blockquote: true
+    permalink: '本文永久链接是：'
     content:
-      #- '这是文章页脚，可以放置版权说明以及打赏图片。<br>博客内容遵循 署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0) 协议'
-      #- ''
       - permalink
   # ---------------------------------------
-  # 二维码小部件（可用于文章中的打赏，只显示图片，无其他功能）
-  qrcode:
-    class: qrcode
-    display:  #[desktop] # [desktop, mobile]
-    header:
-      icon: fas fa-mobile
-      title: 手机观看
-    height: #64px  # 不设置则自动高度
-    fancybox: #true # 是否允许点击放大
-    images:
-      - https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/qrcode/wiki_volantis.png
-  # ---------------------------------------
-  # ---------------------------------------
-  # ---------------------------------------
-  # 自定义组件，仿照如下写法
-  # 打赏
+  # qrcode widget
   donate:
     class: qrcode
     display: # [desktop, mobile] # [desktop, mobile]
-    height: 64px  # 不设置则自动高度
-    fancybox: true # 是否允许点击放大
+    height: 64px  # Automatic height if not set
+    fancybox: true
     images:
       - https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/qrcode/wiki_volantis.png
       - https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/qrcode/wiki_volantis.png
+  # You can add your own widget here or 'blog/source/_data/widget.yml'
+  # class: text, list, grid, qrcode, page, ... see more at https://volantis.js.org/
   guide:
     class: grid
     display: [desktop, mobile] # [desktop, mobile]
@@ -454,37 +375,11 @@ widget: # 下面的内容可以写在 `blog/source/_data/widget.yml` 中
         url: http://www.noi.cn/
         rel: external nofollow noopener noreferrer
         target: _blank
-    # class: text
-    # display: [desktop] # [desktop, mobile]
-    # header:
-    #
-    # content:
-    #   - '[<img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/logo.png" height="50px">](https://github.com/xaoxuu/ProHUD)'
-    #   - '[<img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/valuex/logo.png" height="50px">](https://github.com/xaoxuu/ValueX)'
-    #   - '[<img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/inspire/logo.png" height="50px">](https://github.com/xaoxuu/Inspire)'
 
-# 网站页脚
+
 footer:
-  # 网站页脚布局，默认支持 aplayer/social/license/info/copyright
+  # layout of footer: [aplayer, social, license, info, copyright]
   layout: [aplayer, social, copyright]
-  # APlayer配置 https://github.com/metowolf/MetingJS
-  aplayer:
-    # 是否启用，注释此项则不加载服务
-    enable: true
-    # 必选参数
-    server: netease   # netease, tencent, kugou, xiami, baidu
-    type: song    # song, playlist, album, search, artist
-    id: 551339691    # song id / playlist id / album id / search keyword
-    # 可选参数
-    fixed: false      # enable fixed mode
-    theme: '#1BCDFC'  # main color
-    autoplay: false   # audio autoplay
-    order: list       # player play order, values: 'list', 'random'
-    loop: all         # player loop play, values: 'all', 'one', 'none'
-    volume: 0.7       # default volume, notice that player will remember user setting, default volume will not work after user set volume themselves
-    list_max_height: 340px # list max height
-    list_folded: true
-  # 社交信息配置
   social:
     - icon: fas fa-envelope
       url: mailto:mrj1018@163.com
@@ -499,11 +394,11 @@ footer:
   br: '<br>'
 
 
-
+############################### SEO ###############################
 seo:
-  # 当文章front-matter中没有keywords时，使用tags作为keywords
+  # When there are no keywords in the article's front-matter, use tags as keywords.
   use_tags_as_keywords: true
-  # 当文章front-matter中没有description时，使用摘要作为description
+  # When there is no description in the article's front-matter, use excerpt as the description.
   use_excerpt_as_description: true
   robots:
     home_first_page: index,follow
@@ -511,68 +406,160 @@ seo:
     archive: noindex,follow
     category: noindex,follow
     tag: noindex,follow
-# 其它页面自己在front-matter中写
+    # robots can be written in front-matter
 
 
-############################### 需要复制到根目录配置文件中 ###############################
-# 请复制到根目录配置文件！
-# copyright: '[Copyright © 2017-2020 Mr. X](https://xaoxuu.com)'
+############################### Plugins ###############################
+plugins:
+  # Required plugins:
+  jquery: https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js
+
+  ######## Plugins to improve loading speed:
+  # Preload (The menu's url must end with ‘/’)
+  instant_page: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.0.2/js/instant_page.js
+
+  ######## Plugins to optimize the experience:
+  # Picture Zoom
+  fancybox:
+    css: https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css
+    js: https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js
+
+  # Page Scrolling Animation
+  scrollreveal: #https://cdn.jsdelivr.net/npm/scrollreveal@4.0.5/dist/scrollreveal.min.js
+
+  # Codeblock Copy Button
+  clipboard: https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js
+
+  ######## Plugins for SEO:
+  # Traffic statistics (very slow loading)
+  busuanzi: #https://cdn.jsdelivr.net/gh/xaoxuu/cdn-busuanzi@2.3/js/busuanzi.pure.mini.js
+
+  # npm i --save hexo-wordcount
+  wordcount: #true
+
+  ######## Plugins for ...
+  # Button Ripple Effect
+  nodewaves:
+    css: https://cdn.jsdelivr.net/npm/node-waves@0.7.6/dist/waves.min.css
+    js: https://cdn.jsdelivr.net/npm/node-waves@0.7.6/dist/waves.min.js
+
+  # Typing Effects
+  comment_typing: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.0.2/js/comment_typing.js
+
+  # Slide Background
+  backstretch:
+    enable: true
+    js: https://cdn.jsdelivr.net/npm/jquery-backstretch@2.1.18/jquery.backstretch.min.js
+    position: fixed       # cover: sticky on the cover.   fixed: Fixed as background for the site.
+    duration: 20000       # Duration (ms)
+    fade: 1500            # fade duration (ms) (Not more than 1500)
+    white_text: #true     # Whether the picture is dark (adjust the text to white)
+    images:               # For personal use only. At your own risk if used for commercial purposes !!!
+      - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/vc_247324.jpg
+      - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/violet_259998.jpg
+      - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/sukasuka__07.jpg
+      - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/sukasuka__06.jpg
+      - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/sukasuka__03.jpg
+      - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/your_name_233767.jpg
+      - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/sukasuka__05.jpg
+      - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/kagerou_183538.jpg
+      - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/miku_262935.jpg
+      - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/sukasuka__01.jpg
+      - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/tianyi_221481.jpg
+      - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/miku_289028.jpg
+      - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/kagerou_184531.jpg
+      - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/ia_292142.jpg
+      - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/vc_184412.jpg
+      - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/tianyi_229042.jpg
+      - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/sukasuka__02.jpg
+      - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/miku_288524.jpg
+      - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/sukasuka__04.jpg
+      - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/anohana_172855.jpg
+      - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/miku_279631.jpg
+      - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/sukasuka__08.jpg
+      - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/kagerou_191672.jpg
+      - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/violet_261791.jpg
+      - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/ia_217561.jpg
+      - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/miku_297251.jpg
+      - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/voc_261300.jpg
+      - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/miku_289023.jpg
+      - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/sukasuka__09.jpg
+      - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/sukasuka__10.jpg
+
+  # APlayer is only available in mainland China.
+  # APlayer config: https://github.com/metowolf/MetingJS
+  aplayer:
+    enable: true
+    js:
+      - https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js
+      - https://cdn.jsdelivr.net/npm/meting@2.0/dist/Meting.min.js
+    # Required
+    server: netease   # netease, tencent, kugou, xiami, baidu
+    type: song    # song, playlist, album, search, artist
+    id: 551339691    # song id / playlist id / album id / search keyword
+    # Optional
+    fixed: false      # enable fixed mode
+    theme: '#1BCDFC'  # main color
+    autoplay: false   # audio autoplay
+    order: list       # player play order, values: 'list', 'random'
+    loop: all         # player loop play, values: 'all', 'one', 'none'
+    volume: 0.7       # default volume, notice that player will remember user setting, default volume will not work after user set volume themselves
+    list_max_height: 340px # list max height
+    list_folded: true
 
 
 
 
-############################### 评论系统 ###############################
-# disqus_shortname: 要使用哪个请复制到根目录配置文件！
-# livere_uid: 要使用哪个请复制到根目录配置文件！
-# gitalk: 要使用哪个请复制到根目录配置文件！
-#   clientID: 你的clientID
-#   clientSecret: 你的clientSecret
-#   repo: 你的repo名
-#   owner: 你的GitHub名
-#   admin: [] 至少填写你的GitHub名
-# leancloud: 要使用哪个请复制到根目录配置文件！
-#   app_id: 你的appId
-#   app_key: 你的appKey
+############################### Comments ###############################
+comments:
+  title: <i class='fas fa-comments'></i> 评论
+  subtitle:
+  service: valine # valine, disqus, gitalk, livere
+  valine:
+    appId: # your appId
+    appKey: # your appKey
+    js: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.0.2/js/valine.js
+    path: # All pages use the same path (share the same comments data)
+    meta: nick,mail,link #valine comment header info
+    placeholder: 快来评论吧~ # valine comment input placeholder(like: Please leave your footprints )
+    avatar: mp # gravatar style https://valine.js.org/avatar
+    pageSize: 10 # comment list page size
+    verify: true # valine verify code (true/false)
+    notify: true # valine mail notify (true/false)
+    lang: zh-cn
+    highlight: true
+    visitor: false # unavailable for now...
+  disqus:
+    shortname:
+  gitalk:
+    clientID:
+    clientSecret:
+    repo:
+    owner:
+    admin: # []
+  livere:
+    uid:
 
 
-############################### 杂项，请勿删除 ###############################
-#valine配置
-valine:
-  enable: true # 如果你想用Valine评论系统，请设置enable为true
-  # 还需要在根目录配置文件中添加下面这三行内容
-  # leancloud:
-  #   app_id: 你的appId
-  #   app_key: 你的appKey
-  #   valine_path: 全站采用同一个path（共用同一个评论框数据）
-  guest_info: nick,mail,link #valine comment header info
-  placeholder: 快来评论吧~ # valine comment input placeholder(like: Please leave your footprints )
-  avatar: mp # gravatar style https://valine.js.org/avatar
-  pageSize: 10 # comment list page size
-  verify: true # valine verify code (true/false)
-  notify: true # valine mail notify (true/false)
-  lang: zh-cn
-  highlight: true
-  visitor: false # 阅读统计，按照官网文档接入了，但是依然不能用。
 
-# 搜索配置
+
+############################### Search ###############################
+# To use hexo search, you need to install the following plugins:
+# npm i -S hexo-generator-search hexo-generator-json-content
 search:
   enable: true
-  service: hexo    # 类型：google, algolia, azure, baidu 默认 hexo
-# 选择你选取的搜索服务后，复制相应的配置到根目录配置文件中
-# google:
-#   apiKey:
-#   engineId:
-# algolia:
-#   applicationID:
-#   apiKey:
-#   indexName:
-# azure:
-#   serviceName:
-#   indexName:
-#   queryKey:
-# baidu:
-#   apiId:
-
-# Less渲染
-less:
-  compress: true
+  service: hexo  # hexo, google, algolia, azure, baidu
+  js: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.0.2/js/search.js
+  google:
+    apiKey:
+    engineId:
+  algolia:
+    applicationID:
+    apiKey:
+    indexName:
+  azure:
+    serviceName:
+    indexName:
+    queryKey:
+  baidu:
+    apiId:
