@@ -3,7 +3,7 @@ layout: post
 title: 扩展欧几里得算法
 date: 2018-08-16
 updated: 2018-08-16
-mathjax: true
+katex: true
 categories: 算法浅解
 tags: [算法浅解, 数学, gcd]
 ---

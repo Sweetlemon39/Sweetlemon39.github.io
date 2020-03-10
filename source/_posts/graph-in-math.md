@@ -3,7 +3,7 @@ layout: post
 title: 组合数学中的图论笔记
 date: 2019-02-28
 updated: 2019-02-28
-mathjax: true
+katex: true
 categories: 算法浅解
 tags: [算法浅解, 数学, 图论]
 ---

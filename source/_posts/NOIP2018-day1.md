@@ -3,7 +3,7 @@ layout: post
 title: NOIP 2018 集训 Day 1
 date: 2018-10-20
 updated: 2018-10-20
-mathjax: true
+katex: true
 categories: 即时笔记
 tags: [笔记, 动态规划]
 ---

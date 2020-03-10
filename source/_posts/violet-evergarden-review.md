@@ -3,7 +3,7 @@ layout: post
 title: 探索爱的旅程
 date: 2019-02-22
 updated: 2019-02-22
-mathjax: true
+katex: true
 categories: 穿透世界边缘的呐喊
 tags: [紫罗兰永恒花园, 世界间评论]
 ---

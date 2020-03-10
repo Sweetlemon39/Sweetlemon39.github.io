@@ -3,7 +3,7 @@ layout: post
 title: KMP（MP）小记
 date: 2018-10-17
 updated: 2018-10-17
-mathjax: true
+katex: true
 categories: 算法浅解
 tags: [算法浅解, 字符串, KMP]
 ---

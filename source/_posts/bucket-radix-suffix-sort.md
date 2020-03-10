@@ -3,7 +3,7 @@ layout: post
 title: 桶排序、基数排序与后缀排序
 date: 2019-06-25
 updated: 2019-06-25
-mathjax: true
+katex: true
 categories: 算法浅解
 tags: [算法浅解, 字符串, 排序, 后缀数组]
 ---

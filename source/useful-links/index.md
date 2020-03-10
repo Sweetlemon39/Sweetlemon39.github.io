@@ -3,7 +3,7 @@ layout: page
 title: 常用站导航
 date: 2020-03-01
 updated: 2020-03-02
-mathjax: true
+katex: true
 ---
 
 ## Online Judge

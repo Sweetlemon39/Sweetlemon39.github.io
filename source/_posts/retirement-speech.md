@@ -3,7 +3,7 @@ layout: post
 title: 曾经的离别
 date: 2018-04-01
 updated: 2018-07-08
-mathjax: true
+katex: true
 categories: 随笔
 tags: 退役
 ---

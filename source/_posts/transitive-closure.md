@@ -3,7 +3,7 @@ layout: post
 title: 传递闭包
 date: 2018-10-16
 updated: 2018-10-16
-mathjax: true
+katex: true
 categories: 算法浅解
 tags: [算法浅解, 图论, floyd]
 ---

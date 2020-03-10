@@ -3,7 +3,7 @@ layout: post
 title: 搜索 总结
 date: 2018-10-22
 updated: 2018-10-22
-mathjax: true
+katex: true
 categories: 算法浅解
 tags: [算法浅解, 搜索]
 ---

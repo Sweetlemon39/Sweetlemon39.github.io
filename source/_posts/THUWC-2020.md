@@ -3,7 +3,7 @@ layout: post
 title: THUWC 2020 游记
 date: 2019-12-25
 updated: 2019-12-25
-mathjax: true
+katex: true
 categories: 总结
 tags: THUWC
 ---

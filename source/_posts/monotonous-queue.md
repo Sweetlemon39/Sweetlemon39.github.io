@@ -3,7 +3,7 @@ layout: post
 title: 朝花中学OI队的奋斗历程——浅谈单调队列
 date: 2018-07-15
 updated: 2018-07-15
-mathjax: true
+katex: true
 categories: 算法浅解
 tags: [算法浅解, 数据结构, 单调队列]
 ---

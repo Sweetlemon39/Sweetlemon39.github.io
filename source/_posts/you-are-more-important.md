@@ -3,7 +3,7 @@ layout: post
 title: 那个世界的你，比这个世界的我，更重要……
 date: 2018-01-07
 updated: 2018-01-07
-mathjax: true
+katex: true
 categories: 穿透世界边缘的呐喊
 tags: 世界间绪论
 ---

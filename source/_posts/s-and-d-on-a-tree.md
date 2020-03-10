@@ -3,7 +3,7 @@ layout: post
 title: 树上前缀和与树上差分
 date: 2019-06-26
 updated: 2019-06-26
-mathjax: true
+katex: true
 categories: 算法浅解
 tags: [算法浅解, 树, 前缀和, 差分]
 ---

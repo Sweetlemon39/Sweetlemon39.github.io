@@ -3,7 +3,7 @@ layout: post
 title: 奇闻记录
 date: 2019-04-09
 updated: 2019-04-09
-mathjax: true
+katex: true
 categories: 随笔
 tags: 奇闻
 ---

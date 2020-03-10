@@ -3,7 +3,7 @@ layout: post
 title: NOIP 2018 复习大纲
 date: 2018-11-01
 updated: 2018-11-01
-mathjax: true
+katex: true
 categories: 随笔
 tags: [随笔, 大纲]
 ---

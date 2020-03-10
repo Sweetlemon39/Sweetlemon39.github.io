@@ -3,7 +3,7 @@ layout: post
 title: 《你的名字。》影评——初见的时候
 date: 2017-02-19
 updated: 2018-01-07
-mathjax: true
+katex: true
 categories: 穿透世界边缘的呐喊
 tags: [你的名字, 世界间评论]
 ---

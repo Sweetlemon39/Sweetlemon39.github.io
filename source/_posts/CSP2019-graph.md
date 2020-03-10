@@ -3,7 +3,7 @@ layout: post
 title: CSP 2019 集训 图论
 date: 2019-11-10
 updated: 2019-11-14
-mathjax: true
+katex: true
 categories: 即时笔记
 tags: [笔记, 图论]
 ---

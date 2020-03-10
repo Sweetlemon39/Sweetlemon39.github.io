@@ -3,7 +3,7 @@ layout: post
 title: 二分图学习笔记
 date: 2018-10-18
 updated: 2018-10-18
-mathjax: true
+katex: true
 categories: 算法浅解
 tags: [算法浅解, 图论, 二分图]
 ---

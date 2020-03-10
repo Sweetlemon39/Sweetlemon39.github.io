@@ -3,7 +3,7 @@ layout: post
 title: CSP 2019 集训 贪心和动态规划
 date: 2019-11-13
 updated: 2020-02-02
-mathjax: true
+katex: true
 categories: 即时笔记
 tags: [笔记, 贪心, 动态规划]
 ---

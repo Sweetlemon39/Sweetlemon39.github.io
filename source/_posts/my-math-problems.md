@@ -3,7 +3,7 @@ layout: post
 title: Sweetlemon 蒟蒻的拙作
 date: 2018-10-20
 updated: 2019-10-20
-mathjax: true
+katex: true
 categories: 随笔
 tags: [随笔, 数学]
 ---

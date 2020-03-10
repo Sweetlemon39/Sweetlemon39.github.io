@@ -3,7 +3,7 @@ layout: post
 title: CSP 2019 集训 搜索和数据结构
 date: 2019-11-14
 updated: 2019-11-14
-mathjax: true
+katex: true
 categories: 即时笔记
 tags: [笔记, 搜索, 数据结构]
 ---

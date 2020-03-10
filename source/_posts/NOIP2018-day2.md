@@ -3,7 +3,7 @@ layout: post
 title: NOIP 2018 集训 Day 2
 date: 2018-10-21
 updated: 2018-10-21
-mathjax: true
+katex: true
 categories: 即时笔记
 tags: [笔记, 搜索, 字符串]
 ---

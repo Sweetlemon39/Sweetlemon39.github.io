@@ -3,7 +3,7 @@ layout: post
 title: 离线算法
 date: 2019-04-09
 updated: 2019-04-09
-mathjax: true
+katex: true
 categories: 算法浅解
 tags: [算法浅解, 数据结构, 离线]
 ---
