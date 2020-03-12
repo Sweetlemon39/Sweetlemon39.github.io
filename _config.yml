@@ -127,7 +127,7 @@ leancloud:
   valine_path: # comments
 
 # Speed up
-all_minifier: true
+# all_minifier: true
 
 markdown_it_plus:
   highlight: true
@@ -142,3 +142,22 @@ markdown_it_plus:
     - plugin:
       name: markdown-it-mark
       enable: false
+
+live2d:
+  enable: true
+  scriptFrom: local
+  pluginRootPath: "live2dw/"
+  pluginJsPath: "lib/"
+  pluginModelPath: "assets/"
+  tagMode: false
+  debug: true
+  model:
+    use: live2d-widget-model-miku
+  display:
+    position: right
+    width: 150
+    height: 300
+  mobile:
+    show: true
+  react:
+    opacity: 0.7
