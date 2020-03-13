@@ -156,3 +156,6 @@ live2d:
     show: false
   react:
     opacity: 0.7
+  dialog:
+    enable: true
+    hitokoto: true
