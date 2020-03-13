@@ -537,8 +537,8 @@ comments:
   subtitle:
   service: valine # valine, disqus, gitalk, livere
   valine:
-    appId: # your appId
-    appKey: # your appKey
+    appId: uzT4lXHwcPJOlEGevXF7jqRU-gzGzoHsz
+    appKey: vVl1bqbOX0WUiA9WFlFhMxBb
     js: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.0/js/valine.js
     path: # All pages use the same path (share the same comments data)
     meta: nick,mail,link #valine comment header info

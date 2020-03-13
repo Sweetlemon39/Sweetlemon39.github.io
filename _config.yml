@@ -121,11 +121,6 @@ encrypt: # hexo-blog-encrypt
   wrong_pass_message: 抱歉，这个口令不能通过世界的检查哦，再试试？
   wrong_hash_message: 抱歉，世界线出问题了，不过您还是可以看看解密后的内容。
 
-leancloud:
-  app_id: uzT4lXHwcPJOlEGevXF7jqRU-gzGzoHsz
-  app_key: vVl1bqbOX0WUiA9WFlFhMxBb
-  valine_path: # comments
-
 # Speed up
 all_minifier: true
 
