@@ -12,6 +12,7 @@
     "version": "4.2.0"
   },
   "dependencies": {
+    "acorn": "^7.1.1",
     "hexo": "^4.0.0",
     "hexo-all-minifier": "^0.5.3",
     "hexo-blog-encrypt": "^3.0.12",
@@ -30,6 +31,7 @@
     "hexo-renderer-stylus": "^1.1.0",
     "hexo-server": "^1.0.0",
     "live2d-widget-model-miku": "^1.0.5",
+    "minimist": "^1.2.5",
     "object-assign": "^4.1.1"
   }
 }
