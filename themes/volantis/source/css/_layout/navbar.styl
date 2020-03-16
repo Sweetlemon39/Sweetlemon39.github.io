@@ -31,10 +31,7 @@
     max-width: $layout-width
     margin: auto
     height: $navbar-height
-    -webkit-user-select: none
-    -moz-user-select: none
-    -ms-user-select: none
-    user-select: none
+    disable-user-select()
     .nav-main
       trans()
       transform: translateY(0 - $navbar-height)
@@ -82,6 +79,7 @@
     padding: 0 $gap*1.5
     font-size: $fontsize-h3
     font-family: $fontfamily-logo
+    flex-shrink: 0
     @media screen and (max-width: $device-mobile)
       padding: 0 $gap
 
@@ -111,7 +109,7 @@
 
   .menu
     position:relative
-    flex: 1 0 auto
+    flex: 1 1 auto
     height: $navbar-height
     trans()
     margin: 0 $gap 0 0
@@ -308,7 +306,7 @@ ul.menu-phone
   transform: scale(0,0) rotate(12deg)
   transform-origin: right top
   &.show
-    transform: scale(1,1)
+    transform: scale(1,1) rotate(0)
 
   >li>a
       display: block

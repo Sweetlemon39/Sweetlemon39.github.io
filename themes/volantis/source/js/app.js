@@ -134,7 +134,8 @@ var customSearch;
 		}
 		//set current active nav
 		var $active_link = null;
-		var idname = location.pathname.replace(/\/|%/g, "");
+		// replace '%' '/' '.'
+		var idname = location.pathname.replace(/\/|%|\./g, "");
 		if (idname.length == 0) {
 			idname = "home";
 		}
@@ -228,9 +229,9 @@ var customSearch;
 			e.preventDefault();
 			e.stopPropagation();
 			if (e.target.tagName === 'A') {
-				scrolltoElement(e.target);
+				scrolltoElement(e.target, 0);
 			} else if (e.target.tagName === 'SPAN') {
-				scrolltoElement(e.target.parentElement);
+				scrolltoElement(e.target.parentElement, 0);
 			}
 			$toc.removeClass('active');
 			const $tocBtn = $('.s-toc');
