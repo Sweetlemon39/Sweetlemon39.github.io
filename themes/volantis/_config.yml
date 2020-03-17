@@ -1,11 +1,11 @@
 ############################### Basic Information ###############################
 info:
   name: Volantis
-  version: '2.1.4'
+  version: '2.1.5'
   docs: https://volantis.js.org/
   cdn: # To use CDN, write 'use_cdn: true' in 'blog/_config.yml'.
-    # css: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.1.4.3/css/style.css
-    # js: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.1.4/js/app.js
+    css: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.1.5/css/style.css
+    js: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.1.5/js/app.js
 
 
 ############################### Style ###############################
@@ -38,8 +38,6 @@ style:
     codeblock: 4px
     searchbar: 8px
     button: 4px
-  tabs:
-    shadow_level: 1 # 0, 1, 2, 3
   fontsize:
     root: 16px
     h1: 1.625rem
@@ -64,8 +62,12 @@ style:
     #   url: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-fonts/Monaco/Monaco.ttf
     #   weight: normal
     #   style: normal
-  # color:
+  color:
+    site: '#E84D3B'
+    site_inner: '#FFCE48'
+    theme: '#E84D3B'
   #   site: '#21232F' # Website background color
+  #   site_inner: '#FFCE48' # Text color inside the website background
   #   card: '#444' # Card background color
   #   text: '#fff' # The color of the text on the card.
   #   theme: '#ff9800' # Main color
@@ -480,7 +482,6 @@ plugins:
     shuffle: true         # shuffle playlist
     duration: 20000       # Duration (ms)
     fade: 1500            # fade duration (ms) (Not more than 1500)
-    white_text: #true     # Whether the picture is dark (adjust the text to white)
     images:               # For personal use only. At your own risk if used for commercial purposes !!!
       - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/vc_247324.jpg
       - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/violet_259998.jpg
