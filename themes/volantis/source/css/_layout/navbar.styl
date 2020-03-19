@@ -29,6 +29,8 @@
   .wrapper
     padding: auto $gap
     max-width: $layout-width
+    @media screen and (min-width: 2000px)
+      max-width: 55vw
     margin: auto
     height: $navbar-height
     disable-user-select()
@@ -47,6 +49,8 @@
   &.no_sidebar
     .wrapper
       max-width: $layout-width - $sidebar
+      @media screen and (min-width: 2000px)
+        max-width: "calc(55vw - %s)" % $sidebar
 
   .wrapper.sub
     .logo
@@ -97,10 +101,9 @@
 
   .nav-sub
     .logo
-      padding: 0 $gap*1.5
       font-size: $fontsize-body
       font-family: $fontfamily
-      txt-ellipsis()
+      flex-shrink: 1
       @media screen and (max-width: $device-mobile)
         padding: 0 $gap
         letter-spacing: -0.5px
@@ -165,6 +168,19 @@
       display: block
       padding: 0 8px
       color: alpha($color-text, 85%)
+      i.music
+        animation: rotate-effect 1.5s linear infinite
+        @keyframes rotate-effect
+          0%
+            transform: rotate(0)
+          25%
+            transform: rotate(90deg)
+          50%
+            transform: rotate(180deg)
+          75%
+            transform: rotate(27  0deg)
+          100%
+            transform: rotate(360deg)
       &.current
         border-bottom: $border-line solid alpha($color-theme, 80%)
 

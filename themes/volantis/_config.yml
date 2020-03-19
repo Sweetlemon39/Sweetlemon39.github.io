@@ -1,16 +1,16 @@
 ############################### Basic Information ###############################
 info:
   name: Volantis
-  version: '2.1.5'
+  version: '2.1.6'
   docs: https://volantis.js.org/
   cdn: # To use CDN, write 'use_cdn: true' in 'blog/_config.yml'.
-    css: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.1.5/css/style.css
-    js: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.1.5/js/app.js
+    css: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.1.6.1/css/style.css
+    js: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.1.6/js/app.js
 
 
 ############################### Style ###############################
 style:
-  max_width: 1080px # Sum of body width and sidebar width
+  max_width: 1080px # Sum of body width and sidebar width (This limit will be exceeded when the device width is greater than 2000px, reaching 75% of the total width)
   navbar:
     height: 64px
     effect: [shadow, blur] # [shadow, floatable, blur]
@@ -62,12 +62,9 @@ style:
     #   url: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-fonts/Monaco/Monaco.ttf
     #   weight: normal
     #   style: normal
-  color:
-    site: '#E84D3B'
-    site_inner: '#FFCE48'
-    theme: '#E84D3B'
+  # color:
   #   site: '#21232F' # Website background color
-  #   site_inner: '#FFCE48' # Text color inside the website background
+  #   site_inner: '#fff' # Text color inside the website background
   #   card: '#444' # Card background color
   #   text: '#fff' # The color of the text on the card.
   #   theme: '#ff9800' # Main color
@@ -292,7 +289,7 @@ widget:
   # tagcloud widget
   tagcloud:
     class: tagcloud
-    display: [desktop] # [desktop, mobile]
+    display: [desktop, mobile] # [desktop, mobile]
     header:
       icon: fas fa-tags
       title: 热门标签
