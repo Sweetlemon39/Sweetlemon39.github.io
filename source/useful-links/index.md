@@ -41,3 +41,7 @@ katex: true
 [OI Wiki](https://oi-wiki.org/)
 
 [洛谷日报（2018）](https://www.luogu.com.cn/discuss/show/48491)  [洛谷日报（2019）](https://www.luogu.com.cn/discuss/show/92685) [洛谷日报（2020）](https://www.luogu.com.cn/discuss/show/179788)
+
+## 休闲
+
+[画廊](https://sweetlemon39.github.io/gallery/)

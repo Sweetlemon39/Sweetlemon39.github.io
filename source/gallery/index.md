@@ -1,39 +1,53 @@
 ---
 layout: page
-title: 关于
-meta:
-  header: []
-  footer: []
-sidebar: []
-valine:
-  placeholder: 有什么想对我说的呢？
+title: 画廊
+date: 2020-03-27
+updated: 2020-03-27
+katex: true
 ---
 
-<img src="https://cdn.jsdelivr.net/gh/mrj1018/OI/lemon.png" alt="logo" style="zoom:30%;" />
+来欣赏本站的背景图片！可以把浏览器全屏再开幻灯片展示开始“屏保”~
 
-## Sweetlemon
+{% fancybox stretch, 3 %}
 
-### 标签
+![](https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/vc_247324.jpg)
+![](https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/violet_259998.jpg)
+![](https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/sukasuka__07.jpg)
+![](https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/sukasuka__06.jpg)
+![](https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/sukasuka__03.jpg)
+![](https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/your_name_233767.jpg)
+![](https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/sukasuka__05.jpg)
+![](https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/kagerou_183538.jpg)
+![](https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/miku_262935.jpg)
+![](https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/sukasuka__01.jpg)
+![](https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/tianyi_221481.jpg)
+![](https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/miku_289028.jpg)
+![](https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/kagerou_184531.jpg)
+![](https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/ia_292142.jpg)
+![](https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/vc_184412.jpg)
+![](https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/tianyi_229042.jpg)
+![](https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/sukasuka__02.jpg)
+![](https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/miku_288524.jpg)
+![](https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/sukasuka__04.jpg)
+![](https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/anohana_172855.jpg)
+![](https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/miku_279631.jpg)
+![](https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/sukasuka__08.jpg)
+![](https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/kagerou_191672.jpg)
+![](https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/violet_261791.jpg)
+![](https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/ia_217561.jpg)
+![](https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/miku_297251.jpg)
+![](https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/voc_261300.jpg)
+![](https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/miku_289023.jpg)
+![](https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/sukasuka__09.jpg)
+![](https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/sukasuka__10.jpg)
 
-- 苟延残喘的高二狗
-- 不务正业的 OIer
-- 杂牌数竞生
+{% endfancybox %}
 
-### 碎叶
+**关于图片**
 
-愿你在那个世界安好！
+图片来自网络，本人不享有这些图片的版权。
 
-我在这里等你。
-
-多对这个世界笑笑吧，世界也会对你笑呢~
-
-### 关于背景图片
-
-[画廊](https://sweetlemon39.github.io/gallery/)
-
-背景图片来自网络，本人不享有这些图片的版权。
-
-I don’t have copyright of these background images which are from the Internet.
+I don’t have copyright of these images which are from the Internet.
 
 **图片信息 Images Information**
 
