@@ -2,7 +2,7 @@
 layout: post
 title: 英语选修七 单词表
 date: 2020-03-06
-updated: 2020-03-15
+updated: 2020-03-20
 katex: true
 categories: 文化课
 tags: [文化课, 英语, 单词]
@@ -17,6 +17,119 @@ tags: [文化课, 英语, 单词]
 2020-03-06 记录 Unit 2 单词
 
 2020-03-15 记录 Unit 3 单词，新增来自 ACGN & OI 语料库中的语境
+
+2020-03-20 记录 Unit 1 单词
+
+### Unit 1
+
+| 单词                | 词性      | 释义                                         | 闲话                                                         |
+| :------------------ | :-------- | :------------------------------------------- | :----------------------------------------------------------- |
+| disability          | n.        | 伤残；无能                                   |                                                              |
+| disabled            | adj.      | 伤残的                                       |                                                              |
+| hearing             | n.        | 听力；听觉                                   |                                                              |
+| eyesight            | n.        | 视力                                         |                                                              |
+| syndrome            | n.        | 综合病征                                     | 总觉得这个词和 chrome 有相同后缀，但是查了词源发现完全不同。不过记单词还是可以 syn+drome（大雾） |
+| infantile paralysis |           | 小儿麻痹                                     |                                                              |
+| lap                 | n.        | 跑道的一圈；重叠部分；（人坐着时）大腿的上方 | 秒表上就有 lap，此外“大腿”的意思也派生出了 laptop；奈芙莲在威廉的**腿**上睡着了 |
+| ambition            | n.        | 雄心；野心                                   | 威廉总认为自己看上去没有**野心**                             |
+| ambitious           | adj.      | 有雄心的；有野心的                           | 大贤者想要夺回地面，这是一个**有雄心的**计划                 |
+| dictation           | n.        | 口授；听写（的文字）                         | 不知道和 dictionary 有没有关系，至少长得有点像               |
+| noisy               | adj.      | 吵闹的；嘈杂的                               | 嘈杂的嘈是平舌音                                             |
+| suitable            | adj.      | 适合的；适宜的                               |                                                              |
+| entry               | n.        | 项目；进入；入口                             | entry 作“项目”大概是 an item in a list 的意思，在线性代数里还可以表示矩阵的一个元素。（The **entry** in the second row and first column of this matrix is 6.） |
+| beneficial          | adj.      | 有益的；受益的                               |                                                              |
+| in other words      |           | 换句话说                                     | 非常高频的词组，意思可能就像“即得”（大雾）；**换句话说**，你现在已经不是黄金妖精了 |
+| clumsy              | adj.      | 笨拙的                                       | 莉莉娅认为威廉的动作很**笨拙**                               |
+| bump                | vi.       | 碰撞；撞击                                   | 大部分生物（不包括妮戈兰）**撞到**马车上都会出事（事实上妮戈兰撞到马车也会出事，但出事的是将反向弹回的马车） |
+| outgoing            | adj.      | 外向的；友好的；外出的；离开的               |                                                              |
+| adapt               | vt.       | 使适应；改编                                 | adapt 和 adopt 很像，网上有一句把它们区分的话—— I am <u>adept</u> at making an *adopted* child **adapt** to his new home by psychotherapy.（我<u>擅长</u>通过心理治疗使*领养*的孩子**适应**他们的新家） |
+| adapt to            |           | 适合                                         | 上面的句子里面就有 adapt to 了                               |
+| bench               | n.        | 长凳                                         | 浪漫的地方（大雾）；威廉在**长凳**上坐下，坐在珂朵莉身旁     |
+| cut out             |           | 切去；省略；停止（做某事）                   | 意思还挺多的，分别是物理切去、语言切去、精神切去；珂学课本没有 cut out，只有 cut out for（适合） |
+| microscope          | n.        | 显微镜                                       | 微小的作用域，简称微域（大雾）                               |
+| out of breath       |           | 上气不接下气                                 |                                                              |
+| absence             | n.        | 缺席；不在某处                               |                                                              |
+| fellow              | adj. & n. | 同伴的；同类的；同伴                         | 莉莉娅想着她的勇者**伙伴**们在做什么                         |
+| annoy               | vt.       | 使……不悦；惹恼                               |                                                              |
+| annoyed             | adj.      | 颇为生气的                                   |                                                              |
+| annoyance           | n.        | 烦恼                                         | 缇亚忒看到费奥多尔，脸上写满了**不悦**（好假）               |
+| all in all          |           | 总而言之                                     |                                                              |
+| firm                | n. & adj. | 公司；坚固的；坚定的                         | firm 作“公司”还是需要注意的                                  |
+| software            | n.        | 软件                                         |                                                              |
+| sit around          |           | 闲坐着                                       | 威廉认为，如果**什么事都不做**就无法离开梦境世界             |
+| as well as          |           | 和；也                                       | 这东西现在还是新词？                                         |
+| parrot              | n.        | 鹦鹉                                         | carrot 是胡萝卜                                              |
+| tank                | n.        | 大容器；缸；大桶                             | 另外的意思大家都懂；费奥多尔把缇亚忒从**水池**里捞了出来     |
+| tortoise            | n.        | 陆龟；龟                                     | 和 turtle 有点像，都是两个 t                                 |
+| in many ways        |           | 在很多方面                                   |                                                              |
+| psychology          | n.        | 心理（学）                                   | 很长也很难记……psy 发 sci 的音还是有点意思                    |
+| psychologically     | adv.      | 心理（学）地；精神上地                       |                                                              |
+| make fun of         |           | 取笑                                         |                                                              |
+| encouragement       | n.        | 鼓励；奖励                                   |                                                              |
+| conduct             | n. & vt.  | 行为；品行；指挥；管理；主持                 | 意思真够多的；费奥多尔的**品行**（表面上）无可挑剔；艾尔佩斯**主持**了对兽的研究 |
+| mainstream          | n.        | 主流；主要倾向                               |                                                              |
+| fulfilling          | adj.      | 令人满意的；令人愉快的                       | 如果威廉不成为勇者，他可能过着更**愉快**的生活               |
+| never mind          |           | 不必担心                                     |                                                              |
+
+#### lap
+
+What was my reason for doing unfamiliar work to the point of completely exhausting myself and falling asleep in his **lap** - and why did I feel comfortable all the while?（珂学选修 1-1）
+
+#### ambition
+
+A black haired man stared back at him with black eyes that seemed void of any **ambition**.（珂学必修 1）
+
+#### ambitious
+
+That's a pretty ambitious plan.（珂学必修 2）
+
+#### in other words
+
+“Yes. Of course, I have no idea why, but just going by the results that's the only plausible conclusion." Naigrat lightly shook the test tube in her hand. The silver contents shook about. “As you know, Leprechauns are a type of Ghost. So when I mixed your blood with this silver, it should have turned black immediately. The lack of a reaction can only mean one thing." 
+
+Naigrat's logic was simple, which meant there was no room for counterargument. 
+
+“**In other words**, you are no longer a Leprechaun."（珂学必修 3）
+
+#### clumsy
+
+She recalled that fateful winter when she’d first seen Willem practicing in that forest. Looking at his **clumsy**, unpolished movements, Leila had felt incensed.（珂学选修 1-1）
+
+#### bump
+
+In addition, most living beings, not only Leprechauns, probably wouldn’t be fine after **bumping** into a carriage. Well, of course, Naigrat didn’t belong in ‘most living beings’.（珂学必修 5）
+
+#### bench
+
+“Hey,” Willem said as they sat down next to each other on a **bench**.（珂学必修 3）
+
+#### fellow
+
+What are all my **fellow** Braves doing right now?（珂学选修 1-1）
+
+#### annoyance
+
+“Why are you here?” Tiat asked, **annoyance** written all over her face.（珂学选修 2-1）
+
+#### sit around
+
+“Do we need to strike back?” Nephren asked. 
+
+“Of course. If we just **sit around** we’ll never get out of here.” 
+
+#### tank
+
+“That’s why I said it was dangerous,” Feodor grumbled, pulling the dripping girl out of the **tank**.（珂学选修 2-1）
+
+#### conduct
+
+Feodor wasn’t sure why he was being summoned. As Fourth Officer, he had irreproachable **conduct** and was an exemplary soldier.（珂学选修 2-1）
+
+The Elpis Trading Federation city-state, who existed on the 13th Island at the time, had **conducted** research on Beasts and, for the purposes of political maneuvering, brought them up from the surface.（珂学选修 2-1）
+
+#### fulfilling
+
+Maybe if he had given up on his impossible dream right away and spent his free time like a normal teenage boy, he would've gotten to experience more things and lived a more **fulfilling** life.（珂学必修 4）
 
 ### Unit 2
 

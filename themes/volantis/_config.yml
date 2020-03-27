@@ -1,11 +1,11 @@
 ############################### Basic Information ###############################
 info:
   name: Volantis
-  version: '2.2-beta'
+  version: '2.2.1'
   docs: https://volantis.js.org/
   cdn: # To use CDN, write 'use_cdn: true' in 'blog/_config.yml'.
-    # css: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.1.6.2/css/style.css
-    js: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.1.6/js/app.js
+    css: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.2.1/css/style.css
+    js: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.2.1/js/app.js
 
 
 ############################### Style ###############################
@@ -13,6 +13,7 @@ style:
   max_width: 1080px # Sum of body width and sidebar width (This limit will be exceeded when the device width is greater than 2000px, reaching 75% of the total width)
   navbar:
     height: 64px
+    width: auto # auto, max
     effect: [shadow, blur] # [shadow, floatable, blur]
   sidebar:
     effect: [shadow] # [shadow, floatable, blur]
@@ -31,8 +32,8 @@ style:
     h2: 48px # Spacing above H2 (only px unit)
     h3: 32px # Spacing above H3 (only px unit)
     h4: 16px # Spacing above H4 (only px unit)
-    line: 1rem # Paragraph spacing
-    inline: .5rem # Paragraph spacing within a block
+    block: 1rem # Paragraph spacing between blocks
+    p: .5rem # Paragraph spacing within a block
   border_radius:
     card: 12px
     codeblock: 4px
@@ -187,12 +188,12 @@ meta:
     url: https://sweetlemon39.github.io/
   # 文章创建日期
   date:
-    icon: fas fa-edit
+    icon: fas fa-calendar-alt
     title: '发布于：'
     format: 'll' # 日期格式 http://momentjs.com/docs/
   # 文章更新日期
   updated:
-    icon: fas fa-save
+    icon: fas fa-edit
     title: '更新于：'
     format: 'll' # 日期格式 http://momentjs.com/docs/
   # 文章分类
@@ -544,7 +545,7 @@ comments:
   valine:
     appId: uzT4lXHwcPJOlEGevXF7jqRU-gzGzoHsz
     appKey: vVl1bqbOX0WUiA9WFlFhMxBb
-    js: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.1.6.2/js/valine.js
+    js: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.2.0/js/valine.js
     path: # All pages use the same path (share the same comments data)
     meta: nick,mail,link #valine comment header info
     placeholder: 快来评论吧~ # valine comment input placeholder(like: Please leave your footprints )

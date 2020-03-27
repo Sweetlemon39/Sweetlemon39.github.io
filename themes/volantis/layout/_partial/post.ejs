@@ -2,7 +2,13 @@
   <%- partial('meta',{post:post, position:'header'}) %>
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <%- post.excerpt || post.description || post.content %>
+      <% if (post.excerpt) { %>
+        <%- post.excerpt %>
+      <% } else if (post.description) { %>
+        <p><%- post.description %></p>
+      <% } else { %>
+        <%- post.content %>
+      <% } %>
       <% if (theme.layout.on_list.readmore) { %>
         <% if ((post.readmore != false) && (post.excerpt || post.description || post.link)) { %>
           <div class="button readmore">
