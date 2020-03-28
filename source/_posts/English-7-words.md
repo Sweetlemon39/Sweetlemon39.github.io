@@ -2,7 +2,7 @@
 layout: post
 title: 英语选修七 单词表
 date: 2020-03-06
-updated: 2020-03-20
+updated: 2020-03-28
 katex: true
 categories: 文化课
 tags: [文化课, 英语, 单词]
@@ -22,54 +22,86 @@ tags: [文化课, 英语, 单词]
 
 ### Unit 1
 
-| 单词                | 词性      | 释义                                         | 闲话                                                         |
-| :------------------ | :-------- | :------------------------------------------- | :----------------------------------------------------------- |
-| disability          | n.        | 伤残；无能                                   |                                                              |
-| disabled            | adj.      | 伤残的                                       |                                                              |
-| hearing             | n.        | 听力；听觉                                   |                                                              |
-| eyesight            | n.        | 视力                                         |                                                              |
-| syndrome            | n.        | 综合病征                                     | 总觉得这个词和 chrome 有相同后缀，但是查了词源发现完全不同。不过记单词还是可以 syn+drome（大雾） |
-| infantile paralysis |           | 小儿麻痹                                     |                                                              |
-| lap                 | n.        | 跑道的一圈；重叠部分；（人坐着时）大腿的上方 | 秒表上就有 lap，此外“大腿”的意思也派生出了 laptop；奈芙莲在威廉的**腿**上睡着了 |
-| ambition            | n.        | 雄心；野心                                   | 威廉总认为自己看上去没有**野心**                             |
-| ambitious           | adj.      | 有雄心的；有野心的                           | 大贤者想要夺回地面，这是一个**有雄心的**计划                 |
-| dictation           | n.        | 口授；听写（的文字）                         | 不知道和 dictionary 有没有关系，至少长得有点像               |
-| noisy               | adj.      | 吵闹的；嘈杂的                               | 嘈杂的嘈是平舌音                                             |
-| suitable            | adj.      | 适合的；适宜的                               |                                                              |
-| entry               | n.        | 项目；进入；入口                             | entry 作“项目”大概是 an item in a list 的意思，在线性代数里还可以表示矩阵的一个元素。（The **entry** in the second row and first column of this matrix is 6.） |
-| beneficial          | adj.      | 有益的；受益的                               |                                                              |
-| in other words      |           | 换句话说                                     | 非常高频的词组，意思可能就像“即得”（大雾）；**换句话说**，你现在已经不是黄金妖精了 |
-| clumsy              | adj.      | 笨拙的                                       | 莉莉娅认为威廉的动作很**笨拙**                               |
-| bump                | vi.       | 碰撞；撞击                                   | 大部分生物（不包括妮戈兰）**撞到**马车上都会出事（事实上妮戈兰撞到马车也会出事，但出事的是将反向弹回的马车） |
-| outgoing            | adj.      | 外向的；友好的；外出的；离开的               |                                                              |
-| adapt               | vt.       | 使适应；改编                                 | adapt 和 adopt 很像，网上有一句把它们区分的话—— I am <u>adept</u> at making an *adopted* child **adapt** to his new home by psychotherapy.（我<u>擅长</u>通过心理治疗使*领养*的孩子**适应**他们的新家） |
-| adapt to            |           | 适合                                         | 上面的句子里面就有 adapt to 了                               |
-| bench               | n.        | 长凳                                         | 浪漫的地方（大雾）；威廉在**长凳**上坐下，坐在珂朵莉身旁     |
-| cut out             |           | 切去；省略；停止（做某事）                   | 意思还挺多的，分别是物理切去、语言切去、精神切去；珂学课本没有 cut out，只有 cut out for（适合） |
-| microscope          | n.        | 显微镜                                       | 微小的作用域，简称微域（大雾）                               |
-| out of breath       |           | 上气不接下气                                 |                                                              |
-| absence             | n.        | 缺席；不在某处                               |                                                              |
-| fellow              | adj. & n. | 同伴的；同类的；同伴                         | 莉莉娅想着她的勇者**伙伴**们在做什么                         |
-| annoy               | vt.       | 使……不悦；惹恼                               |                                                              |
-| annoyed             | adj.      | 颇为生气的                                   |                                                              |
-| annoyance           | n.        | 烦恼                                         | 缇亚忒看到费奥多尔，脸上写满了**不悦**（好假）               |
-| all in all          |           | 总而言之                                     |                                                              |
-| firm                | n. & adj. | 公司；坚固的；坚定的                         | firm 作“公司”还是需要注意的                                  |
-| software            | n.        | 软件                                         |                                                              |
-| sit around          |           | 闲坐着                                       | 威廉认为，如果**什么事都不做**就无法离开梦境世界             |
-| as well as          |           | 和；也                                       | 这东西现在还是新词？                                         |
-| parrot              | n.        | 鹦鹉                                         | carrot 是胡萝卜                                              |
-| tank                | n.        | 大容器；缸；大桶                             | 另外的意思大家都懂；费奥多尔把缇亚忒从**水池**里捞了出来     |
-| tortoise            | n.        | 陆龟；龟                                     | 和 turtle 有点像，都是两个 t                                 |
-| in many ways        |           | 在很多方面                                   |                                                              |
-| psychology          | n.        | 心理（学）                                   | 很长也很难记……psy 发 sci 的音还是有点意思                    |
-| psychologically     | adv.      | 心理（学）地；精神上地                       |                                                              |
-| make fun of         |           | 取笑                                         |                                                              |
-| encouragement       | n.        | 鼓励；奖励                                   |                                                              |
-| conduct             | n. & vt.  | 行为；品行；指挥；管理；主持                 | 意思真够多的；费奥多尔的**品行**（表面上）无可挑剔；艾尔佩斯**主持**了对兽的研究 |
-| mainstream          | n.        | 主流；主要倾向                               |                                                              |
-| fulfilling          | adj.      | 令人满意的；令人愉快的                       | 如果威廉不成为勇者，他可能过着更**愉快**的生活               |
-| never mind          |           | 不必担心                                     |                                                              |
+| 单词                | 词性           | 释义                                         | 闲话                                                         |
+| :------------------ | :------------- | :------------------------------------------- | :----------------------------------------------------------- |
+| disability          | n.             | 伤残；无能                                   |                                                              |
+| disabled            | adj.           | 伤残的                                       |                                                              |
+| hearing             | n.             | 听力；听觉                                   |                                                              |
+| eyesight            | n.             | 视力                                         |                                                              |
+| syndrome            | n.             | 综合病征                                     | 总觉得这个词和 chrome 有相同后缀，但是查了词源发现完全不同。不过记单词还是可以 syn+drome（大雾） |
+| infantile paralysis |                | 小儿麻痹                                     |                                                              |
+| lap                 | n.             | 跑道的一圈；重叠部分；（人坐着时）大腿的上方 | 秒表上就有 lap，此外“大腿”的意思也派生出了 laptop；奈芙莲在威廉的**腿**上睡着了 |
+| ambition            | n.             | 雄心；野心                                   | 威廉总认为自己看上去没有**野心**                             |
+| ambitious           | adj.           | 有雄心的；有野心的                           | 大贤者想要夺回地面，这是一个**有雄心的**计划                 |
+| dictation           | n.             | 口授；听写（的文字）                         | 不知道和 dictionary 有没有关系，至少长得有点像               |
+| noisy               | adj.           | 吵闹的；嘈杂的                               | 嘈杂的嘈是平舌音                                             |
+| suitable            | adj.           | 适合的；适宜的                               |                                                              |
+| entry               | n.             | 项目；进入；入口                             | entry 作“项目”大概是 an item in a list 的意思，在线性代数里还可以表示矩阵的一个元素。（The **entry** in the second row and first column of this matrix is 6.） |
+| beneficial          | adj.           | 有益的；受益的                               |                                                              |
+| in other words      |                | 换句话说                                     | 非常高频的词组，意思可能就像“即得”（大雾）；**换句话说**，你现在已经不是黄金妖精了 |
+| clumsy              | adj.           | 笨拙的                                       | 莉莉娅认为威廉的动作很**笨拙**                               |
+| bump                | vi.            | 碰撞；撞击                                   | 大部分生物（不包括妮戈兰）**撞到**马车上都会出事（事实上妮戈兰撞到马车也会出事，但出事的是将反向弹回的马车） |
+| outgoing            | adj.           | 外向的；友好的；外出的；离开的               |                                                              |
+| adapt               | vt.            | 使适应；改编                                 | adapt 和 adopt 很像，网上有一句把它们区分的话—— I am <u>adept</u> at making an *adopted* child **adapt** to his new home by psychotherapy.（我<u>擅长</u>通过心理治疗使*领养*的孩子**适应**他们的新家） |
+| adapt to            |                | 适合                                         | 上面的句子里面就有 adapt to 了                               |
+| bench               | n.             | 长凳                                         | 浪漫的地方（大雾）；威廉在**长凳**上坐下，坐在珂朵莉身旁     |
+| cut out             |                | 切去；省略；停止（做某事）                   | 意思还挺多的，分别是物理切去、语言切去、精神切去；珂学课本没有 cut out，只有 cut out for（适合） |
+| microscope          | n.             | 显微镜                                       | 微小的作用域，简称微域（大雾）                               |
+| out of breath       |                | 上气不接下气                                 |                                                              |
+| absence             | n.             | 缺席；不在某处                               |                                                              |
+| fellow              | adj. & n.      | 同伴的；同类的；同伴                         | 莉莉娅想着她的勇者**伙伴**们在做什么                         |
+| annoy               | vt.            | 使……不悦；惹恼                               |                                                              |
+| annoyed             | adj.           | 颇为生气的                                   |                                                              |
+| annoyance           | n.             | 烦恼                                         | 缇亚忒看到费奥多尔，脸上写满了**不悦**（好假）               |
+| all in all          |                | 总而言之                                     |                                                              |
+| firm                | n. & adj.      | 公司；坚固的；坚定的                         | firm 作“公司”还是需要注意的                                  |
+| software            | n.             | 软件                                         |                                                              |
+| sit around          |                | 闲坐着                                       | 威廉认为，如果**什么事都不做**就无法离开梦境世界             |
+| as well as          |                | 和；也                                       | 这东西现在还是新词？                                         |
+| parrot              | n.             | 鹦鹉                                         | carrot 是胡萝卜                                              |
+| tank                | n.             | 大容器；缸；大桶                             | 另外的意思大家都懂；费奥多尔把缇亚忒从**水池**里捞了出来     |
+| tortoise            | n.             | 陆龟；龟                                     | 和 turtle 有点像，都是两个 t                                 |
+| in many ways        |                | 在很多方面                                   |                                                              |
+| psychology          | n.             | 心理（学）                                   | 很长也很难记……psy 发 sci 的音还是有点意思                    |
+| psychologically     | adv.           | 心理（学）地；精神上地                       |                                                              |
+| make fun of         |                | 取笑                                         |                                                              |
+| encouragement       | n.             | 鼓励；奖励                                   |                                                              |
+| conduct             | n. & vt.       | 行为；品行；指挥；管理；主持                 | 意思真够多的；费奥多尔的**品行**（表面上）无可挑剔；艾尔佩斯**主持**了对兽的研究 |
+| mainstream          | n.             | 主流；主要倾向                               |                                                              |
+| fulfilling          | adj.           | 令人满意的；令人愉快的                       | 如果威廉不成为勇者，他可能过着更**愉快**的生活               |
+| never mind          |                | 不必担心                                     |                                                              |
+| politics            | n.             | 政治（学）                                   |                                                              |
+| abolish             | vt.            | 废除；废止                                   | 找不到什么例子，课本给的是**废止**贩卖奴隶（Finally the slave trade was abolished in 1807.） |
+| abolition           | n.             | 废除；废止                                   |                                                              |
+| resign              | vi. & vt.      | 辞职                                         | 辞职只是最常用的一种意思，这个词还有（不情愿地）放弃或屈服的意思；resigned 有“无奈”的意思；resignation 还有类似“认命”的意思（根据珂学课本的中英对照得出）。其实这几个词可以连成意思串——无奈地辞职认命 |
+| slavery             | n.             | 奴隶制                                       |                                                              |
+| literature          | n.             | 文学（作品）；著作；文献                     | 论文里有个叫**文献**综述（literature review）的东西（回顾这个话题的文献）；威廉很厉害，可以读五百年前的**文学作品**（这算什么，中国高中生还能读千年前的古文呢） |
+| companion           | n.             | 同伴；伙伴                                   | （悲伤的例子）珂朵莉已经失去了关于仓库里一半**伙伴**的记忆   |
+| assistance          | n.             | 协助；援助                                   |                                                              |
+| congratulate        | vt.            | 祝贺；庆贺                                   |                                                              |
+| congratulation      | n.             | 祝贺；贺词                                   | 以前我曾经被这个长单词吓怕过                                 |
+| bowling             | n.             | 保龄球                                       | 保龄球=爆零球（大雾）；我也不知道这个词和 bowl 有什么关系    |
+| graduation          | n.             | 毕业（典礼）                                 |                                                              |
+| certificate         | n.             | 证书                                         | 数字**证书**（digital certificate）是 HTTPS 安全的重要保障   |
+| all the best        |                | （祝你）一切顺利                             |                                                              |
+| architect           | n.             | 建筑师                                       | 软件**架构师**是程序设计专家才能胜任的                       |
+| adequate            | adj.           | 足够的；充分的                               | 现有的系统不**足**以应对这种情况（威廉和妮戈兰、灰岩皮讨论珂朵莉的未来） |
+| access              | n.             | （接近的）方法；通路；可接近性               | 看某 OJ 的比赛有时会显示 Access Denied（拒绝**访问**）；Access 本身还是 Office 套装里的数据库软件的名字 |
+| accessible          | adj.           | 可接近的；可进入的；可使用的                 | 这里有一个鲜活的例子：`D:\ is not accessible. Access is denied`（这种情况好像要 chkdsk 一下） |
+| wheelchair          | n.             | 轮椅                                         |                                                              |
+| handy               | adj.           | 方便的；好用的                               | 珂学课本里出现了几次 come in handy，比如，威廉没有威慑力的面孔只在面对小孩的时候才**派上用场** |
+| earphone            | n.             | 耳机                                         |                                                              |
+| impair              | vt.            | 削弱；损伤                                   | 把眼睛“黏在”屏幕上导致视力**削弱**                           |
+| row                 | n. & vi. & vt. | 一行；划（船）                               | OIer 一定知道“行”的意思，但是“划船”的意思，呃，据说有首儿歌叫 *Row, Row, Row Your Boat*；顺便说一句，“行”和”列“的概念大陆和港台是相反的（ |
+| basement            | n.             | 地下室                                       | Codeforces 有一道“**地下室**里的机器人”的题目（Robot in Basement, Yandex.Algorithm 2011: Finals D） |
+| outwards            | adv.           | 向外                                         |                                                              |
+| exit                | n.             | 出口；离开；退场                             | Python 有 `exit()` 和 `quit()` 两个退出函数，但是 exit 和 quit 的意思有点不同（ |
+| meet with           |                | 遇到；经历；会晤                             | 费奥多尔定期和玛尔戈**会晤**，啊不是，是**碰面**（明明只是约会嘛） |
+| approval            | n.             | 赞成；认可                                   |                                                              |
+| dignity             | n.             | 尊严；高贵的品质                             | 艾瑟雅有一种独特的成熟的**魅力**（当然是在 5 年后）          |
+| profit              | n.             | 收益；利润；盈利                             |                                                              |
+| italics             | n. (pl)        | 斜体（字）                                   | Ctrl-I 的 I 就是这么来的，`\mathit` 也是这么来的 $\mathit{italics}$ |
+| community           | n.             | 社区；团体；社会                             | github 是世界上最大的开源**社区**（这么宣传可是违反广告法的（大雾）） |
 
 #### lap
 
@@ -130,6 +162,70 @@ The Elpis Trading Federation city-state, who existed on the 13th Island at the t
 #### fulfilling
 
 Maybe if he had given up on his impossible dream right away and spent his free time like a normal teenage boy, he would've gotten to experience more things and lived a more **fulfilling** life.（珂学必修 4）
+
+#### resign
+
+She took a breath, then continued. “There aren’t many soldiers who’d be glad to go and babysit children like us. Everyone else immediately **resigned** and left. Willem was sent to our warehouse like the other soldiers, five years ago. He was an incredibly admirable Technical Officer… and… he was… like a father to all of us.”（珂学选修 2-1）其他军方管理员都很快辞职离开了。
+
+"Whatever just hurry up and let go of me... this is really getting embarrassing!” 
+
+After looking around and grasping the situation, he mumbled “my bad”, then loosened his arms. Kutori, who had silently slipped out of his embrace and backed up a few steps, stared at Willem with a bright red face. 
+
+“A real mess, huh?” Aiseia laughed teasingly, 
+
+“Mm,” Nephren gave a **resigned** nod, 
+
+And Willem’s sobs rang out loud and clear. （珂学必修 2）奈芙莲无奈地点了点头（出自威廉紧紧抱住珂朵莉的那一幕）
+
+“**Resignation** and determination are essentially the same thing. They both refer to a decision to sacrifice something important in order to achieve a goal.”（珂学必修 1）灰岩皮解释“战士心中的风”（决心或认命）
+
+#### literature
+
+“Eh? You’re a technician, aren’t you? Aren’t you supposed to be smart?” 
+
+“Oh, I’m super smart. If you have any ancient **literature** from 500 years ago, I can read it no problem!”（珂学必修 1）
+
+#### companion
+
+Already, she had forgotten almost half of the names of her **companions** in the fairy warehouse. Even if she tried hard to study and relearn their names, her memories of them refused to return.（珂学必修 3）
+
+#### adequate
+
+“Can we change the entire system somehow? It's obviously not **adequate** enough to cover the current situation,” Willem asked. 
+
+“It'll take a long time to get such a change to go through. It could be years. And if she gets an order to go to battle during that time, it'll all be for nothing.” 
+
+“I can do something about the orders to a certain extent,” Limeskin remarked.（珂学必修 3）
+
+#### architect
+
+A software **architect** is a software developer expert who makes high-level design choices and tries to enforce technical standards, including software coding standards, tools, and platforms.（Wikipedia Software architect）
+
+#### handy
+
+But as soon as Willem showed them that smile of his, they relaxed. These kind of moments were the only times when that face of his, which lacked any solemnity whatsoever, came in **handy**.（珂学必修 4）
+
+#### impair
+
+As you spend lots of time "glued to the screen", your vision is **impaired**.（Codeforces Round #159 C）
+
+#### meet with
+
+After this, the boy and the girl occasionally received a chance to **meet with** each other.
+Every time they met, the girl would press him for new stories. In order to meet her expectations, he was forced into increasingly diligent studies. 
+Of course, that didn’t bother him – though the actions of her family created more than enough irritation regardless.（珂学选修 2-1）
+
+#### dignity
+
+“Nah, not quite.” Nax scratched his cheek. “She’s got that sorta… widow’s allure, ain’t she?”
+A burst of air came from underneath Tiat’s mask. “Wi-Widow?!” she spluttered.
+“Er, not something to be sayin’ in front of her family, eh? Sorry.”
+“Uh, um, wait, no, that’s not why…”
+What do I do? Somehow she was in agreement. These past few years, Aiseia Myse Valgalis had begun to exhibit a mysterious **dignity**, born from some unique condition or another. Nax’s suggestion seemed somehow fitting - very fitting indeed.（珂学选修 2-2）
+
+#### community
+
+GitHub is home to the world’s largest **community** of developers and their projects...（github 主页）
 
 ### Unit 2
 
