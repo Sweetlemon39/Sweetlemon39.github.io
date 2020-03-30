@@ -47,6 +47,9 @@
       max-width: $layout-width - $sidebar
       @media screen and (min-width: 2000px)
         max-width: "calc(55vw - %s)" % $sidebar
+      .m_search
+        @media screen and (min-width: $device-mobile)
+          max-width: 112px
 
   .wrapper.sub
     .logo

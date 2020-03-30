@@ -1,4 +1,19 @@
 .article
+  underline()
+    &:hover
+      text-decoration: underline
+  .article-entry
+    >a,>p>a,blockquote a,div.note a
+      underline()
+    >ul>li,>ol>li,tbody tr td
+      >a
+        underline()
+    div.tab-pane
+      >p,li
+        >a
+          underline()
+
+.article
   color: $color-p
   // word-break: break-all
   word-wrap: break-word
@@ -17,6 +32,9 @@
     img
       display: inline
       margin: auto
+
+  video
+    border-radius: $border-codeblock
 
   h1,h2,h3,h4,h5,h6
     &:first-child
@@ -117,13 +135,6 @@
       list-style: initial
   ol>li
       list-style: decimal
-  >a,>p>a,blockquote a,div.note a
-    &:hover
-      color: $color-hover
-      text-decoration: underline
-    &:active
-      color: darken($color-hover, 25%)
-
 
   .subtitle
     h6
@@ -149,7 +160,6 @@
       font-size: $fontsize-list
       margin-top: $gap-p
       margin-bottom: $gap-p
-    box-shadow: $boxshadow-card
     position: relative
     width: 100%
     padding: .7em 1.2em
@@ -294,6 +304,11 @@
     position: relative
     pointer-events: none
     margin-top: 0
+    >a
+      color: inherit
+      pointer-events: auto
+      &:hover
+        color: $color-hover
     &:before
       content: ''
       display: block
