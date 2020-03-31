@@ -2,7 +2,7 @@
 layout: post
 title: 英语选修七 单词表
 date: 2020-03-06
-updated: 2020-03-28
+updated: 2020-03-31
 katex: true
 categories: 文化课
 tags: [文化课, 英语, 单词]
@@ -19,6 +19,8 @@ tags: [文化课, 英语, 单词]
 2020-03-15 记录 Unit 3 单词，新增来自 ACGN & OI 语料库中的语境
 
 2020-03-20 记录 Unit 1 单词
+
+2020-03-31 记录 Unit 4 单词
 
 ### Unit 1
 
@@ -486,3 +488,90 @@ Before the battle started, the **steep** yet beautiful slopes of mountains and a
 #### seal
 
 I can only stop in a world and use my power as a Visitor six times, and I used the last one to **seal** your memories.（珂学必修 5）
+
+### Unit 4
+
+| 单词           | 词性           | 释义                               | 闲话                                                         |
+| :------------- | :------------- | :--------------------------------- | :----------------------------------------------------------- |
+| airmail        | n.             | 航空邮件                           | 航空邮件=hkyj=black-rimmed glasses（逃                       |
+| fortnight      | n.             | 两星期                             | 词源相当于 fourteen nights，也是隔离期的长度（大雾）         |
+| hear from      |                | 接到……的信                         |                                                              |
+| (be) dying to  |                | 渴望                               | 死都要做某事，果然渴望                                       |
+| roof           | n.             | 屋顶；车顶                         | **屋顶**很危险，不要上**屋顶**！珂朵莉以侵蚀为代价救了阿尔米塔后的告诫。（选修 2-6 末尾那段真的很感人） |
+| muddy          | adj.           | 泥泞的；泥土般的                   | 玛尔戈拉了拉费奥多尔**沾满泥的**袖子                         |
+| textbook       | n.             | 教科书                             |                                                              |
+| concept        | n.             | 观念；概念                         | 新**概念**英语（New Concept English），说实话这三个词里面最难的就是这个概念了 |
+| bucket         | n.             | 水桶                               | **桶**排序（**bucket** sort）的**桶**；bitbucket 也是一个版本控制平台 |
+| the other day  |                | 不久前的一天                       | a few days ago，一般过去时                                   |
+| weekly         | adj. & adv.    | 每周（的）                         | weekly test（哭）                                            |
+| bubble         | vi.            | 起泡；沸腾；汨汨地流动             | 冒**泡**排序（**bubble** sort）的**泡**                      |
+| relevant       | adj.           | 有关的；切题的                     | 每一行输出与之**相关的**（对应的）那一组数据的答案；（必修 1 威廉在丛林中）更相关的（迫切的）问题是被野生动物吃而不是被妖精捉弄（然后就被妖精捉弄了，再后来既有被妖精捉弄的风险又有被食人鬼吃的风险） |
+| remote         | adj.           | 遥远的；偏僻的                     |                                                              |
+| ridge          | n.             | 山脊；屋脊                         |                                                              |
+| weed           | n. & vt. & vi. | 杂草；除杂草                       |                                                              |
+| hut            | n.             | 棚屋；小屋                         |                                                              |
+| rectangle      | n.             | 矩形                               |                                                              |
+| rectangular    | adj.           | 矩形的                             |                                                              |
+| adjust         | vt. & vi.      | 调整                               |                                                              |
+| platform       | n.             | 平台；讲台；月台                   |                                                              |
+| broom          | n.             | 扫帚                               |                                                              |
+| tin            | n.             | 锡                                 |                                                              |
+| jar            | n.             | 罐；广口瓶                         |                                                              |
+| sniff          | vt. & vi.      | 嗅；用鼻子吸                       |                                                              |
+| participate    | vi.            | 参与                               |                                                              |
+| interpreter    | n.             | 作口译的人                         |                                                              |
+| grill          | n. & vt.       | 烤架；大平底锅；烧烤；炙烤         |                                                              |
+| dry out        |                | （使浸水等之物）完全变干           |                                                              |
+| leftover       | n. & adj.      | 剩余物；剩饭；剩余的               |                                                              |
+| evil           | adj. & n.      | 邪恶的；邪恶                       |                                                              |
+| dry up         |                | （河流、井等）干涸                 |                                                              |
+| otherwise      | conj. & adv.   | 否则；用别的方法；其他方面         |                                                              |
+| privilege      | n.             | 特权；特别优待                     |                                                              |
+| paperwork      | n.             | 文书工作                           |                                                              |
+| arrangement    | n.             | 安排；排列                         |                                                              |
+| toast          | vt. & n.       | 烤（面包等）；敬酒；烤面包片；干杯 |                                                              |
+| comb           | n. & vi.       | 梳子；梳（发）                     |                                                              |
+| astronaut      | n.             | 宇航员                             |                                                              |
+| angle          | n.             | 角；角度                           |                                                              |
+| catalogue      | n.             | 目录                               |                                                              |
+| donate         | n.             | 捐赠                               |                                                              |
+| voluntary      | adj.           | 自愿的；无偿的                     |                                                              |
+| in need        |                | 在困难中；在危急中                 |                                                              |
+| purchase       | vt. & n.       | 购买                               |                                                              |
+| anniversary    | n.             | 周年纪念（日）                     |                                                              |
+| seed           | n.             | 种子；萌芽                         |                                                              |
+| seedling       | n.             | 秧苗；树苗                         |                                                              |
+| vaccination    | n.             | 接种疫苗                           |                                                              |
+| loan           | n.             | 贷款                               |                                                              |
+| sew            | vi. & vt.      | 缝；缝制；缝合                     |                                                              |
+| sewing machine |                | 缝纫机                             |                                                              |
+| supplement     | n.             | 增补的事物；补充；附录；增刊       |                                                              |
+| ox             | n.             | （*pl* oxen）公牛                  |                                                              |
+| plough         | vi.            | 犁（地）；耕（地）                 |                                                              |
+| trunk          | n.             | 树干；躯干；大衣箱                 |                                                              |
+| trunk library  |                | 箱式（柜式）图书馆                 |                                                              |
+| tractor        | n.             | 拖拉机；牵引机                     |                                                              |
+| Kenya          | n.             | 肯尼亚                             |                                                              |
+| click          | vi. & vt. & n. | （使）发出咔嗒声；咔嗒声           |                                                              |
+| tailor         | n. & vt.       | 裁缝；剪裁缝制（衣服）             |                                                              |
+| economic       | adj.           | 经济（学）的                       |                                                              |
+| political      | adj.           | 政治的；政党的                     |                                                              |
+| distribute     | vt.            | 分配；分发                         |                                                              |
+| distribution   | n.             | 分配；分发；分布状态               |                                                              |
+| financial      | adj.           | 财务的；金融的；财政的             |                                                              |
+| security       | n.             | 安全；保护；保障                   |                                                              |
+| operate        | vi. & vt.      | 工作；运转；操作                   |                                                              |
+| clinic         | n.             | 门诊部；小诊所                     |                                                              |
+
+#### roof
+
+“It's okay! I caught her!'' she yelled up, and Tiat's mood improved immediately. “But it's still dangerous, so no going on the **roof** for a while! Lead the other kids downstairs!''（珂学必修 3）
+
+#### muddy
+
+“Um…” The girl, looking apologetic, was pulling on the **muddy** sleeve of his suit. Did I let my irritation show? “I… have to go home now.”（珂学选修 2-1）
+
+#### relevant
+
+Your output should contain K lines, one for each test case.  On each line, output the two numbers X and Y for the **relevant** test case, separated by a space.（USACO 2015 January Contest, Bronze, Problem 3, It's All About the Base）
+
