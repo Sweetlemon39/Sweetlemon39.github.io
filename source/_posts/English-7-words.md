@@ -506,62 +506,62 @@ I can only stop in a world and use my power as a Visitor six times, and I used t
 | weekly         | adj. & adv.    | 每周（的）                         | weekly test（哭）                                            |
 | bubble         | vi.            | 起泡；沸腾；汨汨地流动             | 冒**泡**排序（**bubble** sort）的**泡**                      |
 | relevant       | adj.           | 有关的；切题的                     | 每一行输出与之**相关的**（对应的）那一组数据的答案；（必修 1 威廉在丛林中）更相关的（迫切的）问题是被野生动物吃而不是被妖精捉弄（然后就被妖精捉弄了，再后来既有被妖精捉弄的风险又有被食人鬼吃的风险） |
-| remote         | adj.           | 遥远的；偏僻的                     |                                                              |
-| ridge          | n.             | 山脊；屋脊                         |                                                              |
-| weed           | n. & vt. & vi. | 杂草；除杂草                       |                                                              |
-| hut            | n.             | 棚屋；小屋                         |                                                              |
-| rectangle      | n.             | 矩形                               |                                                              |
-| rectangular    | adj.           | 矩形的                             |                                                              |
+| remote         | adj.           | 遥远的；偏僻的                     | **远程**服务器解析变化                                       |
+| ridge          | n.             | 山脊；屋脊                         | 钡硒（BaSe）逃跑了，藏在长着高高的草的**山脊**上             |
+| weed           | n. & vt. & vi. | 杂草；除杂草                       | Unit 3 有个 seaweed                                          |
+| hut            | n.             | 棚屋；小屋                         | 必胜客是 pizza hut                                           |
+| rectangle      | n.             | 矩形                               | 这个词太常见了……词源类似 right angle（直角）                 |
+| rectangular    | adj.           | 矩形的                             | 同上，rectangular area 不知道出现了多少次                    |
 | adjust         | vt. & vi.      | 调整                               |                                                              |
-| platform       | n.             | 平台；讲台；月台                   |                                                              |
-| broom          | n.             | 扫帚                               |                                                              |
-| tin            | n.             | 锡                                 |                                                              |
-| jar            | n.             | 罐；广口瓶                         |                                                              |
-| sniff          | vt. & vi.      | 嗅；用鼻子吸                       |                                                              |
-| participate    | vi.            | 参与                               |                                                              |
-| interpreter    | n.             | 作口译的人                         |                                                              |
-| grill          | n. & vt.       | 烤架；大平底锅；烧烤；炙烤         |                                                              |
-| dry out        |                | （使浸水等之物）完全变干           |                                                              |
-| leftover       | n. & adj.      | 剩余物；剩饭；剩余的               |                                                              |
-| evil           | adj. & n.      | 邪恶的；邪恶                       |                                                              |
-| dry up         |                | （河流、井等）干涸                 |                                                              |
-| otherwise      | conj. & adv.   | 否则；用别的方法；其他方面         |                                                              |
-| privilege      | n.             | 特权；特别优待                     |                                                              |
+| platform       | n.             | 平台；讲台；月台                   | 既包括具体的平台，又包括抽象的平台（Linux platform 等）      |
+| broom          | n.             | 扫帚                               | broom 常和 magic 联系在一起（大雾）                          |
+| tin            | n.             | 锡                                 | 无锡=no tin=not in=$\not\in$（大雾）                         |
+| jar            | n.             | 罐；广口瓶                         | jar（Java ARchive）这个扩展名起得很形象，像罐头食品一样开罐即用 |
+| sniff          | vt. & vi.      | 嗅；用鼻子吸                       | 威廉能**嗅**出敌人的味道（这句话其实是威廉在和珂朵莉解释他和奈芙莲睡一起的事情的时候说的） |
+| participate    | vi.            | 参与                               | 谷歌搜索 how to **participate** in IOI（大雾）               |
+| interpreter    | n.             | 作口译的人                         | Python **interpreter**（Python **解释器**）其实很形象，口译的过程和计算机语言解释的过程类似 |
+| grill          | n. & vt.       | 烤架；大平底锅；烧烤；炙烤         | 这个词怎么看都有妮戈兰的感觉，不过其实是在威廉在地面的时候出现的：**铁架子**只有一颗螺丝，看上去摇摇欲坠 |
+| dry out        |                | （使浸水等之物）完全变干           | 是人为地使它变干                                             |
+| leftover       | n. & adj.      | 剩余物；剩饭；剩余的               | **剩余的**魔力让珂朵莉的肌肉僵硬（于是就有了威廉的玄学按摩） |
+| evil           | adj. & n.      | 邪恶的；邪恶                       | 著名论断：eval is evil，当然有些人提出了反对意见             |
+| dry up         |                | （河流、井等）干涸                 | 注意和上面的 dry out 区分；想到又有孩子要上战场，妮戈兰的感情**干涸**了 |
+| otherwise      | conj. & adv.   | 否则；用别的方法；其他方面         | 否则就是其他情况，因此这个词就是其他某某的意思（另外说一句，这个词很高频） |
+| privilege      | n.             | 特权；特别优待                     | 找不到莉艾尔的时候，妮戈兰说“过度保护是监护人的**特权**”（后来莉艾尔被威廉过度保护了） |
 | paperwork      | n.             | 文书工作                           |                                                              |
-| arrangement    | n.             | 安排；排列                         |                                                              |
-| toast          | vt. & n.       | 烤（面包等）；敬酒；烤面包片；干杯 |                                                              |
-| comb           | n. & vi.       | 梳子；梳（发）                     |                                                              |
-| astronaut      | n.             | 宇航员                             |                                                              |
-| angle          | n.             | 角；角度                           |                                                              |
-| catalogue      | n.             | 目录                               |                                                              |
-| donate         | n.             | 捐赠                               |                                                              |
-| voluntary      | adj.           | 自愿的；无偿的                     |                                                              |
-| in need        |                | 在困难中；在危急中                 |                                                              |
-| purchase       | vt. & n.       | 购买                               |                                                              |
-| anniversary    | n.             | 周年纪念（日）                     |                                                              |
-| seed           | n.             | 种子；萌芽                         |                                                              |
-| seedling       | n.             | 秧苗；树苗                         |                                                              |
-| vaccination    | n.             | 接种疫苗                           |                                                              |
+| arrangement    | n.             | 安排；排列                         | OI 题目里面好多 arrangement 的，比如 UVA1638 杆子的排列 Pole Arrangement |
+| toast          | vt. & n.       | 烤（面包等）；敬酒；烤面包片；干杯 | 那个 Chinese New Year 的视频里面像 tour 一样的词原来是 toast……另外，吐司就是音译 |
+| comb           | n. & vi.       | 梳子；梳（发）                     | 这个词头，再加 ine 就是 combine 了呀；费奥多尔的银发很难**梳** |
+| astronaut      | n.             | 宇航员                             | 还有个中英合成词 taikonaut（                                 |
+| angle          | n.             | 角；角度                           | 太常用啦~                                                    |
+| catalogue      | n.             | 目录                               | catalogue 是目录，category 是分类                            |
+| donate         | n.             | 捐赠                               | 要钱要钱（                                                   |
+| voluntary      | adj.           | 自愿的；无偿的                     | 上面那只不要脸，这里不要钱                                   |
+| in need        |                | 在困难中；在危急中                 | 可是我急需钱，不得不要钱啊                                   |
+| purchase       | vt. & n.       | 购买                               | 我要钱买东西啊                                               |
+| anniversary    | n.             | 周年纪念（日）                     | 买周年纪念日礼物啊；It’s Codeforces’ 10 years anniversary, let’s purchase a souvenir to donate. |
+| seed           | n.             | 种子；萌芽                         | srand！                                                      |
+| seedling       | n.             | 秧苗；树苗                         | 这个 l 就很灵性                                              |
+| vaccination    | n.             | 接种疫苗                           | vaccination 指动作，vaccine 指疫苗本身                       |
 | loan           | n.             | 贷款                               |                                                              |
-| sew            | vi. & vt.      | 缝；缝制；缝合                     |                                                              |
-| sewing machine |                | 缝纫机                             |                                                              |
-| supplement     | n.             | 增补的事物；补充；附录；增刊       |                                                              |
-| ox             | n.             | （*pl* oxen）公牛                  |                                                              |
+| sew            | vi. & vt.      | 缝；缝制；缝合                     | fandom wiki 上，珂朵莉的 hobbies 是 sewing, knitting         |
+| sewing machine |                | 缝纫机                             | 珂朵莉不需要 sewing machine！她太强了！                      |
+| supplement     | n.             | 增补的事物；补充；附录；增刊       | 其实还可以作动词，比如 supplement that table（填表，出自具体数学）；词源是拉丁语一个与“that which is added to supply a shortage”有关的单词 |
+| ox             | n.             | （*pl* oxen）公牛                  | 这个诡异的中古英语复数，是从 oxe 变为 oxen                   |
 | plough         | vi.            | 犁（地）；耕（地）                 |                                                              |
-| trunk          | n.             | 树干；躯干；大衣箱                 |                                                              |
+| trunk          | n.             | 树干；躯干；大衣箱                 | 交换机有 trunk 端口（不过这种树状结构的设备，有也很正常）    |
 | trunk library  |                | 箱式（柜式）图书馆                 |                                                              |
-| tractor        | n.             | 拖拉机；牵引机                     |                                                              |
+| tractor        | n.             | 拖拉机；牵引机                     | Farmer John 不耕地，但是他常用 tractor！Codeforces 甚至有一道叫 Tractor College 的题目，这所大学学习 the Art of Operating a Tractor（拖拉机操作艺术） |
 | Kenya          | n.             | 肯尼亚                             |                                                              |
-| click          | vi. & vt. & n. | （使）发出咔嗒声；咔嗒声           |                                                              |
+| click          | vi. & vt. & n. | （使）发出咔嗒声；咔嗒声           | 吐槽这个释义，只看中文释义完全不知道这为什么是重点词……难道不能加一个“点击”的意思吗？ |
 | tailor         | n. & vt.       | 裁缝；剪裁缝制（衣服）             |                                                              |
 | economic       | adj.           | 经济（学）的                       |                                                              |
 | political      | adj.           | 政治的；政党的                     |                                                              |
-| distribute     | vt.            | 分配；分发                         |                                                              |
-| distribution   | n.             | 分配；分发；分布状态               |                                                              |
-| financial      | adj.           | 财务的；金融的；财政的             |                                                              |
-| security       | n.             | 安全；保护；保障                   |                                                              |
-| operate        | vi. & vt.      | 工作；运转；操作                   |                                                              |
-| clinic         | n.             | 门诊部；小诊所                     |                                                              |
+| distribute     | vt.            | 分配；分发                         | 先“贡献”（contribute），再“分配”（distribute）；珂朵莉要合理**分配**精力很困难 |
+| distribution   | n.             | 分配；分发；分布状态               | 概率分布是 probability distribution，包括 uniform distribution（均匀分布）, geometric distribution（几何分布）, binomial distribution（二项分布）, Poisson distribution（泊松分布）, normal distribution（~~正太~~ 正态分布）等（基本上就考这些） |
+| financial      | adj.           | 财务的；金融的；财政的             | 有一种输出格式叫 financial format                            |
+| security       | n.             | 安全；保护；保障                   | github 上，通常一个项目的顶部有 Code, Issues, Pull requests, Actions, Projects, Wiki, Security, Insights, Settings 这九个标签 |
+| operate        | vi. & vt.      | 工作；运转；操作                   | `bool operator<` 这个还记得吧（想当年我是把 operator 这个词一个一个字母地记下来的） |
+| clinic         | n.             | 门诊部；小诊所                     | 妖精仓库的医务室也是 clinic；在菈琪旭劝她不要对威廉下狠手之后，珂朵莉笑着离开了**医务室**（这里好喜感） |
 
 #### roof
 
@@ -575,3 +575,54 @@ I can only stop in a world and use my power as a Visitor six times, and I used t
 
 Your output should contain K lines, one for each test case.  On each line, output the two numbers X and Y for the **relevant** test case, separated by a space.（USACO 2015 January Contest, Bronze, Problem 3, It's All About the Base）
 
+Between being kidnapped by fairies and being eaten by wild animals, the latter seemed to be the more **relevant** issue at the moment.（珂学必修 1）
+
+#### remote
+
+**remote**: Resolving deltas: 100% (4/4), completed with 4 local objects.（git push 的信息）
+
+#### ridge
+
+Bessie the cow has escaped and is hiding on a **ridge** covered with tall grass.（USACO 2012 November Contest, Bronze, Problem 1, Find the Cow!）
+
+#### sniff
+
+I can **sniff** out enemies.（珂学必修 3）
+
+#### grill
+
+The iron **grill** covering the ventilation duct (通风管) only had one screw (螺丝) left to fasten it on; just a little shake would probably bring it down.（珂学必修 3）
+
+#### leftover
+
+“Ow! It hurts there!” 
+
+“It's because the **leftover** Venom is making your muscles all stiff. If I can undo it, you'll feel better.” （珂学必修 1）
+
+#### dry up
+
+“Why... why... “ 
+
+The surge of emotions began to **dry up**, and her screams turned into quiet sobs. Large teardrops flooded her eyes before dropping down to her knees, staining her skirt.（珂学必修 1）
+
+#### privilege
+
+“Being overprotective is the special **privilege** of a guardian!” Naigrat said with almost a shout, then dashed out of the reference room.
+
+#### comb
+
+His wavy and dull silver colored hair was difficult to **comb**.（珂学选修 2-1）
+
+#### distribute
+
+It was hard to master the right time to breathe, to maintain her fluidity, to **distribute** her focus.（珂学选修 1-1）
+
+#### clinic
+
+“I remembered something I have to do, so I’m going to head out. Thanks for checking on me. As you can see, I’m all better now, so don’t worry.” 
+
+“Ah, okay. But....” Lakish cautiously looked up at Kutori. “Don’t be too harsh... okay?” 
+
+“What are you talking about?”（珂学必修 1）
+
+Kutori laughed and exited the clinic. 
