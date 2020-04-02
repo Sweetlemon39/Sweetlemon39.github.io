@@ -1,11 +1,11 @@
 ############################### Basic Information ###############################
 info:
   name: Volantis
-  version: '2.3.1'
+  version: '2.4.0'
   docs: https://volantis.js.org/
   cdn: # To use CDN, write 'use_cdn: true' in 'blog/_config.yml'.
-    css: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.3.1.2/css/style.css
-    js: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.3/js/app.js
+    css: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.4.0.1/css/style.css
+    js: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.4.0/js/app.js
 
 
 ############################### Style ###############################
@@ -119,34 +119,18 @@ navbar:
   # logo后面的导航菜单
   menu:
     # The following can be written in `blog/source/_data/menu.yml`
-    # This menu will be displayed on the laptop or desktop.
-    on_desktop:
-      - name: 主页
-        icon: fas fa-home
-        url: /
-      - name: 分类
-        icon: fas fa-folder-open
-        url: /categories/
-      - name: 归档
-        icon: fas fa-archive
-        url: /archives/
-      - name: 关于
-        icon: fas fa-info-circle
-        url: /about/
-    # 手机端导航菜单（从右上角的按钮点击展开）
-    on_mobile:
-      - name: 主页
-        icon: fas fa-home
-        url: /
-      - name: 分类
-        icon: fas fa-folder-open
-        url: /categories/
-      - name: 归档
-        icon: fas fa-archive
-        url: /archives/
-      - name: 关于
-        icon: fas fa-info-circle
-        url: /about/
+    - name: 主页
+      icon: fas fa-home
+      url: /
+    - name: 分类
+      icon: fas fa-folder-open
+      url: /categories/
+    - name: 归档
+      icon: fas fa-archive
+      url: /archives/
+    - name: 关于
+      icon: fas fa-info-circle
+      url: /about/
   search: 一直在寻找着你   # 搜索框文字
 
 
@@ -548,7 +532,7 @@ comments:
   valine:
     appId: uzT4lXHwcPJOlEGevXF7jqRU-gzGzoHsz
     appKey: vVl1bqbOX0WUiA9WFlFhMxBb
-    js: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.2.0/js/valine.js
+    js: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.4/js/valine.js
     path: # All pages use the same path (share the same comments data)
     meta: nick,mail,link #valine comment header info
     placeholder: 快来评论吧~ # valine comment input placeholder(like: Please leave your footprints )
@@ -579,7 +563,7 @@ comments:
 search:
   enable: true
   service: hexo  # hexo, google, algolia, azure, baidu
-  js: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.1/js/search.js
+  js: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.4/js/search.js
   google:
     apiKey:
     engineId:
