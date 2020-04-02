@@ -626,3 +626,24 @@ It was hard to master the right time to breathe, to maintain her fluidity, to **
 “What are you talking about?”（珂学必修 1）
 
 Kutori laughed and exited the clinic. 
+
+### Unit 5
+
+| 单词          | 词性     | 释义                       | 闲话 |
+| :------------ | :------- | :------------------------- | :--- |
+| adjust to     |          | 适应                       |      |
+| keep it up    |          | 保持优秀成绩；继续干下去   |      |
+| fit in        |          | 相适应；相融和             |      |
+| motherland    | n.       | 祖国                       |      |
+| visa          | n.       | 签证                       |      |
+| queue         | n. & v.  | 队列；排队                 |      |
+| cafeteria     | n.       | 自助食堂；自助餐厅         |      |
+| lecture       | n. & vi. | 演讲；讲课                 |      |
+| qualification | n.       | 资格；资历                 |      |
+| preparation   | n.       | 准备                       |      |
+| recommend     | vt.      | 推荐；建议                 |      |
+| shopkeeper    | n.       | 店主                       |      |
+| idiom         | n.       | 习语；成语                 |      |
+| comfort       | n. & vt. | 舒适；安慰                 |      |
+| substitute    | n. & vt. | 代替者；代用品；用……代替…… |      |
+| academic      | adj.     |                            |      |
