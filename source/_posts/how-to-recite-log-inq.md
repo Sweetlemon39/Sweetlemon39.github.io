@@ -62,7 +62,7 @@ $\ln (x+1)=x-\cfrac{x^2}{2}+\cfrac{x^3}{3}-\cdots+(-1)^{n+1}\cfrac{x^n}{n}+\cdot
 这样我们得到了一组 $\ln x$ 的上下界：$\cfrac{x-1}{x}\le \ln x\le x-1$，等号成立当且仅当 $x=1$。这组上下界的图如下：
 
 {% fancybox stretch %}
-![泰勒展开上下界](https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/how-to-ricite-log-inq/ln-taylor.png)
+![泰勒展开上下界](https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/how-to-recite-log-inq/ln-taylor.png)
 
 {% endfancybox %}
 
@@ -97,7 +97,7 @@ $\ln(x)$ 在渐进意义上小于 $x^a\ (a>0)$，但能使得 $\forall x>0,\ln (
 首先，这个值当然等于 $\ln \frac{x+1}{x}=\ln (1+\frac{1}{x})$，如图中的蓝色区域所示。
 
 {% fancybox stretch %}
-![蓝色区域图示](https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/how-to-ricite-log-inq/blue-area.png)
+![蓝色区域图示](https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/how-to-recite-log-inq/blue-area.png)
 
 {% endfancybox %}
 
@@ -105,9 +105,9 @@ $\ln(x)$ 在渐进意义上小于 $x^a\ (a>0)$，但能使得 $\forall x>0,\ln (
 
 {% fancybox stretch, 2 %}
 
-![红色区域图示](https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/how-to-ricite-log-inq/red-area.png)
+![红色区域图示](https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/how-to-recite-log-inq/red-area.png)
 
-![绿色区域图示](https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/how-to-ricite-log-inq/green-area.png)
+![绿色区域图示](https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/how-to-recite-log-inq/green-area.png)
 
 {% endfancybox %}
 
@@ -126,14 +126,14 @@ $\ln(x)$ 在渐进意义上小于 $x^a\ (a>0)$，但能使得 $\forall x>0,\ln (
 首先，我们可以考虑用梯形进行近似。如下图，蓝色区域的面积显然小于橙色梯形的面积 $\cfrac{1}{2}\left(\cfrac{1}{x}+\cfrac{1}{x+1}\right)$，这和 $y=\frac{1}{x}$ 是下凸函数有关。
 
 {% fancybox stretch %}
-![橙色区域图示](https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/how-to-ricite-log-inq/orange-area.png)
+![橙色区域图示](https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/how-to-recite-log-inq/orange-area.png)
 
 {% endfancybox %}
 
 接着，我们还可以取中点进行矩形近似，也就是作以 $\cfrac{1}{\cfrac{x+(x+1)}{2}}$ 为高的矩形，如下图中的粉色矩形。这个矩形的面积就是 $\cfrac{2}{2x+1}$。
 
 {% fancybox stretch %}
-![粉色区域图示](https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/how-to-ricite-log-inq/pink-area.png)
+![粉色区域图示](https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/how-to-recite-log-inq/pink-area.png)
 
 {% endfancybox %}
 
@@ -150,14 +150,14 @@ $x=1$ 时三个式子都为 $0$，在这时取等号。
 所以 $2\cfrac{x-1}{x+1}<\ln x<\cfrac{1}{2}\left(x-\cfrac{1}{x} \right)\ (x>1)$，$x=1$ 时取等号，$0<x<1$ 时不等号反向。这组上下界的图如下，特别注意粉色曲线、橙色曲线的相对位置改变（对应了不等号反向）。
 
 {% fancybox stretch %}
-![对数平均不等式上下界](https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/how-to-ricite-log-inq/ln-mean.png)
+![对数平均不等式上下界](https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/how-to-recite-log-inq/ln-mean.png)
 
 {% endfancybox %}
 
 还有一个对比图，可以看出这一组上下界比上一组上下界更紧。
 
 {% fancybox stretch %}
-![对数上下界对比](https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/how-to-ricite-log-inq/ln-all.png)
+![对数上下界对比](https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/how-to-recite-log-inq/ln-all.png)
 
 {% endfancybox %}
 
@@ -225,3 +225,11 @@ $x=1$ 时三个式子都为 $0$，在这时取等号。
 仔细观察可以发现，第一组不等式包括了指数泰勒展开系列和对数泰勒展开系列；第二组不等式是对数的泰勒展开系列；第三组、第五组和第六组说的都是对数平均不等式系列；第四组不等式说的是对数的次数系列。你看，这不就记住了吗？
 
 所以，数学学习可以不死记硬背，而是通过加强理解和了解背景，更好地掌握知识。
+
+### 参考资料
+
+如果想进一步加深理解，可以读一下这两篇文章。
+
+[【导数压轴题】所谓“放缩”——简单函数不等式](https://zhuanlan.zhihu.com/p/104644989)
+
+[【导数压轴题】再谈“放缩”——几个进阶不等式](https://zhuanlan.zhihu.com/p/105112553)
