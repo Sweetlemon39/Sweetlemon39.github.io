@@ -2,7 +2,7 @@
 layout: post
 title: 英语选修七 单词表
 date: 2020-03-06
-updated: 2020-03-31
+updated: 2020-04-08
 katex: true
 categories: 文化课
 tags: [文化课, 英语, 单词]
@@ -21,6 +21,8 @@ tags: [文化课, 英语, 单词]
 2020-03-20 记录 Unit 1 单词
 
 2020-03-31 记录 Unit 4 单词
+
+2020-04-08 记录 Unit 5 单词，更新完毕
 
 ### Unit 1
 
@@ -629,21 +631,131 @@ Kutori laughed and exited the clinic.
 
 ### Unit 5
 
-| 单词          | 词性     | 释义                       | 闲话 |
-| :------------ | :------- | :------------------------- | :--- |
-| adjust to     |          | 适应                       |      |
-| keep it up    |          | 保持优秀成绩；继续干下去   |      |
-| fit in        |          | 相适应；相融和             |      |
-| motherland    | n.       | 祖国                       |      |
-| visa          | n.       | 签证                       |      |
-| queue         | n. & v.  | 队列；排队                 |      |
-| cafeteria     | n.       | 自助食堂；自助餐厅         |      |
-| lecture       | n. & vi. | 演讲；讲课                 |      |
-| qualification | n.       | 资格；资历                 |      |
-| preparation   | n.       | 准备                       |      |
-| recommend     | vt.      | 推荐；建议                 |      |
-| shopkeeper    | n.       | 店主                       |      |
-| idiom         | n.       | 习语；成语                 |      |
-| comfort       | n. & vt. | 舒适；安慰                 |      |
-| substitute    | n. & vt. | 代替者；代用品；用……代替…… |      |
-| academic      | adj.     |                            |      |
+| 单词                       | 词性           | 释义                               | 闲话                                                         |
+| :------------------------- | :------------- | :--------------------------------- | :----------------------------------------------------------- |
+| adjust to                  |                | 适应                               | 威廉刚开始不**适应**妖精仓库悠闲的生活                       |
+| keep it up                 |                | 保持优秀成绩；继续干下去           | 事实上这个短语还有一个一言难尽的意思，与人体某器官的生理特性有关（逃 |
+| fit in                     |                | 相适应；相融和                     | 因为结果可能不**适合** 32 位整数，所以输出结果模 $10^9+7$ 的值 |
+| motherland                 | n.             | 祖国                               |                                                              |
+| visa                       | n.             | 签证                               | 还是一种信用卡的名字                                         |
+| queue                      | n. & v.        | 队列；排队                         | queue, stack                                                 |
+| cafeteria                  | n.             | 自助食堂；自助餐厅                 | 妖精仓库**食堂**的菜单底部，加上了新的“今日甜点”，后来又划掉了（真的很悲伤） |
+| lecture                    | n. & vi.       | 演讲；讲课                         | lecture notes 讲课笔记                                       |
+| qualification              | n.             | 资格；资历                         | Qualification Round 资格赛                                   |
+| preparation                | n.             | 准备                               |                                                              |
+| recommend                  | vt.            | 推荐；建议                         | 自己一个人哭只适合有经验的知道什么时候停下来的大师，我不**推荐**初学者这么做（威廉你原来是这么安慰珂朵莉的吗） |
+| shopkeeper                 | n.             | 店主                               | **店主**原本是程序员，因为赚不到钱所以改行了（真实？）       |
+| idiom                      | n.             | 习语；成语                         | idiomatic 有习语化的意思（话说这个中文有出乎意料的意思啊）   |
+| comfort                    | n. & vt.       | 舒适；安慰                         |                                                              |
+| substitute                 | n. & vt.       | 代替者；代用品；用……代替……         | substitute A for B = substitute B with A =  B->A，如“用 $n$ **替代** $m+1$” |
+| academic                   | adj.           | 学校的；学术的                     | .ac 域名就是这么来的                                         |
+| requirement                | n.             | 需要；要求                         |                                                              |
+| essay                      | n.             | 文章；散文                         |                                                              |
+| tutor                      | n.             | 导师；助教；家庭教师               |                                                              |
+| revise                     | vt.            | 复查；修正；复习                   |                                                              |
+| revision                   | n.             | 复查；修正；复习                   | 有个叫 trinomial revision（中文翻译直接叫“三项式版恒等式”了）的东西，被列在“最重要的十个二项式系数恒等式”中，是 $\mathrm{C}^{m}_{r}\mathrm{C}^k_m=\mathrm{C}^{k}_{r}\mathrm{C}^{m-k}_{r-k}$ |
+| draft                      | n. & vt.       | 草稿；草案；草拟；起草             | Save draft 保存草稿                                          |
+| numb                       | adj.           | 麻木的；失去知觉的                 | 珂朵莉十分伤心，喝了加辣椒粉的红茶，喝得腿都**麻**了（威廉你关心一下她啊） |
+| acknowledge                | vt.            | 承认；确认；感谢                   | 论文的**致谢**是 Acknowledgement；珂朵莉一开始拒绝**承认**威廉为她创造的未来 |
+| as far as one is concerned |                | 就……而言                           | 五百多年前威廉石化时，**就他而言**，他认为他已经死了         |
+| contradict                 | vt.            | 反驳；驳斥                         | contradictory 有矛盾的意思，contradict 也有矛盾的意思（这个意思也很常用）；这个词的词源与拉丁语中表示“I speak against”的词有关 |
+| autonomous                 | adj.           | 自主的；自治的；独立的             | 和 automatic（自动的）有意思上的区别，要多加注意             |
+| occupy                     | vt.            | 占用；占领；占据                   | 这个词可以是 fill in time/space；数据保证没有两个国王**占据**同一个格子（it is guaranteed that no two kings **occupy** the same cell） |
+| be occupied with           |                | 忙着做……                           | 店员忙于某件物品（the checkout assistant **is occupied with** some item） |
+| enterprise                 | n.             | 事业；事业心                       |                                                              |
+| apology                    | n.             | 道歉；谢罪                         | 你这样可是要向全国人民 <u>apology</u> 的                     |
+| seminar                    | n.             | （专题）研讨会                     |                                                              |
+| videophone                 | n.             | 可视电话                           | “视频电话会议”                                               |
+| Rugby                      | n.             | （英式）橄榄球                     |                                                              |
+| bachelor                   | n.             | 获学士学位的人；未婚男子           | 原来学士都是未婚男子（歧视警告）；某大学的准**学士**被要求写关于基因组的论文 |
+| bachelor’s degree          |                | 学士学位                           |                                                              |
+| routine                    | n. & adj.      | 常规；日常事务；通常的；例行的     | 珂朵莉根据这几天威廉一般穿常服的日常判断，威廉要出事（出工）了 |
+| minibus                    | n.             | 小型公共汽车                       |                                                              |
+| optional                   | adj.           | 可选择的；随意的                   | “可选”选项标的就是 optional                                  |
+| day in and day out         |                | 日复一日                           | 日子进入（滑动窗口），又离开（滑动窗口）                     |
+| cage                       | n.             | 鸟笼；兽槛                         |                                                              |
+| bark                       | vi. & n.       | （指狗等）吠叫；咆哮；犬吠声；树皮 | 有一个有趣的短语“barking up the wrong tree”，表示完全找错了原因或事物；比如泷在寻找三叶时曾认为他**完全找错了地方** |
+| battery                    | n.             | 电池（组）；电瓶；炮台             | 原**电池**（primary **battery**），然而干电池、蓄电池、电解池用的都是 cell |
+| site                       | n.             | 地方；地点；现场                   | website 是网站                                               |
+| drill                      | vi. & vt. & n. | 钻（孔）；钻机                     | 有意思的是，应急**演练**是 emergency **drill**，比如，（后来的报道认为，）彗星分裂那天丝守镇正在举行应急演练 |
+| oilfield                   | n.             | 油田                               | 事实上上面的 drill 就是用来开发 oilfield 的                  |
+| Lia                        | n.             | 莉亚（女名）                       | 这篇文章中唯一收录的人名，当然是因为 [Lia](https://zh.moegirl.org/Lia) 是 [IA](https://zh.moegirl.org/IA) 的 CV 啦 |
+| agent                      | n.             | 代理人；经纪人                     | User-Agent: *Mozilla*/5.0 (Windows NT 10.0; Win64; x64) *AppleWebKit*/537.36 (KHTML, like *Gecko*) *Chrome*/80.0.3987.163 *Safari*/537.36（无奖竞猜：这是什么浏览器呢？） |
+| travel agent               | n.             | 旅行代办人                         |                                                              |
+| geographical               | adj.           | 地理（学）的                       | 有个 geographically speaking 的说法（有点意思）              |
+| parallel                   | adj.           | 平行的；相同的；类似的             | 实在是太高频了，不背得都不好意思做题了                       |
+| abundant                   | adj.           | 丰富的；充裕的                     | 兰朵露可被科里拿第尔契市**丰富的**“剧目”所吸引               |
+| govern                     | vt. & vi.      | 统治；支配；管理                   |                                                              |
+| onwards                    | adv.           | 向前地；前进地                     |                                                              |
+| destination                | n.             | 目的地                             | 火车和地铁的显示屏上常显示的词                               |
+| inn                        | n.             | 客栈                               | 各种酒店的名字里都有，此外威廉在必修五中也住在**旅馆**里     |
+| out of the question        |                | 不可能的；不值得讨论的             | 特别注意 out of *the* question（不可能, not remotely possible） 与 out of question (without question, certainly) 的区别；让奈芙莲在地下偷袭第六兽是**不可能**的 |
+| hike                       | vi. & n.       | 远足；徒步旅行                     |                                                              |
+| tomb                       | n.             | 坟墓                               | tombstone 是墓碑                                             |
+| settle in                  |                | （迁入新居、更换工作后）安顿下来   |                                                              |
+
+#### adjust to
+
+But he had a difficult time **adjusting to** his new situation of not having various tasks looming over him 24/7.（珂学必修 1）
+
+#### fit in
+
+Since the result may not **fit in** a 32-bit integer number, print it modulo 1000000007 ($10^9+7$).（Codeforces 241, Bayan 2012-2013 Elimination Round, B, Friends）
+
+#### cafeteria
+
+At the bottom of the **cafeteria**’s menu, a new 'Today’s Dessert’ item had been added, then crossed out.（珂学必修 4）
+
+#### recommend
+
+“Also, if you’re going to cry, let it all out while someone’s beside you. Crying by yourself is only for experienced masters that can tell when they’re going to stop crying. I can’t **recommend** it for beginners.”（珂学必修 1）
+
+#### shopkeeper
+
+When Ali entered a shop, he saw that the **shopkeeper** was a programmer and since there is no money in programming he had changed his career.（Codeforces 72, Unknown Language Round #2, E, Ali goes shopping）
+
+#### substitute
+
+This can be rewritten as a binomial convolution, if we **substitute** $n$ for $m + 1$ and add the term $B_n$ to both sides.（具体数学英文版 365 页）
+
+#### numb
+
+Now wasn’t the time to lazily say I still can’t move my body. Kutori forced her **numb** and crackling limbs to move, jumping up on the spot.（珂学选修 1-1）
+
+#### acknowledge
+
+However, Kutori refused to **acknowledge** other things. She could not reject the way of fighting with Dug Weapons used by the fairies that she had clung to for so long. Right now, her body moved with more ease than normal.（珂学必修 1）
+
+#### as far as one is concerned
+
+“Well anyways, it was a lot of trouble. Before I actually did it, I never heard of anyone waking up after being turned to stone. **As far as I was concerned**, I was basically dead. Since I had a load of 
+curses on me in addition to being petrified, it took a lot of time and money to get me back in working condition. Thanks to that, ever since I awoke I’ve just been paying off debt.”（珂学必修 2）
+
+#### bachelor
+
+Some dwarves that are finishing the StUDY (State University for Dwarven Youngsters) **Bachelor** courses, have been told "no genome, no degree". That means that all dwarves should write a thesis on genome.（Codeforces 186, Codeforces Round #118 (Div. 2), A, Comparing Strings）
+
+#### routine
+
+“...Huh?” A peculiar sensation gripped her heart. Something’s not right.
+It was almost time for their daily swordfighting practice. Judging by the **routine** of the last two days, Willem wore plain clothes when training.（珂学选修 1-1）
+
+#### bark
+
+Okudera: Wait, Taki, you sure about that?
+
+Taki: Yeah. I kinda feel like maybe I've been **barking up the wrong tree** this whole time.
+
+(shopkeeper): Hey. That's a sketch of Itomori, isn't it?（你的名字，00:48:48~00:49:04）
+
+#### drill
+
+A fragment of the comet destroyed a town in that disaster. But miraculously, most of the people living in the town were unhurt. The town happened to be holding an emergency **drill** that day, and most of its residents were outside the impact zone.（你的名字，01:35:25~01:35:40）
+
+#### abundant
+
+Whether it be a famous building, a curious little alley, or a seemingly random bronze statue right in the middle of the road, she never ceased to be amazed at the city’s **abundant** repertoire. Being by herself, she couldn’t help but stop every time she saw something.（珂学必修 5）
+
+#### out of the question
+
+Should Nephren and the others perform a surprise attack on the nest now while we have the chance? No, that was also **out of the question**. Fighting underground would mean completely abandoning one of the fairies’ most important advantages: wings.（珂学必修 5）
