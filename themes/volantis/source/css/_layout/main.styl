@@ -71,8 +71,7 @@
 
   mobile-post()
     .post
-      .meta
-        margin-bottom: $gap
+      div.meta
         .title
           font-size: $fontsize-h3
       @media screen and (max-width: $device-mobile)
@@ -81,7 +80,7 @@
   .post-wrapper
     margin-bottom: $gap
     .post
-      .meta
+      div.meta
         margin-bottom: $gap
         .title
           font-size: $fontsize-h2
@@ -93,13 +92,13 @@
   .widget
     .content
       p,ul,ol,table,.tabs,details
-        margin-top: $gap-p
-        margin-bottom: $gap-p
+        margin-top: $gap-row
+        margin-bottom: $gap-row
       .post
         padding-top: 0
         padding-bottom: 0
-        margin-top: $gap-p
-        margin-bottom: $gap-p
+        margin-top: $gap-row
+        margin-bottom: $gap-row
     &.grid .content .grid.fixed a
       width: "calc(100%/8 - 0 * %s)" % $gap
       @media screen and (max-width: $device-laptop)
@@ -126,8 +125,9 @@
     h1
       font-weight: normal
       font-size: $fontsize-h1
-    .meta
+    section.meta
       color: $color-meta
+      margin-bottom: $gap
       &#header-meta
         margin-top: 0
         margin-bottom: 1 * $gap
@@ -163,6 +163,15 @@
       .title
         trans(.1s)
         margin: 0
+        color: $color-text
+        p
+          &.h1,&.h2
+            margin-top: $gap-paragraph + $gap-row
+            border-bottom: none
+          &.h1
+            font-size: $fontsize-h1 * 1.1
+          &.h2
+            font-size: $fontsize-h2 * 1.1
         a
           display: inline
           font-weight: normal
@@ -170,9 +179,7 @@
           &:hover
             color: $color-hover
 
-      $cellH = 28px
       .new-meta-box
-        $metaH = 24px
         trans(.1s)
         padding-top: 4px
         padding-bottom: 8px
@@ -183,7 +190,6 @@
           font-size: $fontsize-code
         .new-meta-item
           color: $color-meta
-          line-height: 1.2
           &.link-btns
             display: flex
             flex-wrap: wrap
@@ -193,15 +199,13 @@
               padding: 1px 4px
               border-radius: 2px
               margin: 2px
-              &,i,p
-                line-height: 1.5
               &:hover
                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 8px 16px 0 rgba(0, 0, 0, 0.1)
               i
                 padding-left: 3px
-                padding-top: 2px
               p
                 color: white
+                padding-top: 2px
               &:hover
                 color: white
                 p
@@ -239,10 +243,8 @@
               height: 1.2em
               width: 1.2em
               margin-right: 5px
-              transform: translateY(-1px)
             p
               margin: 0
-              padding-top: 2px
               font-weight: normal
               trans()
             &:hover
@@ -253,14 +255,31 @@
         .author
           img,i
             border-radius: 100%
+          img
+            transform: translateY(-1px)
+
+        @media screen and (max-width: $device-mobile)
+          .share
+            width: 100%
+            margin-top: $gap
+            background: $color-codeblock
 
         .share-body
+          position: relative
           display: flex
+          justify-content: center;
+          margin: 0
+          padding: 0 2px
+          border-radius: 2px
           a
             padding: 0
-            margin-right: 4px
+            margin: 0 1px
             img
-              height: 1.8em
+              margin: 2px
+              height: 24px
+              @media screen and (max-width: $device-mobile)
+                height: 32px
+                margin: 8px
               width: auto
               background: transparent
 
@@ -296,10 +315,11 @@
 
 
 div.hoverbox
-  display: flex
-  flex-direction: column
-  justify-content: center
-  align-items: center
+  // display: flex
+  // flex-direction: column
+  // justify-content: center
+  // align-items: center
+
   >div.target
     display: none
     position: absolute
@@ -307,27 +327,35 @@ div.hoverbox
     border-radius: $border-card
     box-shadow: $boxshadow-card-float
     padding: 8px
-    margin-left: -4px
-    margin-top: 0 - 4px - 64px - 40px
+    left: 50%
+    top: -20px
+    // margin-left: 50%
+    transform: translate(-50%, -100%)
+    // margin-left: -4px
+    // margin-top: 0 - 4px - 64px - 40px
     >img
       margin: 0
       padding: 0
       height: 128px
       width: 128px
+      min-width: 128px
   &:hover
     >div.target
       display: flex
+  @media screen and (max-width: $device-mobile)
+    >div.target
+      position: absolute
 
 .comments
   .article
     p[ct]
       margin-top: 0
-      margin-bottom: $gap-p
+      margin-bottom: $gap-row
       font-size: $fontsize-h4
       color: $color-text
     p[cst]
-      margin-top: $gap-p
-      margin-bottom: $gap-p
+      margin-top: $gap-row
+      margin-bottom: $gap-row
       font-size: $fontsize-meta
 
 

@@ -58,6 +58,7 @@
     .title
       color: $color-text
       padding-left: $gap * 1.5
+      max-height: $navbar-height
 
     .nav-main .title
       txt-ellipsis()
@@ -66,11 +67,8 @@
       padding: 0 $gap*1.5
       font-size: $fontsize-h3
       font-family: $fontfamily-logo
-      @media screen and (max-width: $device-mobile)
-        padding: 0
       img
-        height: 100%
-        padding: 4px 0
+        height: $navbar-height
 
   .nav-sub
     max-width: $layout-width
@@ -82,10 +80,6 @@
       max-height: $navbar-height
       white-space: normal
       flex-shrink: 1
-      @media screen and (max-width: $device-mobile)
-        overflow-y: scroll
-        margin-top: 2px
-        padding: 8px 0
 
 
 
@@ -125,32 +119,42 @@
         @media screen and (max-width: $device-mobile)
           width: $iconW
           height: $height
-    @media screen and (max-width: $device-mobile)
-      display: flex
-      margin-right: 0 - $gap * 0.5
+
   .nav-sub .switcher
     display: flex
 
   .m_search
-    position: relative
     display: flex
     height: $navbar-height
     width: $sidebar
+    trans()
     @media screen and (max-width: $device-laptop)
-      width: 120px
+      width: 44px
+      min-width: 44px
+      input
+        &::placeholder
+          opacity: 0
+      &:hover
+        input
+          &::placeholder
+            opacity: 1
+        width: $sidebar
     @media screen and (min-width: $device-mobile)
-      min-width: 80px
+      &:hover .input
+        &::placeholder
+          opacity: 1
+        width: 100%
+    @media screen and (max-width: $device-mobile)
+      input
+        &::placeholder
+          opacity: 1
+      min-width: 0
 
     .form
       position: relative
       display: flex
       width: 100%
-      margin: auto
-      justify-content: flex-start
       align-items: center
-
-    .icon,.input
-      trans(.3s)
 
     .icon
       position: absolute
@@ -163,38 +167,45 @@
       display: block
       padding-top: $gap * 0.5
       padding-bottom: $gap * 0.5
+      line-height: 1.3
       width: 100%
       color: $color-text
-      background: darken($color-card, 5)
+      background: darken($color-card, 2)
       box-shadow: none
       box-sizing: border-box
       padding-left: $iconW + $iconMargin
       font-size: $fontsize-meta
       border-radius: $border-searchbar
-      border: 1px dashed transparent
+      border: none
+      trans()
+      @media screen and (min-width: $device-mobile)
+        &:focus
+          box-shadow: $boxshadow-float
       @media screen and (max-width: $device-mobile)
+        background: $color-codeblock
         padding-left: $gap * 0.5
         border: none
         &:hover,&:focus
           border: none
-      &:hover
-        ~.icon
-          color: alpha($color-theme, 80%)
-      &:focus
-        ~.icon
-          color: $color-theme
+
 
   @media (max-width: $device-mobile)
-    padding: 0
     .m_search
-      width:0
+      left: 0
+      width: 0
       overflow: hidden
       position: absolute
+      background: lighten($color-card, 5)
       trans()
+      .input
+        border-radius: $navbar-height * 0.5
+        margin-left: $gap
+        padding-left: $gap
     &.z_search-open
       .m_search
-        $offset = 3 * $gap + 2 * $iconW
-        width: "calc(100% - %s)" % $offset
+        width: 100%
+        .input
+          width: "calc(100% - %s)" % (3 * $gap + 2 * $iconW)
 
 ul.nav-list-h,ul.list-v
   li:hover
@@ -210,8 +221,7 @@ ul.nav-list-h
     justify-content: center
     >a
       height: 100%
-      line-height: $navbar-height - $border-line
-      border-top: $border-line solid transparent
+      line-height: $navbar-height
       border-bottom: $border-line solid transparent
 
 ul.list-v
@@ -236,11 +246,15 @@ ul.list-v
       line-height: 2em
       color: $color-meta
       margin: $gap * 0.5 $gap $gap * 0.25
+      i
+        margin-right: 8px
     ul
       margin-left: 0
       display: none
       margin-top: 0 - 32px - $gap * 0.5
-
+  .aplayer-container
+    min-height: 64px
+    padding: $gap - 10px $gap
   >li>a
     trans()
     display: block
@@ -248,16 +262,15 @@ ul.list-v
     font-size: $fontsize-meta
     font-weight: bold
     line-height: 33px
-    padding: 0 $gap
+    padding: 0 $gap + $border-line + 2px 0 $gap
     height: 32px
     border-left: $border-line solid transparent
-    border-right: $border-line solid transparent
     &:hover,&.active,&:active
       color: $color-theme
       border-left: $border-line solid $color-theme
       border-bottom: none
     >i
-      margin-right: 4px
+      margin-right: 8px
     &.current
       border-left-color: alpha($color-theme, 80%)
       border-bottom-color: alpha($color-theme, 80%)
@@ -276,9 +289,11 @@ ul.list-v
   .menu
     >ul>li>a
       padding: 0 8px
+      >i
+        margin-right: 4px
 
 .l_header ul>li>a
-  color: alpha($color-text, 85%)
+  color: alpha($color-text, 80%)
   &.current
     border-left-color: alpha($color-theme, 80%)
     border-bottom-color: alpha($color-theme, 80%)
@@ -360,9 +375,26 @@ ul.list-v
     border-bottom-left-radius: $border-card
     border-bottom-right-radius: $border-card
   @media screen and (max-width: $device-mobile)
-    .wrapper.sub
-      .title
-        padding-left: 0
-        padding-right: 0
+    .container
+      margin-left: 0
+      margin-right: 0
+    .wrapper
+      .nav-main
+        .title
+          padding-left: $gap
+          padding-right: $gap
+      .nav-sub
+        width: 100%
+        .title
+          overflow-y: scroll
+          margin-top: 2px
+          padding: 8px $gap
+      .switcher
+        display: flex
+        margin-right: $gap * 0.5
+    // .wrapper.sub
+    //   .title
+    //     padding-left: 0
+    //     padding-right: 0
     .menu
       display:none
