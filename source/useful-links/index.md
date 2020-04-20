@@ -45,3 +45,5 @@ katex: true
 ## 休闲
 
 [画廊](https://sweetlemon39.github.io/gallery/)
+
+珂研系列：[中国珂学院原址备份](https://sweetlemon39.gitee.io/chtholly/) / [中国珂学院奈芙莲分站原址备份](https://sweetlemon39.gitee.io/nephren/) / [中国珂学院新址](https://sukasuka.cn/) / [中国珂学院维基](https://wiki.sukasuka.cn/) / [中珂院书库](https://lib.chtholly.moe/)
