@@ -54,7 +54,7 @@ tags: [文化课, 英语, 单词]
 | Pakistan          | n.             | 巴基斯坦                                   |                                                              |
 | Pakistani         | adj. & n.      | 巴基斯坦（人）（的）                       |                                                              |
 | immigrate         | vi.            | 移入（外国定居）                           | 和 immigrant 只差几个字母                                    |
-| immigration       | n.             | 移民；移居入境                             |                                                              |
+| immigration       | n.             | 移民；移居入境                             | 这个“移民”指的是移民这一行为，不能指人                       |
 | racial            | adj.           | 种族的；人种的                             | 莲想为珂朵莉找跨**种族**爱情的书作参考                       |
 | crossing          | n.             | 横渡；横越；十字路口；人行横道             |                                                              |
 | vice              | n. & adj.      | 代理；副职                                 | 意思是 in place of; subordinate to，这个古怪的词来自拉丁语；vice versa 的意思是反之亦然（同样来自拉丁语） |
