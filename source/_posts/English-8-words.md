@@ -2,7 +2,7 @@
 layout: post
 title: 英语选修八 单词表
 date: 2020-04-10
-updated: 2020-04-20
+updated: 2020-04-21
 katex: true
 categories: 文化课
 tags: [文化课, 英语, 单词]
@@ -15,6 +15,8 @@ tags: [文化课, 英语, 单词]
 **更新日志：**
 
 2020-04-10 记录 Unit 1 单词
+
+2020-04-21 记录 Unit 2 单词
 
 ### Unit 1
 
@@ -69,7 +71,7 @@ tags: [文化课, 英语, 单词]
 | indicate          | vt.            | 指出；标示；表明；暗示                     |                                                              |
 | back to back      |                | 背靠背                                     | 那张 Chtholly and Tiat back to back 的图好甜啊               |
 | luggage           | n.             | 行李                                       | 类似的词还有 baggage 和 package                              |
-| shave             | vt. & vi.      | （shaved; shaved, shaven）刮；剃           | 君名里 Sayaka 提醒 Teshi 说要在婚礼前把胡子**剃**了          |
+| shave             | vt. & vi.      | (shaved; shaved, shaven) 刮；剃            | 君名里 Sayaka 提醒 Teshi 说要在婚礼前把胡子**剃**了          |
 | cable             | n.             | 缆绳；绳索；电缆                           | 很多网线上都标着 cable 的                                    |
 | cable car         |                | 缆车；（美）有轨缆车                       | 带网线的车（大雾）                                           |
 | tram              | n.             | （有轨）电车                               |                                                              |
@@ -215,3 +217,89 @@ Of course, a full strength embrace would end up snapping Lakish’s body in half
 “Lakish, you really are a **thoughtful** girl! I love you!”
 
 “Eh? Eh? Eh?” Lakish fell into deep confusion.（珂学必修 5）
+
+### Unit 2
+
+| 单词                        | 词性           | 释义                                     | 闲话                                                         |
+| :-------------------------- | :------------- | :--------------------------------------- | :----------------------------------------------------------- |
+| differ                      | vi.            | 不同；相异                               |                                                              |
+| exact                       | adj.           | 精确的；准确的                           |                                                              |
+| cutting                     | n.             | 剪枝；剪报；剪纸                         | 搜索的剪枝似乎不叫 cutting                                   |
+| twin                        | n. & adj.      | 双胞胎之一；成对的                       |                                                              |
+| identical                   | adj.           | 同一的；一模一样的                       | 题目里出现得极多                                             |
+| commercial                  | adj.           | 商业的；贸易的                           | 艾尔佩斯是商国（commercial nation）                          |
+| straightforward             | adj.           | 简单的；直接的；坦率的                   | **简单**的方法（straightforward method）；威廉向爱尔梅莉亚介绍珂朵莉的时候说她**坦率** |
+| undertake                   | vt.            | (undertook; undertaken) 着手；从事；承担 |                                                              |
+| pay off                     |                | 得到好结果；取得成功；偿清               |                                                              |
+| breakthrough                | n.             | 突破                                     |                                                              |
+| procedure                   | n.             | 程序；步骤；手续                         | Pascal 里面定义函数就用这个关键字                            |
+| nucleus                     | n.             | 原子核；中心                             | 细胞核当然也是这个词                                         |
+| somatic                     | adj.           | 躯体的；肉体的；细胞体的                 | 植物体细胞杂交（plant somatic hybridization）                |
+| embryo                      | n.             | 胚；胚胎；萌芽时期                       | 胚胎工程（embryo engineering）                               |
+| carrier                     | n.             | 携带者；搬运工；运输工具                 |                                                              |
+| cast                        | vt.            | (cast; cast) 扔；投；掷                  |                                                              |
+| cast down                   |                | 使失望；使沮丧                           |                                                              |
+| altogether                  | adv.           | 总共；完全地                             |                                                              |
+| arbitrary                   | adj.           | 任意的                                   | 词源与 arbiter 有关，意义与 $\forall$ 有关                   |
+| fate                        | n.             | 命运；天命                               | 著名游戏系列（                                               |
+| correction                  | n.             | 改正                                     |                                                              |
+| object                      | vi.            | 反对；不赞成                             |                                                              |
+| objection                   | n.             | 不赞成；反对；异议                       |                                                              |
+| impact                      | n.             | 撞击；冲击；巨大的影响                   |                                                              |
+| medium                      | n.             | (*pl* media) 媒介；手段；工具            |                                                              |
+| the media                   |                | 大众传播媒体                             |                                                              |
+| obtain                      | vt.            | 获得；赢得                               |                                                              |
+| attain                      | vt.            | 获得；到达（水平、年龄、状况等）         |                                                              |
+| moral                       | adj.           | 道德（上）的；伦理的                     |                                                              |
+| conservative                | adj.           | 保守的；守旧的                           |                                                              |
+| forbid                      | vt.            | (forbade, forbad; forbidden) 禁止；不准  | 403 Forbidden                                                |
+| accumulate                  | vt. & vi.      | 积累；聚积                               |                                                              |
+| in favour of                |                | 赞成；支持                               |                                                              |
+| side road                   |                | 旁路；支线；岔道（<美> sidewalk）        |                                                              |
+| constitution                | n.             | 宪法；章程                               |                                                              |
+| compulsory                  | adj.           | 必须做的；义务的；强迫的；强制的         |                                                              |
+| opera                       | n.             | 歌剧；歌剧团；歌剧院                     | 著名浏览器名                                                 |
+| chorus                      | n.             | 合唱；合唱队                             |                                                              |
+| loaf                        | n.             | 一条（面包）                             |                                                              |
+| flour                       | n.             | 面粉                                     |                                                              |
+| owe                         | vt.            | 欠（账、钱、人情等）；归功于             |                                                              |
+| shortly                     | adv.           | 立刻；不久                               |                                                              |
+| retire                      | vi.            | 退休；离开                               |                                                              |
+| bother                      | vt. & vi. & n. | 打扰；操心；烦扰                         |                                                              |
+| (be) bound to (do) ...      |                | 一定或注定（做）                         |                                                              |
+| assumption                  | n.             | 假定；设想                               |                                                              |
+| regulation                  | n.             | 规则；规章；法规                         |                                                              |
+| nonsense                    | n.             | 胡说；无稽之谈；废话                     |                                                              |
+| popularity                  | n.             | 受人喜爱；流行                           |                                                              |
+| strike                      | vt. & vi. & n. | (struck, struck) 打；撞击；罢工          |                                                              |
+| strike ... into one’s heart |                | 使……刻骨铭心                             |                                                              |
+| bison                       | n.             | 北美或欧洲野牛                           |                                                              |
+| calf                        | n.             | 小牛；牛犊                               |                                                              |
+| from time to time           |                | 不时；偶尔                               |                                                              |
+| bring back to life          |                | 使复生；使复活                           |                                                              |
+| initial                     | adj.           | 最初的；开始的                           |                                                              |
+| DNA                         |                | 脱氧核糖核酸                             |                                                              |
+| vain                        | adj.           | 虚荣的；自负的；徒劳的                   |                                                              |
+| in vain                     |                | 白费力气；枉费心机                       |                                                              |
+| resist                      | vt.            | 抵抗；对抗                               |                                                              |
+| drawback                    | n.             | 缺点；不利条件                           |                                                              |
+| merely                      | adv.           | 仅；只；不过                             |                                                              |
+| restore                     | vt.            | 恢复；使恢复原状；重建                   |                                                              |
+| aurochs                     | n              | 原牛（古代欧洲野牛，已灭绝）             |                                                              |
+| decoration                  | n.             | 装饰                                     | [【cz & kkk & ltt】日常 decoration](https://www.bilibili.com/video/av61927760/) |
+| unable                      | adj.           | 不能的；不会的                           |                                                              |
+| great auk                   | n.             | 大海雀（已灭绝）                         |                                                              |
+| feather                     | n.             | 羽毛                                     |                                                              |
+| quagga                      | n.             | 白氏斑马（已灭绝）                       |                                                              |
+| fairly                      | adv.           | 公平地；相当地                           |                                                              |
+| in good/poor condition      |                | 状况很好（坏）                           |                                                              |
+| turkey                      | n.             | 火鸡                                     |                                                              |
+| dye                         | vt. & n.       | 给……染色；染；染色剂                     |                                                              |
+| claw                        | n.             | 爪；脚爪                                 |                                                              |
+| adore                       | vt.            | 崇拜；爱慕；喜爱                         |                                                              |
+| hatch                       | vt. & vi.      | 孵出；孵卵；孵化                         |                                                              |
+| reasonable                  | adj.           | 合情理的；讲道理的；公道的               |                                                              |
+
+#### straightforward
+
+“That's too far of a jump...” Willem gave Almaria a little poke on the forehead. “It's someone you don't know. She's **straightforward** and dedicated and kind and spoiled and uncompromising and simple and an idiot and simple and an idiot.” He didn't think he said too much. He could even add on another set of simple and an idiot.（珂学必修 4）
