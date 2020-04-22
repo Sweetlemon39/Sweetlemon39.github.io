@@ -226,32 +226,32 @@ Of course, a full strength embrace would end up snapping Lakish’s body in half
 | exact                       | adj.           | 精确的；准确的                           |                                                              |
 | cutting                     | n.             | 剪枝；剪报；剪纸                         | 搜索的剪枝似乎不叫 cutting                                   |
 | twin                        | n. & adj.      | 双胞胎之一；成对的                       |                                                              |
-| identical                   | adj.           | 同一的；一模一样的                       | 题目里出现得极多                                             |
+| identical                   | adj.           | 同一的；一模一样的                       | 题目里出现得极多，动词是 identify                            |
 | commercial                  | adj.           | 商业的；贸易的                           | 艾尔佩斯是商国（commercial nation）                          |
 | straightforward             | adj.           | 简单的；直接的；坦率的                   | **简单**的方法（straightforward method）；威廉向爱尔梅莉亚介绍珂朵莉的时候说她**坦率** |
-| undertake                   | vt.            | (undertook; undertaken) 着手；从事；承担 |                                                              |
-| pay off                     |                | 得到好结果；取得成功；偿清               |                                                              |
-| breakthrough                | n.             | 突破                                     |                                                              |
+| undertake                   | vt.            | (undertook; undertaken) 着手；从事；承担 | 不同级别的冒险者**承担**不同的任务                           |
+| pay off                     |                | 得到好结果；取得成功；偿清               | 一把遗迹兵器的收购价可以**还清**威廉的债务五十次             |
+| breakthrough                | n.             | 突破                                     | break through 是一个意思相近的动词短语                       |
 | procedure                   | n.             | 程序；步骤；手续                         | Pascal 里面定义函数就用这个关键字                            |
 | nucleus                     | n.             | 原子核；中心                             | 细胞核当然也是这个词                                         |
 | somatic                     | adj.           | 躯体的；肉体的；细胞体的                 | 植物体细胞杂交（plant somatic hybridization）                |
 | embryo                      | n.             | 胚；胚胎；萌芽时期                       | 胚胎工程（embryo engineering）                               |
 | carrier                     | n.             | 携带者；搬运工；运输工具                 |                                                              |
-| cast                        | vt.            | (cast; cast) 扔；投；掷                  |                                                              |
-| cast down                   |                | 使失望；使沮丧                           |                                                              |
+| cast                        | vt.            | (cast; cast) 扔；投；掷                  | 史旺千年都不会**抛弃**白袍子；尼尔斯减轻了艾陆可**施**在身上的诅咒 |
+| cast down                   |                | 使失望；使沮丧                           | 菲儿**沮丧**地垂下了眼                                       |
 | altogether                  | adv.           | 总共；完全地                             |                                                              |
 | arbitrary                   | adj.           | 任意的                                   | 词源与 arbiter 有关，意义与 $\forall$ 有关                   |
 | fate                        | n.             | 命运；天命                               | 著名游戏系列（                                               |
 | correction                  | n.             | 改正                                     |                                                              |
-| object                      | vi.            | 反对；不赞成                             |                                                              |
+| object                      | vi.            | 反对；不赞成                             | object 当然还有对象的意思，难道这说明对象常常反对（大雾）    |
 | objection                   | n.             | 不赞成；反对；异议                       |                                                              |
-| impact                      | n.             | 撞击；冲击；巨大的影响                   |                                                              |
+| impact                      | n.             | 撞击；冲击；巨大的影响                   | 正碰（direct impact）；珂朵莉准备着与地面撞击（其实是与威廉撞击）；艾瑟雅安慰珂朵莉，魔力中毒不会对她产生不利影响 |
 | medium                      | n.             | (*pl* media) 媒介；手段；工具            |                                                              |
 | the media                   |                | 大众传播媒体                             |                                                              |
 | obtain                      | vt.            | 获得；赢得                               |                                                              |
 | attain                      | vt.            | 获得；到达（水平、年龄、状况等）         |                                                              |
 | moral                       | adj.           | 道德（上）的；伦理的                     |                                                              |
-| conservative                | adj.           | 保守的；守旧的                           |                                                              |
+| conservative                | adj.           | 保守的；守旧的                           | conservative vector field（保守向量场）                      |
 | forbid                      | vt.            | (forbade, forbad; forbidden) 禁止；不准  | 403 Forbidden                                                |
 | accumulate                  | vt. & vi.      | 积累；聚积                               |                                                              |
 | in favour of                |                | 赞成；支持                               |                                                              |
@@ -303,3 +303,29 @@ Of course, a full strength embrace would end up snapping Lakish’s body in half
 #### straightforward
 
 “That's too far of a jump...” Willem gave Almaria a little poke on the forehead. “It's someone you don't know. She's **straightforward** and dedicated and kind and spoiled and uncompromising and simple and an idiot and simple and an idiot.” He didn't think he said too much. He could even add on another set of simple and an idiot.（珂学必修 4）
+
+#### undertake
+
+At the time he was only level 9, so his guild would’ve placed restrictions on the areas he could venture into or the kind of missions he could **undertake**, forbidding him from fighting overly powerful monsters.（珂学选修 1-1）
+
+#### pay off
+
+Eight million. That could **pay off** Willem’s sizable debt fifty times and still leave some left over.（珂学必修 1）
+
+#### cast
+
+I would never **cast** my cape aside, not in a thousand years!（珂学第 6 讲，00:07:03~00:07:06）
+
+The guy that sealed my memory said he chipped away a little at the curse **cast** on Elq’s body.（珂学必修 5）
+
+#### cast down
+
+"... I see." Firu **cast** her eyes **down**.（珂学必修 2）
+
+#### impact
+
+The two bodies, one human and one cat, continued their descent. The faint light radiating from the girl futilely danced about in the air before disappearing. She didn't even have time to scream. The stone pavement, which had seemed so far away a moment ago, grew closer at an alarming rate. She inadvertently tightened her grip on the cat, which let out a shriek. Helpless against the pull of gravity, the girl closed her eyes and braced for **impact**. 
+
+A girl fell out of the sky. Judging from her figure, she was probably in her early teens, and also falling pretty fast. At that rate, she would soon have a violent collision with the stone covered streets, leaving a gruesome scene unfit for a peaceful early afternoon.（珂学必修 1）
+
+"It's okay. Even if the encroachment is showing up a little now, your body is still pretty young. As long as ya don't go too crazy, it shouldn't progress much further. There won't be any harmful **impact** to your everyday life. I know someone who's suffered from it before quite well, so I can guarantee you that."（珂学必修 2）
