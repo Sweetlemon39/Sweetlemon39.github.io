@@ -246,15 +246,15 @@ Of course, a full strength embrace would end up snapping Lakish’s body in half
 | object                      | vi.            | 反对；不赞成                             | object 当然还有对象的意思，难道这说明对象常常反对（大雾）    |
 | objection                   | n.             | 不赞成；反对；异议                       |                                                              |
 | impact                      | n.             | 撞击；冲击；巨大的影响                   | 正碰（direct impact）；珂朵莉准备着与地面撞击（其实是与威廉撞击）；艾瑟雅安慰珂朵莉，魔力中毒不会对她产生不利影响 |
-| medium                      | n.             | (*pl* media) 媒介；手段；工具            |                                                              |
+| medium                      | n.             | (*pl* media) 媒介；手段；工具            | medium 同时有“中等的”意；这么变复数的还有 stadium - stadiums / stadia, bacterium - bacteria（都是拉丁语惹的祸） |
 | the media                   |                | 大众传播媒体                             |                                                              |
-| obtain                      | vt.            | 获得；赢得                               |                                                              |
-| attain                      | vt.            | 获得；到达（水平、年龄、状况等）         |                                                              |
-| moral                       | adj.           | 道德（上）的；伦理的                     |                                                              |
+| obtain                      | vt.            | 获得；赢得                               | 印刷术使书籍更容易**获得**；和平不是轻易就能**获得**的       |
+| attain                      | vt.            | 获得；到达（水平、年龄、状况等）         | 证明你的程序**达到**了这个时间复杂度；计算这个和式可以**得到** $\Theta(n^2)$ 的复杂度；如果相信了“你还不幸福”的话，不管多幸福，都会认为自己还未**获得**幸福 |
+| moral                       | adj.           | 道德（上）的；伦理的                     | 奈芙莲说**精神**支柱很重要；moral 还有“寓意”的意思，比如the moral of this story |
 | conservative                | adj.           | 保守的；守旧的                           | conservative vector field（保守向量场）                      |
 | forbid                      | vt.            | (forbade, forbad; forbidden) 禁止；不准  | 403 Forbidden                                                |
-| accumulate                  | vt. & vi.      | 积累；聚积                               |                                                              |
-| in favour of                |                | 赞成；支持                               |                                                              |
+| accumulate                  | vt. & vi.      | 积累；聚积                               | 雪花在地上**聚积**；瑟尼欧里斯上**积**了灰；计算误差会**积累** |
+| in favour of                |                | 赞成；支持                               | **支持**选择 Java 的主要原因是它的大整数类                   |
 | side road                   |                | 旁路；支线；岔道（<美> sidewalk）        |                                                              |
 | constitution                | n.             | 宪法；章程                               |                                                              |
 | compulsory                  | adj.           | 必须做的；义务的；强迫的；强制的         |                                                              |
@@ -324,8 +324,58 @@ The guy that sealed my memory said he chipped away a little at the curse **cast*
 
 #### impact
 
-The two bodies, one human and one cat, continued their descent. The faint light radiating from the girl futilely danced about in the air before disappearing. She didn't even have time to scream. The stone pavement, which had seemed so far away a moment ago, grew closer at an alarming rate. She inadvertently tightened her grip on the cat, which let out a shriek. Helpless against the pull of gravity, the girl closed her eyes and braced for **impact**. 
+The two bodies, one human and one cat, continued their descent. The faint light radiating from the girl futilely danced about in the air before disappearing. She didn't even have time to scream. The stone pavement, which had seemed so far away a moment ago, grew closer at an alarming rate. She inadvertently tightened her grip on the cat, which let out a shriek. Helpless against the pull of gravity, the girl closed her eyes and braced for **impact**.
 
 A girl fell out of the sky. Judging from her figure, she was probably in her early teens, and also falling pretty fast. At that rate, she would soon have a violent collision with the stone covered streets, leaving a gruesome scene unfit for a peaceful early afternoon.（珂学必修 1）
 
 "It's okay. Even if the encroachment is showing up a little now, your body is still pretty young. As long as ya don't go too crazy, it shouldn't progress much further. There won't be any harmful **impact** to your everyday life. I know someone who's suffered from it before quite well, so I can guarantee you that."（珂学必修 2）
+
+#### obtain
+
+In their current time setting, large printing machines were already being widely used, making books much easier to **obtain** compared to earlier times when each one needed to be copied by hand.（珂学必修 4）
+
+Conflict is the natural fate of all living beings. Peace is unnatural, and thus it is valuable. That which is unnatural cannot be **obtained** by simply sitting around. Only after expending the necessary effort and paying the necessary sacrifices to suppress instinct and pursue reason can it first be **obtained**. Precisely because of its difficulty to **obtain**, peace is seen as such a beautiful thing.（珂学必修 5）
+
+#### attain
+
+Prove that your algorithm **attains** this time bound.（算法导论英文版 706 页）
+
+When we evaluated this summation, we **attained** a bound of $\mathrm{\Theta}(n^2)$ on the worst-case running time of the algorithm.（算法导论英文版 1145 页）
+
+“It’s simple. Just tell them ‘You’re unhappy.’” Feodor waved his hands. “I can already hear you trying to make it sound like a good thing, ‘You can be more happy’, or ‘I’ll make you happy’, but they’re all in the same vein. Though that might sound good, you’d just be claiming that all their happiness is fake, and your brand of happiness is the real deal. However happy someone was before, once they’ve believed those words, they’ll start thinking that they might not have **attained** happiness yet.”（珂学选修 2-2）
+
+#### moral
+
+“Is that something to be happy about?” Aiseia asked. “Also, Nephren, you seem to be playing the role of a pet. Is that okay with you?”
+
+“**Moral** support is important.”（珂学必修 3）
+
+#### accumulate
+
+Looking down, he noticed for the first time that Nephren was walking alongside him. His inner debate had blinded him that much. He also noticed the snowflakes starting to **accumulate** on the ground.（珂学必修 4）
+
+Of course, there weren’t actually any stains that stood out from the blade’s glinting metal; it had just **accumulated** a layer of dust thanks to it being stored for a time.（珂学选修 1-1）
+
+Strassen’s algorithm is not quite as numerically stable as SQUARE-MATRIX-MULTIPLY. In other words, because of the limited precision of computer arithmetic on noninteger values, larger errors **accumulate** in Strassen’s algorithm than in SQUARE-MATRIX-MULTIPLY.（算法导论英文版 112 页）
+
+#### in favour of
+
+The main argument **in favor of** choosing Java was that it has a very large integer data type, called BigInteger.（Codeforces 66, Codeforces Beta Round #61 (Div. 2), A. Petya and Java）
+
+### Unit 4
+
+| 单词          | 词性      | 释义                                                         | 闲话 |
+| :------------ | :-------- | :----------------------------------------------------------- | :--- |
+| adaptation    | n.        | 适应（性）；改编本                                           |      |
+| classic       | adj. & n. | 经典的；第一流的；经典著作                                   |      |
+| caption       | n.        | （图片上的）说明文字；（电视、电影）字幕；（杂志等文章的）标题；题目 |      |
+| plot          | n.        | 情节；阴谋                                                   |      |
+| professor     | n.        | 教授                                                         |      |
+| phonetics     | n.        | 语音学                                                       |      |
+| colonel       | n.        | （陆军）上校                                                 |      |
+| fateful       | adj.      | 重要的；决定性的；命中注定的                                 |      |
+| whistle       | vi. & n.  | 吹口哨；发出汽笛声；口哨声；汽笛声                           |      |
+| garment       | n.        | （一件）衣服（外套、裙、袍等）；(*pl*) 服装                  |      |
+| woollen       | adj.      | 毛纺的；纯毛的（<美> woolen）                                |      |
+| hesitate      | vi.       | 犹豫；踌躇                                                   |      |
+| uncomfortable | adj.      | 不舒服的；                                                   |      |

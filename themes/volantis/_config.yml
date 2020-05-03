@@ -530,6 +530,14 @@ plugins:
       - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/miku_289023.jpg
       - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/sukasuka__09.jpg
       - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/sukasuka__10.jpg
+      - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/miku_55005893.jpg
+      - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/voc_215624.jpg
+      - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/miku_56632668.jpg
+      - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/osu_66184019.jpg
+      - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/osu_80835141.jpg
+      - https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/bg/osu_80841063.jpg
+      
+
 
   # APlayer is only available in mainland China.
   # APlayer config: https://github.com/metowolf/MetingJS

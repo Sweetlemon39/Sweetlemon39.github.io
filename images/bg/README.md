@@ -12,7 +12,10 @@ I don’t have copyright of these background images which are from the Internet.
 | miku_262935.jpg      | https://konachan.net/post/show/262935/blush-bow-cherry_blossoms-dress-flowers-garter-gra |
 | miku_297251.jpg      | https://konachan.net/post/show/297251/blue_hair-blush-bow-brown_eyes-cape-close-gloves-h |
 | miku_289023.jpg      | https://konachan.net/post/show/289023/blue_eyes-blue_hair-close-flowers-gin_-oyoyo-hatsu |
+| miku_55005893.jpg    | https://www.pixiv.net/artworks/55005893                      |
+| miku_56632668.jpg    | https://www.pixiv.net/artworks/56632668                      |
 | voc_261300.jpg       | https://konachan.net/post/show/261300/aqua_eyes-aqua_hair-blonde_hair-breasts-brown_eyes |
+| voc_215624.jpg       | https://konachan.com/post/show/215624/blonde_hair-hoodie-kagamine_len-kagamine_rin-male- |
 | vc_247324.jpg        | https://konachan.net/post/show/247324/2girls-brown_eyes-brown_hair-butterfly-clouble-clo |
 | vc_184412.jpg        | https://konachan.net/post/show/184412/2girls-braids-brown_eyes-brown_hair-dress-feng_you |
 | tianyi_229042.jpg    | https://konachan.net/post/show/229042/luo_tianyi-vocaloid-vocaloid_china-yyb |
@@ -33,7 +36,10 @@ I don’t have copyright of these background images which are from the Internet.
 | sukasuka__05.jpg     | https://www.pixiv.net/artworks/69545730                      |
 | sukasuka__06.jpg     | sukasuka 官网图片                                            |
 | sukasuka__07.jpg     | sukasuka 动画画面                                            |
-| sukasuka__08.jpg     | https://www.pixiv.net/member_illust.php?mode=medium&illust_id=47769818 |
+| sukasuka__08.jpg     | https://www.pixiv.net/artworks/47769818                      |
 | sukasuka__09.jpg     | https://www.pixiv.net/artworks/78910596                      |
 | sukasuka__10.jpg     | https://www.pixiv.net/artworks/68527290                      |
+| osu_66184019.jpg     | https://www.pixiv.net/artworks/66184019（有裁剪）            |
+| osu_80835141.jpg     | https://www.pixiv.net/artworks/80835141                      |
+| osu_80841063.jpg     | https://www.pixiv.net/artworks/80841063                      |
 
