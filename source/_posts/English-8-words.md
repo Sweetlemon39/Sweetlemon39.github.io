@@ -256,48 +256,48 @@ Of course, a full strength embrace would end up snapping Lakish’s body in half
 | accumulate                  | vt. & vi.      | 积累；聚积                               | 雪花在地上**聚积**；瑟尼欧里斯上**积**了灰；计算误差会**积累** |
 | in favour of                |                | 赞成；支持                               | **支持**选择 Java 的主要原因是它的大整数类                   |
 | side road                   |                | 旁路；支线；岔道（<美> sidewalk）        |                                                              |
-| constitution                | n.             | 宪法；章程                               |                                                              |
+| constitution                | n.             | 宪法；章程                               | 浮游大陆群宪章：the Constitution of Regul Aire               |
 | compulsory                  | adj.           | 必须做的；义务的；强迫的；强制的         |                                                              |
 | opera                       | n.             | 歌剧；歌剧团；歌剧院                     | 著名浏览器名                                                 |
 | chorus                      | n.             | 合唱；合唱队                             |                                                              |
-| loaf                        | n.             | 一条（面包）                             |                                                              |
-| flour                       | n.             | 面粉                                     |                                                              |
-| owe                         | vt.            | 欠（账、钱、人情等）；归功于             |                                                              |
-| shortly                     | adv.           | 立刻；不久                               |                                                              |
+| loaf                        | n.             | 一条（面包）                             | 著名的 ves 复数词；将也买**面包**喂金鱼                      |
+| flour                       | n.             | 面粉                                     | 威廉做黄油蛋糕当然要买**面（main）粉**                       |
+| owe                         | vt.            | 欠（账、钱、人情等）；归功于             | 大贤者认为他**欠**黄金妖精们的人情；owing to 相当于 because of（或者是 thanks to） |
+| shortly                     | adv.           | 立刻；不久                               | 缇亚忒的调整**很快**就会结束                                 |
 | retire                      | vi.            | 退休；离开                               |                                                              |
 | bother                      | vt. & vi. & n. | 打扰；操心；烦扰                         |                                                              |
 | (be) bound to (do) ...      |                | 一定或注定（做）                         |                                                              |
-| assumption                  | n.             | 假定；设想                               |                                                              |
+| assumption                  | n.             | 假定；设想                               | 做假设（we make an assumption）                              |
 | regulation                  | n.             | 规则；规章；法规                         |                                                              |
-| nonsense                    | n.             | 胡说；无稽之谈；废话                     |                                                              |
-| popularity                  | n.             | 受人喜爱；流行                           |                                                              |
-| strike                      | vt. & vi. & n. | (struck, struck) 打；撞击；罢工          |                                                              |
+| nonsense                    | n.             | 胡说；无稽之谈；废话                     | 让黄金妖精不再做**无意义的**牺牲                             |
+| popularity                  | n.             | 受人喜爱；流行                           | 准勇者很**受**人们**欢迎**                                   |
+| strike                      | vt. & vi. & n. | (struck, struck) 打；撞击；罢工          | 彗星将要分裂并**撞击**丝守镇                                 |
 | strike ... into one’s heart |                | 使……刻骨铭心                             |                                                              |
 | bison                       | n.             | 北美或欧洲野牛                           |                                                              |
 | calf                        | n.             | 小牛；牛犊                               |                                                              |
-| from time to time           |                | 不时；偶尔                               |                                                              |
+| from time to time           |                | 不时；偶尔                               | 初中这个词组有一个释义叫“间或”（谁读谁知道）                 |
 | bring back to life          |                | 使复生；使复活                           |                                                              |
-| initial                     | adj.           | 最初的；开始的                           |                                                              |
+| initial                     | adj.           | 最初的；开始的                           | 初值（initial value）                                        |
 | DNA                         |                | 脱氧核糖核酸                             |                                                              |
 | vain                        | adj.           | 虚荣的；自负的；徒劳的                   |                                                              |
-| in vain                     |                | 白费力气；枉费心机                       |                                                              |
-| resist                      | vt.            | 抵抗；对抗                               |                                                              |
-| drawback                    | n.             | 缺点；不利条件                           |                                                              |
-| merely                      | adv.           | 仅；只；不过                             |                                                              |
-| restore                     | vt.            | 恢复；使恢复原状；重建                   |                                                              |
+| in vain                     |                | 白费力气；枉费心机                       | 珂朵莉不愿接受她的前辈们都**白白**牺牲了                     |
+| resist                      | vt.            | 抵抗；对抗                               | 我们无法**抵抗**好奇心（果然年轻妖精就是有活力）             |
+| drawback                    | n.             | 缺点；不利条件                           | 莱耶尔市的邮政服务很棒，但不是没有**缺点**                   |
+| merely                      | adv.           | 仅；只；不过                             | 黄金妖精在文件上**只**是“物件”                               |
+| restore                     | vt.            | 恢复；使恢复原状；重建                   | 恢复到出厂设置（On iPhone, **restore** content and settings from a backup, or **restore** iPhone to factory settings.） |
 | aurochs                     | n              | 原牛（古代欧洲野牛，已灭绝）             |                                                              |
 | decoration                  | n.             | 装饰                                     | [【cz & kkk & ltt】日常 decoration](https://www.bilibili.com/video/av61927760/) |
 | unable                      | adj.           | 不能的；不会的                           |                                                              |
 | great auk                   | n.             | 大海雀（已灭绝）                         |                                                              |
 | feather                     | n.             | 羽毛                                     |                                                              |
 | quagga                      | n.             | 白氏斑马（已灭绝）                       |                                                              |
-| fairly                      | adv.           | 公平地；相当地                           |                                                              |
-| in good/poor condition      |                | 状况很好（坏）                           |                                                              |
-| turkey                      | n.             | 火鸡                                     |                                                              |
-| dye                         | vt. & n.       | 给……染色；染；染色剂                     |                                                              |
+| fairly                      | adv.           | 公平地；相当地                           | 工作得相当好（work **fairly** well）                         |
+| in good/poor condition      |                | 状况很好（坏）                           | 注意这里零冠词；圣剑的**状况很差**                           |
+| turkey                      | n.             | 火鸡                                     | 土耳其火鸡                                                   |
+| dye                         | vt. & n.       | 给……染色；染；染色剂                     | 现在分词是 dyeing（这个就不能去 e 了）；妮戈兰劝珂朵莉不要把红发**染**掉；人类用什么**染料**也不能把头发染成黄金妖精的样子 |
 | claw                        | n.             | 爪；脚爪                                 |                                                              |
-| adore                       | vt.            | 崇拜；爱慕；喜爱                         |                                                              |
-| hatch                       | vt. & vi.      | 孵出；孵卵；孵化                         |                                                              |
+| adore                       | vt.            | 崇拜；爱慕；喜爱                         | adorable 有可爱的意思；威廉和艾瑟雅的一段对话里有大量的 adore 以不同的形式出现 |
+| hatch                       | vt. & vi.      | 孵出；孵卵；孵化                         | 钡硒提出了一个危险的计划（hatches a risky plan）             |
 | reasonable                  | adj.           | 合情理的；讲道理的；公道的               |                                                              |
 
 #### straightforward
@@ -362,20 +362,141 @@ Strassen’s algorithm is not quite as numerically stable as SQUARE-MATRIX-MULTI
 
 The main argument **in favor of** choosing Java was that it has a very large integer data type, called BigInteger.（Codeforces 66, Codeforces Beta Round #61 (Div. 2), A. Petya and Java）
 
+#### loaf
+
+Hey there, Shoko.
+So today, I was able to score some really great bread.
+See! It's awesome, like you're awesome.
+Oh like really great bread is awesome, This **loaf** here is just like you.（声之形，01:26:30~01:26:45）
+
+#### flour
+
+He departed for town early in the morning to do some ingredient shopping. His loot included a hefty amount of **flour**, butter, eggs, milk, and sugar. Small quantities of honey, nuts, and dried fruits were also stuffed in the bag.（珂学必修 3）
+
+#### owe
+
+“I **owe** you girls something.” He smiled with just a slight hint of sorrow.（珂学必修 5）
+
+#### shortly
+
+
+Anyway, Tiat will be done **shortly**.
+
+She's a sweet, responsible girl.（珂学第 4 讲，00:11:35~00:11:40）
+
+#### nonsense
+
+There has to be a better way to battle these beasts than what you've been doing, hasn't there?
+A way with less sacrifice, with less self-destruction **nonsense**.（珂学第 3 讲，00:06:25~00:06:34）
+
+#### popularity
+
+Quasi Braves, second in strength only to the Church appointed Regal Brave, humanity’s greatest warrior, have enormous **popularity** with the public.（珂学必修 1）
+
+#### strike
+
+The comet is going to split in two and **strike** the town?（你的名字，01:08:54~01:08:57）
+
+#### in vain
+
+Because that would mean that the older fairies all died **in vain**!（珂学第 3 讲，00:16:37~00:16:40）
+
+#### resist
+
+You should have known better. We don't have the kind of power to **resist** Curiosity!（珂学第 1 讲，00:17:58~00:18:02）
+
+#### drawback
+
+Although the mail golem service was convenient, it was, however, not without **drawbacks**.（珂学选修 2-2）
+
+#### merely
+
+The young girls, **merely** 'objects' according to the documents, live out their days with an enthusiasm and energy uncharacteristic of inanimate weapons.（珂学必修 2）
+
+#### in good/poor condition
+
+As he expected, all of the swords were **in poor condition**.（珂学必修 1）
+
+#### dye
+
+And don't get any ideas about **dyeing** your hair.
+I doubt that it's gonna bother Willem.（珂学第 7 讲，00:11:12~00:11:16）
+
+An Emnetwyte would never have been able to achieve such a naturally vivid color, no matter what **dye** he used.（珂学必修 1）
+
+#### adore
+
+I didn't mean to offend, it's my opinion.   
+I just think girls are cuter.  
+It reflects the way they want to be loved.  
+They **adorably** wish to be **adored**.  
+Boys are cute too, just in a smellier way.  
+And **adorable** applies to us?  
+Come on, as a race, you're generally all born in this form, right?（珂学第 3 讲，00:14:02~00:14:17）
+
 ### Unit 4
 
-| 单词          | 词性      | 释义                                                         | 闲话 |
-| :------------ | :-------- | :----------------------------------------------------------- | :--- |
-| adaptation    | n.        | 适应（性）；改编本                                           |      |
-| classic       | adj. & n. | 经典的；第一流的；经典著作                                   |      |
-| caption       | n.        | （图片上的）说明文字；（电视、电影）字幕；（杂志等文章的）标题；题目 |      |
-| plot          | n.        | 情节；阴谋                                                   |      |
-| professor     | n.        | 教授                                                         |      |
-| phonetics     | n.        | 语音学                                                       |      |
-| colonel       | n.        | （陆军）上校                                                 |      |
-| fateful       | adj.      | 重要的；决定性的；命中注定的                                 |      |
-| whistle       | vi. & n.  | 吹口哨；发出汽笛声；口哨声；汽笛声                           |      |
-| garment       | n.        | （一件）衣服（外套、裙、袍等）；(*pl*) 服装                  |      |
-| woollen       | adj.      | 毛纺的；纯毛的（<美> woolen）                                |      |
-| hesitate      | vi.       | 犹豫；踌躇                                                   |      |
-| uncomfortable | adj.      | 不舒服的；                                                   |      |
+| 单词                    | 词性           | 释义                                                         | 闲话 |
+| :---------------------- | :------------- | :----------------------------------------------------------- | :--- |
+| adaptation              | n.             | 适应（性）；改编本                                           |      |
+| classic                 | adj. & n.      | 经典的；第一流的；经典著作                                   |      |
+| caption                 | n.             | （图片上的）说明文字；（电视、电影）字幕；（杂志等文章的）标题；题目 |      |
+| plot                    | n.             | 情节；阴谋                                                   |      |
+| professor               | n.             | 教授                                                         |      |
+| phonetics               | n.             | 语音学                                                       |      |
+| colonel                 | n.             | （陆军）上校                                                 |      |
+| fateful                 | adj.           | 重要的；决定性的；命中注定的                                 |      |
+| whistle                 | vi. & n.       | 吹口哨；发出汽笛声；口哨声；汽笛声                           |      |
+| garment                 | n.             | （一件）衣服（外套、裙、袍等）；(*pl*) 服装                  |      |
+| woollen                 | adj.           | 毛纺的；纯毛的（<美> woolen）                                |      |
+| hesitate                | vi.            | 犹豫；踌躇                                                   |      |
+| uncomfortable           | adj.           | 不舒服的；不安的；不自在的                                   |      |
+| uncomfortably           | adv.           | 不舒服地；不自在地                                           |      |
+| troublesome             | adj.           | 带来麻烦的；使人心烦的                                       |      |
+| wallet                  | n.             | 皮夹；钱包                                                   |      |
+| outcome                 | n.             | 结果；效果                                                   |      |
+| thief                   | n.             | 小偷；贼                                                     |      |
+| handkerchief            | n.             | 手帕；手绢；纸巾                                             |      |
+| disguise                | vt. & n.       | 伪装；假扮；遮掩                                             |      |
+| in disguise             |                | 伪装（的）；假扮（的）                                       |      |
+| mistaken                | adj.           | （见解或判断上的）错误的；不正确的                           |      |
+| brilliant               | adj.           | 光辉灿烂的；杰出的；才华横溢的                               |      |
+| classify                | vt.            | 把……分类；把……归类                                           |      |
+| remark                  | n. & vt. & vi. | 谈论；言论；评述；评论；说起                                 |      |
+| betray                  | vt.            | 显露出（本来面目）；背叛                                     |      |
+| upper                   | adj.           | （位置或地位）较高的；级别较高的                             |      |
+| extraordinary           | adj.           | 不同寻常的；非凡的                                           |      |
+| condemn                 | vt.            | 谴责；使……处于不幸（不愉快）的状态                           |      |
+| gutter                  | n.             | 排水沟；阴沟；贫民区                                         |      |
+| properly                | adv.           | 适当地；恰当地                                               |      |
+| pass ... of as ...      |                | （把某人）改变或冒充成……                                     |      |
+| duchess                 | n.             | 公爵夫人；女公爵                                             |      |
+| ambassador              | n.             | 大使；使节                                                   |      |
+| acquaintance            | n.             | 相识；了解；熟人                                             |      |
+| make one’s acquaintance |                | 结识；与……相见                                               |      |
+| handful                 | n.             | 一把；少量                                                   |      |
+| amazement               | n.             | 惊讶；惊愕                                                   |      |
+| in amazement            |                | 震惊；惊讶                                                   |      |
+| fortune                 | n.             | 机会；运气；大笔的钱                                         |      |
+| authentic               | adj.           | 真实的；真正的；可信的；可靠的                               |      |
+| generally speaking      |                | 一般来说                                                     |      |
+| status                  | n.             | 身份；地位；职位                                             |      |
+| superior                | adj. & n.      | 优秀的；较高的；上级的；上级；长官                           |      |
+| in terms of ...         |                | 就……来说；从……角度                                           |      |
+| disapprove              | vt. & vi.      | 不赞成；反对；认为不好                                       |      |
+| rob                     | vt.            | 抢劫；盗窃；剥夺                                             |      |
+| antique                 | adj. & n.      | 古时的；（因古老、稀少而）珍贵的；文物；古董；古玩           |      |
+| musical                 | adj. & n.      | 音乐的；喜爱音乐的；音乐喜剧                                 |      |
+| stocking                | n.             | 长袜                                                         |      |
+| belliever               | n.             | 信徒；教徒                                                   |      |
+| Buddhism                | n.             | 佛教                                                         |      |
+| Buddhist                | n. & adj.      | 佛教徒；佛教的                                               |      |
+| Buddha                  | n              | 佛                                                           |      |
+| vowel                   | n.             | 元音；元音字母                                               |      |
+| cookie                  | n.             | 饼干                                                         |      |
+| teapot                  | n.             | 茶壶                                                         |      |
+| cream                   | n.             | 奶油；面霜                                                   |      |
+| nail                    | n.             | 指甲；钉子                                                   |      |
+| show ... in             |                | 带或领……进来                                                 |      |
+| wax                     | n. & vt.       | 蜡；蜜蜡；上蜡                                               |      |
+|                         |                |                                                              |      |
