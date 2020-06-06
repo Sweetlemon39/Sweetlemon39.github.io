@@ -436,67 +436,142 @@ Come on, as a race, you're generally all born in this form, right?（珂学第 3
 
 ### Unit 4
 
-| 单词                    | 词性           | 释义                                                         | 闲话 |
-| :---------------------- | :------------- | :----------------------------------------------------------- | :--- |
-| adaptation              | n.             | 适应（性）；改编本                                           |      |
-| classic                 | adj. & n.      | 经典的；第一流的；经典著作                                   |      |
-| caption                 | n.             | （图片上的）说明文字；（电视、电影）字幕；（杂志等文章的）标题；题目 |      |
-| plot                    | n.             | 情节；阴谋                                                   |      |
-| professor               | n.             | 教授                                                         |      |
-| phonetics               | n.             | 语音学                                                       |      |
-| colonel                 | n.             | （陆军）上校                                                 |      |
-| fateful                 | adj.           | 重要的；决定性的；命中注定的                                 |      |
-| whistle                 | vi. & n.       | 吹口哨；发出汽笛声；口哨声；汽笛声                           |      |
-| garment                 | n.             | （一件）衣服（外套、裙、袍等）；(*pl*) 服装                  |      |
-| woollen                 | adj.           | 毛纺的；纯毛的（<美> woolen）                                |      |
-| hesitate                | vi.            | 犹豫；踌躇                                                   |      |
-| uncomfortable           | adj.           | 不舒服的；不安的；不自在的                                   |      |
-| uncomfortably           | adv.           | 不舒服地；不自在地                                           |      |
-| troublesome             | adj.           | 带来麻烦的；使人心烦的                                       |      |
-| wallet                  | n.             | 皮夹；钱包                                                   |      |
-| outcome                 | n.             | 结果；效果                                                   |      |
-| thief                   | n.             | 小偷；贼                                                     |      |
-| handkerchief            | n.             | 手帕；手绢；纸巾                                             |      |
-| disguise                | vt. & n.       | 伪装；假扮；遮掩                                             |      |
-| in disguise             |                | 伪装（的）；假扮（的）                                       |      |
-| mistaken                | adj.           | （见解或判断上的）错误的；不正确的                           |      |
-| brilliant               | adj.           | 光辉灿烂的；杰出的；才华横溢的                               |      |
-| classify                | vt.            | 把……分类；把……归类                                           |      |
-| remark                  | n. & vt. & vi. | 谈论；言论；评述；评论；说起                                 |      |
-| betray                  | vt.            | 显露出（本来面目）；背叛                                     |      |
-| upper                   | adj.           | （位置或地位）较高的；级别较高的                             |      |
-| extraordinary           | adj.           | 不同寻常的；非凡的                                           |      |
-| condemn                 | vt.            | 谴责；使……处于不幸（不愉快）的状态                           |      |
-| gutter                  | n.             | 排水沟；阴沟；贫民区                                         |      |
-| properly                | adv.           | 适当地；恰当地                                               |      |
-| pass ... of as ...      |                | （把某人）改变或冒充成……                                     |      |
-| duchess                 | n.             | 公爵夫人；女公爵                                             |      |
-| ambassador              | n.             | 大使；使节                                                   |      |
-| acquaintance            | n.             | 相识；了解；熟人                                             |      |
-| make one’s acquaintance |                | 结识；与……相见                                               |      |
-| handful                 | n.             | 一把；少量                                                   |      |
-| amazement               | n.             | 惊讶；惊愕                                                   |      |
-| in amazement            |                | 震惊；惊讶                                                   |      |
-| fortune                 | n.             | 机会；运气；大笔的钱                                         |      |
-| authentic               | adj.           | 真实的；真正的；可信的；可靠的                               |      |
-| generally speaking      |                | 一般来说                                                     |      |
-| status                  | n.             | 身份；地位；职位                                             |      |
-| superior                | adj. & n.      | 优秀的；较高的；上级的；上级；长官                           |      |
-| in terms of ...         |                | 就……来说；从……角度                                           |      |
-| disapprove              | vt. & vi.      | 不赞成；反对；认为不好                                       |      |
-| rob                     | vt.            | 抢劫；盗窃；剥夺                                             |      |
-| antique                 | adj. & n.      | 古时的；（因古老、稀少而）珍贵的；文物；古董；古玩           |      |
-| musical                 | adj. & n.      | 音乐的；喜爱音乐的；音乐喜剧                                 |      |
-| stocking                | n.             | 长袜                                                         |      |
-| belliever               | n.             | 信徒；教徒                                                   |      |
-| Buddhism                | n.             | 佛教                                                         |      |
-| Buddhist                | n. & adj.      | 佛教徒；佛教的                                               |      |
-| Buddha                  | n              | 佛                                                           |      |
-| vowel                   | n.             | 元音；元音字母                                               |      |
-| cookie                  | n.             | 饼干                                                         |      |
-| teapot                  | n.             | 茶壶                                                         |      |
-| cream                   | n.             | 奶油；面霜                                                   |      |
-| nail                    | n.             | 指甲；钉子                                                   |      |
-| show ... in             |                | 带或领……进来                                                 |      |
-| wax                     | n. & vt.       | 蜡；蜜蜡；上蜡                                               |      |
-|                         |                |                                                              |      |
+| 单词                    | 词性           | 释义                                                         | 闲话                                                         |
+| :---------------------- | :------------- | :----------------------------------------------------------- | :----------------------------------------------------------- |
+| adaptation              | n.             | 适应（性）；改编本                                           | “5 Games That Deserve an Anime Adaptation”                   |
+| classic                 | adj. & n.      | 经典的；第一流的；经典著作                                   | 奈芙莲第一次吃栗子时犯了**典型**的初学者错误（没等栗子凉了就吃） |
+| caption                 | n.             | （图片上的）说明文字；（电视、电影）字幕；（杂志等文章的）标题；题目 | “the ﬁgure caption”；Y2b 上的字幕就是 caption；此外 VB 的 Label 控件有 caption 属性 |
+| plot                    | n.             | 情节；阴谋                                                   | 威廉说他是邪恶的人族，肯定会**谋划**一些大事（               |
+| professor               | n.             | 教授                                                         | 他 apply for professor，好几百个教授一致通过（逃             |
+| phonetics               | n.             | 语音学                                                       | **fong** ne tics！                                           |
+| colonel                 | n.             | （陆军）上校                                                 |                                                              |
+| fateful                 | adj.           | 重要的；决定性的；命中注定的                                 | 莉莉娅想起她第一次遇到威廉的那个**重要的**冬天（嘲笑他的那个冬天） |
+| whistle                 | vi. & n.       | 吹口哨；发出汽笛声；口哨声；汽笛声                           | The one who whistled                                         |
+| garment                 | n.             | （一件）衣服（外套、裙、袍等）；(*pl*) 服装                  |                                                              |
+| woollen                 | adj.           | 毛纺的；纯毛的（<美> woolen）                                | 注意区分 woolen 和 wooden                                    |
+| hesitate                | vi.            | 犹豫；踌躇                                                   | 如果有任何不快，不要**犹豫**，马上来找我（奈芙莲真的默默在关心身边的朋友） |
+| uncomfortable           | adj.           | 不舒服的；不安的；不自在的                                   |                                                              |
+| uncomfortably           | adv.           | 不舒服地；不自在地                                           |                                                              |
+| troublesome             | adj.           | 带来麻烦的；使人心烦的                                       | 在威廉给兰朵露可按摩时，她很“**带来麻烦**”（笑）             |
+| wallet                  | n.             | 皮夹；钱包                                                   | Apple Wallet                                                 |
+| outcome                 | n.             | 结果；效果                                                   | 奈芙莲的魔力过度发挥，等待她的似乎只有“开门”这一**结果**     |
+| thief                   | n.             | 小偷；贼                                                     |                                                              |
+| handkerchief            | n.             | 手帕；手绢；纸巾                                             | 费奥多尔让缇亚忒回忆起了往事而落泪，他给缇亚忒递了一只**手帕**并道歉 |
+| disguise                | vt. & n.       | 伪装；假扮；遮掩                                             | 珂朵莉说她的帽子只是为了在 28 号岛**掩盖**她的无征种身份     |
+| in disguise             |                | 伪装（的）；假扮（的）                                       | 这是一个伪装的三项级数                                       |
+| mistaken                | adj.           | （见解或判断上的）错误的；不正确的                           | 费奥多尔甚至不愿意说明潘丽宝是**错的**                       |
+| brilliant               | adj.           | 光辉灿烂的；杰出的；才华横溢的                               | 珂朵莉**光辉灿烂**的蓝发使她与众不同                         |
+| classify                | vt.            | 把……分类；把……归类                                           | 根据一定的标准对动态规划进行**分类**                         |
+| remark                  | n. & vt. & vi. | 谈论；言论；评述；评论；说起                                 |                                                              |
+| betray                  | vt.            | 显露出（本来面目）；背叛                                     |                                                              |
+| upper                   | adj.           | （位置或地位）较高的；级别较高的                             |                                                              |
+| extraordinary           | adj.           | 不同寻常的；非凡的                                           |                                                              |
+| condemn                 | vt.            | 谴责；使……处于不幸（不愉快）的状态                           |                                                              |
+| gutter                  | n.             | 排水沟；阴沟；贫民区                                         |                                                              |
+| properly                | adv.           | 适当地；恰当地                                               |                                                              |
+| pass ... of as ...      |                | （把某人）改变或冒充成……                                     |                                                              |
+| duchess                 | n.             | 公爵夫人；女公爵                                             |                                                              |
+| ambassador              | n.             | 大使；使节                                                   |                                                              |
+| acquaintance            | n.             | 相识；了解；熟人                                             |                                                              |
+| make one’s acquaintance |                | 结识；与……相见                                               |                                                              |
+| handful                 | n.             | 一把；少量                                                   |                                                              |
+| amazement               | n.             | 惊讶；惊愕                                                   |                                                              |
+| in amazement            |                | 震惊；惊讶                                                   |                                                              |
+| fortune                 | n.             | 机会；运气；大笔的钱                                         |                                                              |
+| authentic               | adj.           | 真实的；真正的；可信的；可靠的                               |                                                              |
+| generally speaking      |                | 一般来说                                                     |                                                              |
+| status                  | n.             | 身份；地位；职位                                             |                                                              |
+| superior                | adj. & n.      | 优秀的；较高的；上级的；上级；长官                           |                                                              |
+| in terms of ...         |                | 就……来说；从……角度                                           |                                                              |
+| disapprove              | vt. & vi.      | 不赞成；反对；认为不好                                       |                                                              |
+| rob                     | vt.            | 抢劫；盗窃；剥夺                                             |                                                              |
+| antique                 | adj. & n.      | 古时的；（因古老、稀少而）珍贵的；文物；古董；古玩           |                                                              |
+| musical                 | adj. & n.      | 音乐的；喜爱音乐的；音乐喜剧                                 |                                                              |
+| stocking                | n.             | 长袜                                                         |                                                              |
+| belliever               | n.             | 信徒；教徒                                                   |                                                              |
+| Buddhism                | n.             | 佛教                                                         |                                                              |
+| Buddhist                | n. & adj.      | 佛教徒；佛教的                                               |                                                              |
+| Buddha                  | n              | 佛                                                           |                                                              |
+| vowel                   | n.             | 元音；元音字母                                               |                                                              |
+| cookie                  | n.             | 饼干                                                         |                                                              |
+| teapot                  | n.             | 茶壶                                                         |                                                              |
+| cream                   | n.             | 奶油；面霜                                                   |                                                              |
+| nail                    | n.             | 指甲；钉子                                                   |                                                              |
+| show ... in             |                | 带或领……进来                                                 |                                                              |
+| wax                     | n. & vt.       | 蜡；蜜蜡；上蜡                                               |                                                              |
+| disk                    | n.             | 磁盘                                                         |                                                              |
+| wax disk                |                | 旧式唱片                                                     |                                                              |
+| shabby                  | adj.           | 破旧的；寒酸的                                               |                                                              |
+| curtsy                  | vi. & n.       | (*also* curtsey) 行屈膝礼；（女子行的）屈膝礼                |                                                              |
+| shilling                | n.             | 先令（1971 年前的英国货币单位，旧币的 12 便士）              |                                                              |
+| referee                 | n.             | 裁判员；仲裁者                                               |                                                              |
+| compromise              | n. & vi.       | 妥协；折衷                                                   |                                                              |
+| horrible                | adj.           | 可怕的；恐怖的                                               |                                                              |
+| laundry                 | n.             | 洗衣店；洗衣房；（待洗的或洗好的）衣服                       |                                                              |
+| bathtub                 | n.             | 浴缸；澡盆                                                   |                                                              |
+| sob                     | vi. & n.       | 啜泣（声）；抽噎（声）                                       |                                                              |
+| waist                   | n.             | 腰；腰部；腰围                                               |                                                              |
+| vest                    | n.             | 背心；内衣                                                   |                                                              |
+| disgusting              | adj.           | 使人反感的；令人厌恶的                                       |                                                              |
+| once more               |                | 再一次                                                       |                                                              |
+| in need of              |                | 需要……                                                       |                                                              |
+| heartily                | adv.           | 尽情地；热心地；痛快地                                       |                                                              |
+| overlook                | vt.            | 俯视；忽视；不理会                                           |                                                              |
+| alphabet                | n.             | 字母表                                                       |                                                              |
+| effective               | adj.           | 有效的                                                       |                                                              |
+| fade                    | vi. & vt.      | （使）褪色；减弱；逐渐消失                                   |                                                              |
+| fade out                |                | （声音、画面）逐渐模糊；渐淡                                 |                                                              |
+
+#### classic
+
+Meanwhile, Nephren, who apparently stuffed her chestnuts into her mouth without waiting for them to cool down first, now had a bright red face and seemed to be in a daze. Lucie had to run off to the nearest public well and get some water for her. Watching Nephren make the **classic** beginner mistake, Willem recalled fond and nostalgic memories.（珂学必修 4）
+
+#### plot
+
+I’m an evil Emnetwyte, after all. If I’m going to **plot** something, it’s going to be a larger scale crime.（珂学必修 3）
+
+#### fateful
+
+She recalled that **fateful** winter when she’d first seen Willem practicing in that forest.（珂学选修 1-1）
+
+#### hesitate
+
+“If you ever feel like talking about it, don't **hesitate** to come to me. I may not be able to do much, but I can at least stay by your side.” 
+
+With that, Nephren stopped talking. “Ah... thanks.” First Aiseia, now Nephren. Kutori really did have amazing friends. Forgetting her situation for a moment, she was overcome with a happy feeling.（珂学必修 3）
+
+#### troublesome
+
+Lantolq, on the other hand, proved to be **troublesome** for an entirely different reason. Everytime Willem pressed his fingers into her back, she let out a weirdly suggestive moan. Well, Lantolq did seem very mature for her age, but whenever he heard that voice Willem got the feeling that they were doing something inappropriate and had to pause his work.（珂学必修 3）
+
+#### outcome
+
+Nephren's body was hot as an inferno, yet at the same time cold as ice. Needless to say, she had ignited too much Venom. She had turned her back on life and abused that terrible power, knowing that each step took her closer to death. Now, there was only one possible **outcome** which awaited her: berserk. The immense, unchecked power emanating from her would blow away everything in the area with enough force to destroy a large Teimerre all at once in an overwhelming manifestation of destruction.（珂学必修 3）
+
+#### handkerchief
+
+“...Sorry.” He took out a **handkerchief** and held it out to her in apology.（珂学选修 2-1）
+
+#### disguise
+
+“Your new hat.” 
+
+The sudden change of topic surprised the lost in thought Kutori, who almost fell out of her chair. 
+
+“You’re taking pretty good care of it, aren’t ya? You stuffed it in your closet and never used it since, keeping it nice and clean.” 
+
+“I-It’s not like that means anything! That hat’s only useful as a **disguise** for when I leave the island... I don’t need it when I’m here! Besides, why are you even bringing that up now?!”（珂学必修 1）
+
+So it is really a trinomial coefficient **in disguise**.（算法导论）
+
+#### mistaken
+
+Fight on, Lakish, he cheered her on silently. As for Panival – while he wouldn’t go as far as to say she was **mistaken**, he at least wished she wouldn’t talk about him as if there was something wrong about him as a living being.（珂学选修 2-2）
+
+#### brilliant
+
+The blue haired girl led him around. Getting another chance to look at her up close, Willem readjusted his age estimate to about fifteen, based on human standards. A markless, she had a body and features similar to those of a human. What set her apart was her **brilliant** blue hair, evocative of a clear spring sky. An Emnetwyte would never have been able to achieve such a naturally vivid color, no matter what dye he used.（珂学必修 1）
+
+#### classify
+
+Galil and Park [125] **classify** dynamic-programming algorithms according to the size of the table and the number of other table entries each entry depends on.（算法导论）
