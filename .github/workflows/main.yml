@@ -8,45 +8,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-        with:
-          path: dev
-      - uses: actions/checkout@v2
-        with:
-          ref: master
-          path: master
       - name: Use Node.js
         uses: actions/setup-node@v2
         with:
           node-version: '12.x'
       - name: Setup hexo
         run: |
-          ls
-          cd dev
           npm install hexo-cli -g
           npm install
       - name: Generate
-        run: |
-          cd dev
-          hexo generate
-      - name: Commit
-        run: |
-          cd master
-          ls
-          echo 0000000000
-          git status
-          echo 1111111111
-          # git rm –r
-          cp -rf ../dev/public/ ./
-          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add .
-          git commit -m "Built at $(date +'%Y-%m-%d %H:%M:%S')"
+        run: hexo generate
       - name: Push
-        uses: crazy-max/ghaction-github-pages@v2.5.0
+        uses: JamesIves/github-pages-deploy-action@4.1.5
         with:
-          target_branch: master
-          build_dir: master
-          keep_history: true
-          fqdn: blog.sweetlemon.top
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          branch: master
+          folder: public
+          clean: true
+          clean-exclude: |
+            CNAME
