@@ -12,6 +12,8 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: '12.x'
+      - run: git branch
+      - run: git checkout master
       - run: npm install hexo-cli -g
       - run: npm install
       - run: hexo generate
@@ -19,7 +21,6 @@ jobs:
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git checkout master
           git add .
           git commit -m "Built at $(date +'%Y-%m-%d %H:%M:%S')"
       - name: Push
