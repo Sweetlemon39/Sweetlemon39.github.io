@@ -32,7 +32,8 @@ jobs:
         run: |
           cd master
           ls
-          git rm –r ./
+          git status
+          # git rm –r
           cp -rf ../dev/public/ ./
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
