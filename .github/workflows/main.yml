@@ -19,7 +19,7 @@ jobs:
         with:
           node-version: '12.x'
       - name: Setup hexo
-      - run: |
+        run: |
           npm install hexo-cli -g
           npm install
           cd dev
