@@ -32,7 +32,9 @@ jobs:
         run: |
           cd master
           ls
+          echo 0000000000
           git status
+          echo 1111111111
           # git rm –r
           cp -rf ../dev/public/ ./
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -43,4 +45,6 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          repository: master
+          
           branch: master
