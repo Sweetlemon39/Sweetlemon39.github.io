@@ -9,7 +9,7 @@ valine:
   placeholder: 有什么想对我说的呢？
 ---
 
-<img src="https://cdn.jsdelivr.net/gh/mrj1018/OI/lemon.png" alt="logo" style="zoom:30%;" />
+<img src="https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/avatar.png" alt="logo" style="zoom:30%;" />
 
 ## Sweetlemon
 

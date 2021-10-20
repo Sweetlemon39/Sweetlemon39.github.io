@@ -180,7 +180,7 @@ meta:
   title: # 暂无配置
   # 默认文章作者（可在front-matter中覆盖）
   author:
-    avatar: https://cdn.jsdelivr.net/gh/mrj1018/OI/lemon.png
+    avatar: https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/avatar.png
     name: Sweetlemon
     url: https://sweetlemon39.github.io/
   # 文章创建日期
@@ -260,7 +260,7 @@ widget:
   blogger:
     class: blogger
     display: [desktop] # [desktop, mobile]
-    avatar: https://cdn.jsdelivr.net/gh/mrj1018/OI/lemon.png
+    avatar: https://cdn.jsdelivr.net/gh/Sweetlemon39/Sweetlemon39.github.io@dev/images/avatar.png
     shape: rectangle # circle, rectangle
     url: /about/
     title: Sweetlemon
@@ -421,9 +421,9 @@ footer:
   layout: [aplayer, social, copyright, br, moeicp]
   social:
     - icon: fas fa-envelope
-      url: mailto:mrj1018@163.com
+      url: mailto:sweetlemon39@foxmail.com
     - icon: fab fa-github
-      url: https://github.com/mrj1018
+      url: https://github.com/Sweetlemon68
     - icon: fas fa-code
       url: https://www.luogu.com.cn/user/25008
     #- icon: fas fa-headphones-alt
