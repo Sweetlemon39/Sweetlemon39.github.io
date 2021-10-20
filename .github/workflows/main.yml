@@ -42,8 +42,11 @@ jobs:
           git add .
           git commit -m "Built at $(date +'%Y-%m-%d %H:%M:%S')"
       - name: Push
-        uses: ad-m/github-push-action@master
+        uses: crazy-max/ghaction-github-pages@v2.5.0
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          directory: master
-          branch: master
+          target_branch: master
+          build_dir: master
+          keep_history: true
+          fqdn: blog.sweetlemon.top
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
