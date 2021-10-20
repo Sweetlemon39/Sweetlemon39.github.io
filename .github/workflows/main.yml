@@ -20,12 +20,15 @@ jobs:
           node-version: '12.x'
       - name: Setup hexo
         run: |
+          ls
+          cd dev
           npm install hexo-cli -g
           npm install
-          cd dev
       - run: hexo generate
       - name: Commit
         run: |
+          ls
+          ls ..
           cd ../master
           git rm –r *
           cp -rf ../dev/public/ ./
