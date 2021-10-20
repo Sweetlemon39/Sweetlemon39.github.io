@@ -24,12 +24,14 @@ jobs:
           cd dev
           npm install hexo-cli -g
           npm install
-      - run: hexo generate
+      - name: Generate
+        run: |
+          cd dev
+          hexo generate
       - name: Commit
         run: |
           ls
-          ls ..
-          cd ../master
+          cd master
           git rm –r *
           cp -rf ../dev/public/ ./
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
