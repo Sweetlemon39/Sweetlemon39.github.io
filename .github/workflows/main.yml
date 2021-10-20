@@ -12,6 +12,7 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: '12.x'
+      - run: npm install hexo-cli -g
       - run: npm install
       - run: hexo generate
       - name: Commit
