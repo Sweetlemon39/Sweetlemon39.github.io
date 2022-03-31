@@ -31,7 +31,7 @@
     "hexo-renderer-stylus": "^1.1.0",
     "hexo-server": "^1.0.0",
     "live2d-widget-model-miku": "^1.0.5",
-    "minimist": "^1.2.5",
+    "minimist": "^1.2.6",
     "object-assign": "^4.1.1"
   }
 }
