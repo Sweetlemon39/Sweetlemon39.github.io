@@ -458,8 +458,8 @@ plugins:
   ######## Plugins to optimize the experience:
   # highlight.js
   highlightjs:
-    js: https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.1/build/highlight.min.js
-    css: https://cdn.jsdelivr.net/npm/highlight.js@9.18.1/styles/solarized-light.css
+    js: https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.11.1/build/highlight.min.js
+    css: https://cdn.jsdelivr.net/npm/highlight.js@11.11.1/styles/solarized-light.css
     # more: https://www.jsdelivr.com/package/npm/highlight.js?path=styles
   # Picture Zoom
   fancybox:
