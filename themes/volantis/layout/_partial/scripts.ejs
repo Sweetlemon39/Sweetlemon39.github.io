@@ -1,4 +1,4 @@
-<%- js('https://cdn.jsdelivr.net/npm/jquery@3.4/dist/jquery.min.js') %>
+<%- js('https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js') %>
 <% if (theme.search && theme.search.enable) { %>
   <script>
     <% if(theme.search.service === 'baidu') { %>
@@ -285,7 +285,7 @@
 <% if (config.highlight.enable != true) { %>
   <% if (theme.plugins.highlightjs && theme.plugins.highlightjs.js) { %>
     <%- js(theme.plugins.highlightjs.js) %>
-    <script>hljs.initHighlightingOnLoad();</script>
+    <script>hljs.highlightAll();</script>
   <% } %>
 <% } %>
 

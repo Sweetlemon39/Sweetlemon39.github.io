@@ -1,14 +1,16 @@
 language: node_js
 node_js:
-  - 12 # use node.js v12
+  - 22 # keep in sync with .nvmrc
 cache: npm
 branches:
   only:
     - dev # build development branch only
+install:
+  - npm ci
 before_script:
   - node decrypt.js $DECRYPT_TOKEN # decrypt the encrypted files
 script:
-  - hexo generate # generate static files
+  - npm run build # generate static files
 deploy:
   provider: pages
   skip-cleanup: true
