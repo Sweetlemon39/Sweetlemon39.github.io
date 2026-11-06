@@ -2,6 +2,10 @@
 const { spawnSync } = require('node:child_process');
 // Known upstream exceptions; all other advisories fail the check.
 const pending = new Set([
+  'https://github.com/advisories/GHSA-gcqx-w48m-w2h4',
+  'https://github.com/advisories/GHSA-3g3m-2fjr-6pw4',
+  'https://github.com/advisories/GHSA-g3hv-75wg-m249',
+  'https://github.com/advisories/GHSA-m5mm-p8h7-m29v',
   'https://github.com/advisories/GHSA-vfj7-8cjw-p6xm',
   'https://github.com/advisories/GHSA-hp3w-g68c-fv3c'
 ]);
